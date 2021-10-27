@@ -1,7 +1,19 @@
 {
+  "name": "ddm-project",
+  "description": "DDM project at USI, Lugano",
+  "main": "server.js",
   "dependencies": {
     "express": "^4.17.1",
     "neo4j-driver": "^4.3.4",
     "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "forever": "^4.0.1"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "serve": "forever start server.js",
+    "stop": "forever stop server.js"
   }
 }

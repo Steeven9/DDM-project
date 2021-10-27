@@ -1,0 +1,12 @@
+version: '3.7'
+services:
+  ddm-project:
+    container_name: ddm-project
+    restart: always
+    image: steeven9/ddm-project
+    ports:
+      - "3000:3000"
+    env_file: .env
+networks:
+  default:
+    name: ddm-project
