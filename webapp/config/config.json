@@ -1,0 +1,8 @@
+{
+  "development": {
+    "username": "neodev",
+    "password": "neodev1",
+    "neo4j": "bolt://soulsbros.ch",
+    "base_url": "http://localhost:3000"
+  }
+}
