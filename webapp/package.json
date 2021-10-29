@@ -8,12 +8,12 @@
     "path": "^0.12.7"
   },
   "devDependencies": {
-    "forever": "^4.0.1"
+    "forever": "^4.0.1",
+    "nodemon": "^2.0.14"
   },
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
-    "serve": "forever start server.js",
-    "stop": "forever stop server.js"
+    "serve": "forever server.js"
   }
 }
