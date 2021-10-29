@@ -5,6 +5,6 @@ DDM project at USI, Lugano
 
 Create a `.env` file with the DB credentials, then build or pull the image and run it:
 
-`docker build . -t ddm-project` or `docker pull steeven9/ddm-project`
+`docker build ./webapp -t ddm-project` or `docker pull steeven9/ddm-project`
 
 `docker run --name ddm-project --env-file .env ddm-project`
