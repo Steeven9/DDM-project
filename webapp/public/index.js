@@ -2,7 +2,7 @@ function submitQuery(event) {
     const q = event.target.elements.query.value;
     console.log(q);
     event.preventDefault();
-    fetch(`http://localhost:3000/person?query=${q}`, {
+    fetch(`${window.location.protocol}//${window.location.host}/person?query=${q}`, {
       headers: {
         'Accept': 'application/json',
       },
