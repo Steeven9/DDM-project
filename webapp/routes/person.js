@@ -7,9 +7,9 @@ router.get("/all", async (req, res) => {
     const result = await DBconn.executeQuery(query);
     res.send(result.records.map(el => {
         return {
-            _id: el._fields[0].identity,
-            _labels: el._fields[0].labels,
-            ...el._fields[0].properties
+            id: el._fields[0].identity,
+            labels: el._fields[0].labels,
+            properties: el._fields[0].properties
         }
     }));
 });
@@ -18,9 +18,9 @@ router.get("/", async (req, res) => {
     const result = await DBconn.executeQuery(req.query.query);
     res.send(result.records.map(el => {
         return {
-            _id: el._fields[0].identity,
-            _labels: el._fields[0].labels,
-            ...el._fields[0].properties
+            id: el._fields[0].identity,
+            labels: el._fields[0].labels,
+            properties: el._fields[0].properties
         }
     }));
 });

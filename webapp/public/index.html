@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>DDM Project</title>
+  <meta name="description" content="DDM Project on graph database">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="alchemy/alchemy.css"/>
+  <script type="text/javascript" src="alchemy/vendor.js"></script>
+  <script type="text/javascript" src="alchemy/alchemy.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+</head>
+
+<body>
+  <form onsubmit="submitQuery(event)">
+    <label for="query">Query</label>
+    <input type="text" name="query" >
+    <button type="submit">Submit</button>
+  </form>
+
+  <div id="alchemy" class="alchemy"></div>
+</body>
+</html>
