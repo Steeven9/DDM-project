@@ -6,9 +6,34 @@
 
   <title>DDM Project</title>
   <meta name="description" content="DDM Project on graph database">
+
+  <link rel="stylesheet" href="http://cdn.graphalchemist.com/alchemy.min.css"/>
 </head>
 
 <body>
-  Hello world!
+  <form onsubmit="submitQuery(event)">
+    <label for="query">Query</label>
+    <input type="text" name="query">
+    <button type="submit">Submit</button>
+  </form>
+  <div class="alchemy" id="alchemy"></div>
+
+<script>
+function submitQuery(event) {
+  const q = event.target.elements.query.value;
+  console.log(q);
+  event.preventDefault();
+  fetch(`http://localhost:3000/person?query=${q}`, {
+    headers: {
+      'Accept': 'application/json',
+    },
+  }).then(res => res.json())
+    .then(console.log)
+    .catch(console.error);
+}
+
+
+</script>
+
 </body>
 </html>

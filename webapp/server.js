@@ -7,6 +7,8 @@ const person = require("./routes/person");
 
 const app = express();
 
+app.use(express.json())
+
 app.use("/person", person);
 
 app.get("/", (req, res) => {
