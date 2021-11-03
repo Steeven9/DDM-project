@@ -19,6 +19,20 @@ function submitQuery(event) {
                 };
             }),
             edges: [],
+          },
+          nodeStyle: {
+            "all": {
+                "radius": 10,
+                "color"  : "#b1b1b1",
+                "borderColor": "#127DC1",
+                "borderWidth": function (d, radius) { radius / 3 },
+                "captionColor": "#FFFFFF",
+                "captionBackground": null,
+                "captionSize": 12,
+                "highlighted": {
+                    "color" : "#EEEEFF"
+                },
+            }
           }
         }
         alchemy = new Alchemy(config);

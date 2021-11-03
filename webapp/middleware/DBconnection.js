@@ -27,7 +27,7 @@ async function executeQuery(statement, params = {}) {
     //session.close();
     return result;
   } catch (error) {
-    throw error;
+     console.log(error);
   }
 }
 module.exports = { executeQuery };

@@ -9,18 +9,27 @@
 
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="alchemy/alchemy.css"/>
+  <link rel="icon" href="/neo4covid_logo.png" type="image/png">
   <script type="text/javascript" src="alchemy/vendor.js"></script>
   <script type="text/javascript" src="alchemy/alchemy.js"></script>
   <script type="text/javascript" src="index.js"></script>
 </head>
 
 <body>
-  <form onsubmit="submitQuery(event)">
-    <label for="query">Query</label>
-    <input type="text" name="query" >
-    <button type="submit">Submit</button>
-  </form>
-
-  <div id="alchemy" class="alchemy"></div>
+  <header>
+      <a href='/'>
+        <div>
+          NEO4COVID
+        </div>
+      </a>
+  </header>
+  <main>
+    <form onsubmit="submitQuery(event)">
+      <input type="text" name="query" placeholder="Query">
+      <button type="submit">Submit</button>
+    </form>
+  
+    <div id="alchemy" class="alchemy"></div>
+  </main>
 </body>
 </html>
