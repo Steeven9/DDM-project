@@ -1,14 +1,16 @@
 function submitQuery(event) {
     const q = event.target.elements.query.value;
-    console.log(q);
     event.preventDefault();
+    if (q.length === 0) {
+      alert("Please insert a query")
+      return
+    }
     fetch(`${window.location.protocol}//${window.location.host}/person?query=${q}`, {
       headers: {
         'Accept': 'application/json',
       },
     }).then(res => res.json())
       .then(data => {
-        console.log(data);
         const config = {
           dataSource: {
             nodes: data.map(it => {
@@ -41,6 +43,9 @@ function submitQuery(event) {
             nodeMouseOver: 'name',
         })
       })
-      .catch(console.error);
+      .catch((e) => {
+        alert("Invalid query");
+        console.error(e);
+      });
   }
   

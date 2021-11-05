@@ -121,3 +121,8 @@ dist
 .idea/
 .vscode/
 .vs/
+
+# System
+Thumbs.db
+desktop.ini
+.DS_Store
