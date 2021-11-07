@@ -17,7 +17,7 @@ function submitQuery(event) {
                 return {
                     id: it.id,
                     type: it.labels.join(', '),
-                    name: Object.values(it.properties).join('\n'),
+                    name: `${it.labels[0]} ${JSON.stringify(it.properties)}`,
                 };
             }),
             edges: [],
@@ -25,14 +25,14 @@ function submitQuery(event) {
           nodeStyle: {
             "all": {
                 "radius": 10,
-                "color"  : "#b1b1b1",
-                "borderColor": "#127DC1",
-                "borderWidth": function (d, radius) { radius / 3 },
+                "color"  : "#f5f5f5",
+                "borderColor": "#66B9FF",
+                "borderWidth": (_, radius) => radius / 3,
                 "captionColor": "#FFFFFF",
                 "captionBackground": null,
                 "captionSize": 12,
                 "highlighted": {
-                    "color" : "#EEEEFF"
+                    "color" : "#66B9FF"
                 },
             }
           }

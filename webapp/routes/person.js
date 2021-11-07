@@ -23,10 +23,25 @@ router.get("/", async (req, res) => {
     try {
         const result = await DBconn.executeQuery(req.query.query);
         res.send(result.records.map(el => {
+            const properties = {};
+            Object.keys(el._fields[0].properties).forEach(key => {
+                const value = el._fields[0].properties[key];
+                if (key === 'date') {
+                    properties[key] =
+                        `${value['year']}-${value['month']}-${value['day']}`;
+                } else if (key === 'datetime') {
+                    properties[key] =
+                        `${value['year']}-${value['month']}-${value['day']} ` +
+                        `${value['hour']}:${value['minute']}`;
+                } else {
+                    properties[key] = value;
+                }
+            });
+
             return {
                 id: el._fields[0].identity,
                 labels: el._fields[0].labels,
-                properties: el._fields[0].properties
+                properties,
             }
         }));
     } catch (error) {

@@ -1,3 +1,5 @@
+[![Logo](webapp/public/img/logo_dark.svg)]()
+
 # DDM-project
 DDM project at USI, Lugano
 
