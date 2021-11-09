@@ -1,5 +1,5 @@
 const express = require("express");
-const { Node, Path } = require("neo4j-driver-core");
+const { Node, Path, Relationship } = require("neo4j-driver-core");
 const DBconn = require("../middleware/DBconnection");
 const router = express.Router();
 
@@ -64,17 +64,35 @@ router.get("/", async (req, res) => {
                 const it = el._fields[el._fieldLookup[name]];
                 if (it instanceof Path) {
                     it.segments.forEach(segment => {
-                        nodes.push(parseNode(segment.start));
-                        nodes.push(parseNode(segment.end));
-                        edges.push(parseRelationShip(segment.relationship));
-                    })
+                        const start = parseNode(segment.start);
+                        const end = parseNode(segment.end);
+                        const edge = parseRelationShip(segment.relationship);
+                        if (!nodes.find(x => x.id === start.id)) {
+                            nodes.push(start);
+                        }
+                        if (!nodes.find(x => x.id === end.id)) {
+                            nodes.push(end);
+                        }
+                        if (!edges.find(x => x.id === edge.id)) {
+                            edges.push(edge);
+                        }
+                    });
                 } else if (it instanceof Node) {
-                    nodes.push(it);
+                    const node = parseNode(it);
+                    if (!nodes.find(x => x.id === node.id)) {
+                        nodes.push(node);
+                    }
+                } else if (it instanceof Relationship) {
+                    const edge = parseRelationShip(it);
+                    if (!edges.find(x => x.id === edge.id)) {
+                        edges.push(edge);
+                    }
                 } else {
                     console.error(`Unknown type: ${it}`);
                 }
             }));
-            res.send({nodes, edges})
+
+            res.send({nodes, edges});
     } catch (error) {
         console.error(error);
         res.send({nodes: [], edges: []});
