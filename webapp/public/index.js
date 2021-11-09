@@ -1,4 +1,5 @@
 function submitQuery(event) {
+  document.querySelector('#spinner').classList.remove('hidden');
     const q = event.target.elements.query.value;
     event.preventDefault();
     if (q.length === 0) {
@@ -61,6 +62,7 @@ function submitQuery(event) {
             nodeCaption: 'name', 
             nodeMouseOver: 'name',
         })
+        document.querySelector('#spinner').classList.add('hidden');
       })
       .catch((e) => {
         alert("Invalid query");
