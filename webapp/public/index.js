@@ -13,14 +13,31 @@ function submitQuery(event) {
       .then(data => {
         const config = {
           dataSource: {
-            nodes: data.map(it => {
-                return {
-                    id: it.id,
-                    type: it.labels.join(', '),
-                    name: `${it.labels[0]} ${JSON.stringify(it.properties)}`,
-                };
+            nodes: data.nodes.map(it => {
+              console.log(it);
+              const name = Object.keys(it.properties).length > 0
+                ? it.labels.length > 0
+                  ? `${it.labels[0]} ${JSON.stringify(it.properties)}`
+                  : JSON.stringify(it.properties)
+                : it.labels.length > 0
+                  ? it.labels[0]
+                  : '?';
+              return {
+                id: it.identity,
+                type: it.labels.join(', '),
+                name
+              };
             }),
-            edges: [],
+            edges: data.edges.map(it => {
+              const caption = Object.keys(it.properties).length > 0
+                ? `${it.type} ${JSON.stringify(it.properties)}`
+                : it.type;
+              return {
+                source: it.source,
+                target: it.target,
+                caption,
+              }
+            }),
           },
           nodeStyle: {
             "all": {
@@ -35,8 +52,8 @@ function submitQuery(event) {
                     "color" : "#66B9FF"
                 },
             }
-          }
-        }
+          },
+      }
         alchemy = new Alchemy(config);
         alchemy.begin({
             nodeCaption: 'name', 
