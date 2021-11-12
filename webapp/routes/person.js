@@ -99,7 +99,7 @@ router.get("/", async (req, res) => {
             res.send({nodes, edges});
     } catch (error) {
         console.error(error);
-        res.send({nodes: [], edges: []});
+        res.send({error, nodes: [], edges: []});
     }
 });
 

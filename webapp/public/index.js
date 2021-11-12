@@ -12,6 +12,10 @@ function submitQuery(event) {
       },
     }).then(res => res.json())
       .then(data => {
+        if (data.error) {
+          throw data.error;
+        }
+
         console.log(data);
         const typeSet = new Set();
         const config = {
@@ -61,10 +65,11 @@ function submitQuery(event) {
         alchemy.begin({
             nodeCaption: 'name', 
             nodeMouseOver: 'name',
-        })
+        });
         document.querySelector('#spinner').classList.add('hidden');
       })
       .catch((e) => {
+        document.querySelector('#spinner').classList.add('hidden');
         alert("Invalid query");
         console.error(e);
       });
