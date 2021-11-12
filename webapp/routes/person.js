@@ -60,7 +60,7 @@ router.get("/", async (req, res) => {
         // https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6281147/
         // https://jcsm.aasm.org/doi/10.5664/jcsm.9476
         // https://www.sleep.theclinics.com/article/S1556-407X(16)30106-0/fulltext
-        await sleep(2000);
+        await new Promise((resolve) => setTimeout(resolve, 2000));
         const nodes = [];
         const edges = [];
         result.records.forEach(el => Object.keys(el._fieldLookup)
