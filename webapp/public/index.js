@@ -1,3 +1,8 @@
+const password = window.localStorage.getItem('neo4covid_password');
+if (!password && location.pathname != '/password.html') {
+  location.href = '/password.html';
+}
+
 function submitQuery(event) {
   document.querySelector('#spinner').classList.remove('hidden');
   const q = event.target.elements.query.value;
@@ -7,7 +12,6 @@ function submitQuery(event) {
     return;
   }
 
-  const password = window.localStorage.getItem('neo4covid_password');
   fetch(`${window.location.protocol}//${window.location.host}/person?query=${q}`, {
     headers: {
       'Accept': 'application/json',

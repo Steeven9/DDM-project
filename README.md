@@ -10,8 +10,8 @@ Be sure to set those environment variables:
 ```
 NEO4J_USERNAME
 NEO4J_PASSWORD
-NEO4J_URL (bolt://...)
-HTTP_PASSWORD s3cr37_p4ssw0rd
+NEO4J_URL (with the bolt:// prefix)
+HTTP_PASSWORD
 ```
 
 
@@ -25,7 +25,7 @@ Create a `.env` file with the DB credentials, then build or pull the image and r
 
 ## Login
 
-In the frontend, log-in by setting your password at `/password`, which should
+In the frontend, log in by setting your password at `/password`, which should
 match the value of the env variable `HTTP_PASSWORD` in the backend.
 This is a very strong military-grade security mechanism which ensures the
-f2p database instace we're running it will never be h4xx3d.
+f2p database instance we're running will never be h4xx3d.
