@@ -3,9 +3,19 @@ const { Node, Path, Relationship } = require("neo4j-driver-core");
 const DBconn = require("../middleware/DBconnection");
 const router = express.Router();
 
+const assertPassword = req => new Promise((resolve, reject) => {
+    const auth = req.headers.authorization;
+    if (auth === `Bearer ${process.env.HTTP_PASSWORD}`) {
+        resolve();
+    } else {
+        reject('Wrong or missing password');
+    }
+});
+
 router.get("/all", async (req, res) => {
     const query = "MATCH (n: Person) RETURN n";
     try {
+        await assertPassword(req);
         const result = await DBconn.executeQuery(query);
         res.send(result.records.map(el => {
             return {
@@ -16,7 +26,7 @@ router.get("/all", async (req, res) => {
         }));
     } catch (error) {
         console.error(error);
-        res.send("DB error");
+        res.send({error, nodes: [], edges: []});
     }
 });
 
@@ -56,6 +66,7 @@ router.get("/", async (req, res) => {
     };
 
     try {
+        await assertPassword(req);
         const result = await DBconn.executeQuery(req.query.query);
         // https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6281147/
         // https://jcsm.aasm.org/doi/10.5664/jcsm.9476
