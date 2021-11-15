@@ -16,6 +16,10 @@ header {
   background-color: #424242;
 }
 
+header img {
+  margin-bottom: 1rem;
+}
+
 main {
   display: flex;
   justify-content: center;
@@ -66,7 +70,7 @@ button:hover {
 
 #alchemy {
   width: 100%;
-  height: 100vh;
+  height: calc(100vh - 13rem);
 }
 
 .hidden {

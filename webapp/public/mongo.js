@@ -11,7 +11,7 @@ function submitQuery(event) {
   }
 
   fetch(
-    `${window.location.protocol}//${window.location.host}/mongo?query=${q}`,
+    `${window.location.protocol}//${window.location.host}/api/mongo?query=${q}`,
     {
       headers: {
         Accept: "application/json",

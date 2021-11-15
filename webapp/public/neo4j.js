@@ -11,7 +11,7 @@ function submitQuery(event) {
   }
 
   fetch(
-    `${window.location.protocol}//${window.location.host}/person?query=${q}`,
+    `${window.location.protocol}//${window.location.host}/api/neo4j?query=${q}`,
     {
       headers: {
         Accept: "application/json",

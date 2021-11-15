@@ -1,6 +1,6 @@
 const storedPassword = window.localStorage.getItem("neo4covid_password");
-if (!storedPassword && location.pathname != "/password.html") {
-  location.href = "/password.html";
+if (!storedPassword && location.pathname != "/password") {
+  location.href = "/password";
 }
 
 // eslint-disable-next-line no-unused-vars
