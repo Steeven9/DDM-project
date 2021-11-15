@@ -1,8 +1,6 @@
 const express = require("express");
-const neo4j = require("neo4j-driver");
 const path = require("path");
 
-const env = process.env.NODE_ENV || "development";
 const person = require("./routes/person");
 const mongo = require("./routes/mongo");
 
@@ -23,4 +21,4 @@ app.get("/password", (req, res) => {
 });
 
 app.listen(process.env.PORT || 3000);
-console.log("DDM server running");
+console.info("DDM server running");

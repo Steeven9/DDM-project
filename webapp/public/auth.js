@@ -3,6 +3,7 @@ if (!storedPassword && location.pathname != "/password.html") {
   location.href = "/password.html";
 }
 
+// eslint-disable-next-line no-unused-vars
 function setPassword(event) {
   event.preventDefault();
   const password = event.target.elements.password.value;

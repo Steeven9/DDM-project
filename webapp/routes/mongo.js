@@ -1,6 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
+// eslint-disable-next-line no-unused-vars
 const assertPassword = (req) =>
   new Promise((resolve, reject) => {
     const auth = req.headers.authorization;

@@ -3,7 +3,7 @@
 # DDM-project
 DDM project at USI, Lugano
 
-## DB connection
+## Authentication
 
 Be sure to set those environment variables:
 
@@ -11,13 +11,14 @@ Be sure to set those environment variables:
 NEO4J_USERNAME
 NEO4J_PASSWORD
 NEO4J_URL (with the bolt:// prefix)
+MONGODB_URI
 HTTP_PASSWORD
 ```
 
 
 ## Docker? Docker!
 
-Create a `.env` file with the DB credentials, then build or pull the image and run it:
+Create a `.env` file with the credentials above, then build or pull the image and run it:
 
 `docker build ./webapp -t ddm-project` or `docker pull steeven9/ddm-project`
 

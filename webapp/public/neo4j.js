@@ -1,3 +1,6 @@
+const password = window.localStorage.getItem("neo4covid_password");
+
+// eslint-disable-next-line no-unused-vars
 function submitQuery(event) {
   document.querySelector("#spinner").classList.remove("hidden");
   const q = event.target.elements.query.value;
@@ -22,7 +25,6 @@ function submitQuery(event) {
         throw data.error;
       }
 
-      console.log(data);
       const typeSet = new Set();
       const config = {
         dataSource: {
@@ -69,7 +71,8 @@ function submitQuery(event) {
           },
         },
       };
-      alchemy = new Alchemy(config);
+      // eslint-disable-next-line no-undef
+      const alchemy = new Alchemy(config);
       alchemy.begin({
         nodeCaption: "name",
         nodeMouseOver: "name",

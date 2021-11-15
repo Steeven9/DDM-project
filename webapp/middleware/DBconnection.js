@@ -13,22 +13,20 @@ try {
     }
   );
   session = driver.session();
-  console.log("Connection to database successful")
+  console.info("Connection to database successful");
 } catch (e) {
   console.error(
     "Failed to connect to the database! Check that you set the correct env variables (see README for details)"
   );
 }
 
-
 async function executeQuery(statement, params = {}) {
   try {
-    const result = session.run(statement, params);
-    //session.close();
-    return result;
+    return session.run(statement, params);
   } catch (error) {
-     // Throw up
-     throw error;
+    // Throw up
+    console.error(error);
+    throw error;
   }
 }
 module.exports = { executeQuery };

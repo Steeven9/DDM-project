@@ -1,3 +1,6 @@
+const password = window.localStorage.getItem("neo4covid_password");
+
+// eslint-disable-next-line no-unused-vars
 function submitQuery(event) {
   document.querySelector("#spinner").classList.remove("hidden");
   const q = event.target.elements.query.value;
@@ -21,8 +24,6 @@ function submitQuery(event) {
       if (data.error) {
         throw data.error;
       }
-
-      console.log(data);
 
       //TODO do something with the data
 
