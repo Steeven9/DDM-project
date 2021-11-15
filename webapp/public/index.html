@@ -1,36 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>DDM Project</title>
-  <meta name="description" content="DDM Project on graph database">
+    <title>neo4covid</title>
+    <meta name="description" content="DDM project at USI, Lugano" />
 
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="alchemy/alchemy.css"/>
-  <link rel="icon" href="img/neo4covid_logo.png" type="image/png">
-  <script type="text/javascript" src="alchemy/vendor.js"></script>
-  <script type="text/javascript" src="alchemy/alchemy.js"></script>
-  <script type="text/javascript" src="index.js"></script>
-</head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/neo4covid_logo.png" type="image/png" />
+    <script type="text/javascript" src="auth.js"></script>
+  </head>
 
-<body>
-  <header>
-      <a href='/'>
+  <body>
+    <header>
+      <a href="/">
         <div>
-          <img src="img/logo.svg" height="50em">
+          <img src="img/logo.svg" height="50em" />
         </div>
       </a>
-
-      <form onsubmit="submitQuery(event)">
-        <input type="text" name="query" placeholder="Query">
-        <button type="submit">Submit</button>
-        <img src="img/spinner.gif" id="spinner" class="hidden">
-      </form>
     </header>
-  <main>
-    <div id="alchemy" class="alchemy"></div>
-  </main>
-</body>
+    <main>
+      <div>Welcome! Choose your fighter:</div>
+      <br>
+      <a href="/neo4j.html">Neo4j</a><br>
+      <a href="/mongo.html">MongoDB</a>
+    </main>
+  </body>
 </html>

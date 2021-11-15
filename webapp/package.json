@@ -4,6 +4,7 @@
   "main": "server.js",
   "dependencies": {
     "express": "^4.17.1",
+    "mongodb": "^4.1.4",
     "neo4j-driver": "^4.3.4",
     "path": "^0.12.7"
   },

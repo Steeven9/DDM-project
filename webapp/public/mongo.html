@@ -4,12 +4,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>neo4covid</title>
+    <title>neo4covid - mongo</title>
     <meta name="description" content="DDM project at USI, Lugano" />
 
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="img/neo4covid_logo.png" type="image/png" />
     <script type="text/javascript" src="auth.js"></script>
+    <script type="text/javascript" src="mongo.js"></script>
   </head>
 
   <body>
@@ -20,12 +21,12 @@
         </div>
       </a>
 
-      <div style="margin: 20px">Please enter the password below</div>
-
-      <form onsubmit="setPassword(event)">
-        <input type="password" name="password" placeholder="Password" />
-        <button type="submit">Set password</button>
+      <form onsubmit="submitQuery(event)">
+        <input type="text" name="query" placeholder="Query" />
+        <button type="submit">Submit</button>
+        <img src="img/spinner.gif" id="spinner" class="hidden" />
       </form>
     </header>
+    <main>TODO</main>
   </body>
 </html>
