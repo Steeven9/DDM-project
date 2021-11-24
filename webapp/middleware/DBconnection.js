@@ -23,19 +23,26 @@ try {
 }
 
 //mongoDB connection
-const mongoURI = process.env.MONGODB_URI || "mongodb://mongo/ddm-project";
+const mongoURI = process.env.MONGODB_URI || "mongodb://127.0.0.1";
+const client = new MongoClient(mongoURI);
 let db;
-MongoClient.connect(mongoURI, function (err, client) {
-  if (err) {
+async function ourMongo() {
+  // https://www.youtube.com/watch?v=xirKvZv9Hq8
+  if (db) {
+    return db;
+  }
+  try {
+    await client.connect();
+    const database = client.db("ddm-project");
+    db = database.collection("certificates");
+    return db;
+  } catch (err) {
     console.error(
       "Failed to connect to the mongoDB database! Check that you set the correct env variables (see README for details)"
     );
     console.error(err);
-    return;
   }
-  console.info("Connection to mongoDB database successful");
-  db = client.db("ddm-project");
-});
+}
 
 //query execution (neo4j)
 async function executeQuery(statement, params = {}) {
@@ -48,14 +55,4 @@ async function executeQuery(statement, params = {}) {
   }
 }
 
-//query execution (mongoDB)
-async function executeMongoQuery(query) {
-  try {
-    return db.collection("certificates").find(query);
-  } catch (error) {
-    // Throw up
-    console.error(error);
-    throw error;
-  }
-}
-module.exports = { executeQuery, executeMongoQuery };
+module.exports = { executeQuery, ourMongo };

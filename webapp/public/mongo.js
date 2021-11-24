@@ -1,5 +1,7 @@
 const password = window.localStorage.getItem("neo4covid_password");
 
+// TODO refactor this in multiple functions for the various query types
+
 // eslint-disable-next-line no-unused-vars
 function submitQuery(event) {
   document.querySelector("#spinner").classList.remove("hidden");
