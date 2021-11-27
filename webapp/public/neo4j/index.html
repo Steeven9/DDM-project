@@ -7,27 +7,27 @@
     <title>neo4covid - neo4j</title>
     <meta name="description" content="DDM project at USI, Lugano" />
 
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="alchemy/alchemy.css" />
-    <link rel="icon" href="img/neo4covid_logo.png" type="image/png" />
-    <script type="text/javascript" src="alchemy/vendor.js"></script>
-    <script type="text/javascript" src="alchemy/alchemy.js"></script>
-    <script type="text/javascript" src="auth.js"></script>
-    <script type="text/javascript" src="neo4j.js"></script>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/alchemy/alchemy.css" />
+    <link rel="icon" href="/img/neo4covid_logo.png" type="image/png" />
+    <script type="text/javascript" src="/alchemy/vendor.js"></script>
+    <script type="text/javascript" src="/alchemy/alchemy.js"></script>
+    <script type="text/javascript" src="/auth.js"></script>
+    <script type="text/javascript" src="/neo4j/index.js"></script>
   </head>
 
   <body>
     <header>
       <a href="/">
         <div>
-          <img src="img/logo.svg" height="50em" />
+          <img src="/img/logo.svg" height="50em" />
         </div>
       </a>
 
       <form onsubmit="submitQuery(event)">
         <input type="text" name="query" placeholder="Query" />
         <button type="submit">Submit</button>
-        <img src="img/spinner.gif" id="spinner" class="hidden" />
+        <img src="/img/spinner.gif" id="spinner" class="hidden" />
       </form>
     </header>
     <main>

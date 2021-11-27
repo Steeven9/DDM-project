@@ -4,27 +4,23 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>neo4covid - mongo insertion</title>
+    <title>neo4covid - mongo</title>
     <meta name="description" content="DDM project at USI, Lugano" />
 
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="img/neo4covid_logo.png" type="image/png" />
-    <script type="text/javascript" src="auth.js"></script>
-    <script type="text/javascript" src="mongoInsert.js"></script>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="icon" href="/img/neo4covid_logo.png" type="image/png" />
+    <script type="text/javascript" src="/auth.js"></script>
+    <script type="text/javascript" src="/mongo/index.js"></script>
   </head>
 
   <body>
     <header>
       <a href="/">
         <div>
-          <img src="img/logo.svg" height="50em" />
+          <img src="/img/logo.svg" height="50em" />
         </div>
       </a>
 
-      Data insertion<br><br>
-      <a href="/mongo">See data</a>
-    </header>
-    <main>
       <form onsubmit="submitQuery(event)">
         <select name="collection">
           <option value="tests">Tests</option>
@@ -32,9 +28,10 @@
         </select>
         <input type="text" name="query" placeholder="Query" />
         <button type="submit">Submit</button>
-        <img src="img/spinner.gif" id="spinner" class="hidden" />
+        <img src="/img/spinner.gif" id="spinner" class="hidden" />
       </form>
-      <div id="result"></div>
-    </main>
+      <br><a href="/mongo/insert.html">Insert data</a>
+    </header>
+    <main><div id="result"></main>
   </body>
 </html>
