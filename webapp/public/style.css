@@ -76,3 +76,24 @@ button:hover {
 .hidden {
   display: none;
 }
+
+table {
+  overflow-x: scroll;
+  border: 5;
+  width: 100%;
+}
+
+table tr td,
+table tr th {
+  padding: 4px;
+  text-align: left;
+}
+
+table tr td ul li {
+  list-style-type: none;
+}
+
+table, th, td {
+  border: 1px solid white;
+}
+
