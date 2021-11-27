@@ -126,3 +126,5 @@ dist
 Thumbs.db
 desktop.ini
 .DS_Store
+
+package-lock.json
