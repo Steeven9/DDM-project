@@ -1,6 +1,6 @@
 // certificate for test
 {
-  _id: MongoID, // default by mongo
+  _id: ObjectID, // default by mongo
   testedPerson: {
     SSN: String,
     firstName: String,
@@ -31,7 +31,7 @@
 
 // certificate for vaccine
 {
-  _id: String, // default by mongo
+  _id: ObjectID, // default by mongo
   vaccinatedPerson: {
     SSN: String,
     firstName: String,

@@ -1,0 +1,59 @@
+[{
+  "testedPerson": {
+    "SSN": "756.5000.4000.32",
+    "firstName": "Palo",
+    "lastName": "Nelculo",
+    "birthdate": 986169600000,
+    "emailAddress": "asd@asd.asd",
+    "phoneNumber": "0387489237",
+    "address": "Via dei pali 5, 6593 Cadenazzo"
+  },
+  "emergencyContacts": [{
+    "SSN": "756.3333.3333.33",
+    "firstName": "Asd",
+    "lastName": "Dsa",
+    "birthdate": 986169600000,
+    "phoneNumber": "34543534334",
+    "emailAddress": "dads@sdada.das",
+    "address": "Via dalle Molle 69, 6900 Lugano"
+  }],
+  "type": "PCR",
+  "date": 1617370812000,
+  "diseaseOrAgent": "COVID-19",
+  "responsible": "Dr. Or Manno",
+  "attendees": ["Bleh Asd"],
+  "testedPositive": false,
+  "entity": "Farmacia Portami via, 6900 Lugano",
+  "location": "23.03478, 2.4444"
+},
+{
+  "vaccinatedPerson": {
+    "SSN": "756.3333.3333.33",
+    "firstName": "Asd",
+    "lastName": "Dsa",
+    "birthdate": 986169600000,
+    "phoneNumber": "34543534334",
+    "emailAddress": "dads@sdada.das",
+    "address": "Via dalle Molle 69, 6900 Lugano"
+  },
+  "emergencyContacts": [{
+    "SSN": "756.5000.4000.32",
+    "firstName": "Palo",
+    "lastName": "Nelculo",
+    "birthdate": 986169600000,
+    "emailAddress": "asd@asd.asd",
+    "phoneNumber": "0387489237",
+    "address": "Via dei pali 5, 6593 Cadenazzo"
+  }],
+  "type": "mRNA",
+  "productName": "COVID-19 Vaccine Moderna",
+  "manufacturer": "Moderna Biotech Spain, S.L.",
+  "diseaseOrAgent": "COVID-19",
+  "date": 1617370812000,
+  "doseNumber": 1,
+  "lotNumber": "123123131",
+  "responsible": "Dr. Manco Lui",
+  "attendees": ["Nonna Papera", "Luigi Igiul"],
+  "entity": "Centro Vaccinazioni Lugano",
+  "location": "4.2231, 30.3433"
+}]

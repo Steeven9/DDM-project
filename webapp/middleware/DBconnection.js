@@ -26,7 +26,7 @@ try {
 const mongoURI = process.env.MONGODB_URI || "mongodb://127.0.0.1";
 const client = new MongoClient(mongoURI);
 let db;
-async function ourMongo() {
+async function ourMongo(collection) {
   // https://www.youtube.com/watch?v=xirKvZv9Hq8
   if (db) {
     return db;
@@ -34,7 +34,7 @@ async function ourMongo() {
   try {
     await client.connect();
     const database = client.db("ddm-project");
-    db = database.collection("certificates");
+    db = database.collection(collection);
     return db;
   } catch (err) {
     console.error(

@@ -5,15 +5,16 @@ const password = window.localStorage.getItem("neo4covid_password");
 // eslint-disable-next-line no-unused-vars
 function submitQuery(event) {
   document.querySelector("#spinner").classList.remove("hidden");
-  const q = event.target.elements.query.value;
+  let q = event.target.elements.query.value;
   event.preventDefault();
   if (q.length === 0) {
-    alert("Please insert a query");
-    return;
+    q = "{}";
   }
 
+  let collection = "tests"; //TODO add a selector
+
   fetch(
-    `${window.location.protocol}//${window.location.host}/api/mongo?query=${q}`,
+    `${window.location.protocol}//${window.location.host}/api/mongo/${collection}?query=${q}`,
     {
       headers: {
         Accept: "application/json",
@@ -27,8 +28,7 @@ function submitQuery(event) {
         throw data.error;
       }
 
-      //TODO do something with the data
-
+      document.querySelector("#result").innerHTML = JSON.stringify(data);
       document.querySelector("#spinner").classList.add("hidden");
     })
     .catch((e) => {
