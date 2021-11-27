@@ -33,7 +33,7 @@ router.get("/:collection", async (req, res) => {
     res.send(docs);
   } catch (error) {
     console.error(error);
-    res.status(500).send(error.toString());
+    res.status(500).send({ error: error.toString() });
   }
 });
 
@@ -43,20 +43,21 @@ router.get("/:collection", async (req, res) => {
  */
 router.post("/insert/:collection", async (req, res) => {
   try {
+    let docs = JSON.parse(req.query.docs);
     await assertPassword(req);
     let db = await ourMongo(req.params.collection);
-    let result = await db.insertMany(req.body);
+    let result = await db.insertMany(docs);
     if (result.insertedCount > 0) {
       res
         .status(201)
-        .send(result.insertedCount + " doc(s) inserted successfully");
+        .send({ msg: result.insertedCount + " doc(s) inserted successfully" });
     } else {
       console.error("Error inserting docs ", result);
-      res.status(500).send("Error inserting docs ", result);
+      res.status(500).send({ error: "Error inserting docs " + result });
     }
   } catch (error) {
     console.error(error);
-    res.status(500).send(error.toString());
+    res.status(500).send({ error: error.toString() });
   }
 });
 
@@ -71,14 +72,16 @@ router.post("/update/:collection", async (req, res) => {
     let db = await ourMongo(req.params.collection);
     let result = await db.updateMany(req.body.filter, req.body.newValues);
     if (Number(result.result.ok)) {
-      res.status(201).send(result.nModified + " doc(s) updated successfully");
+      res
+        .status(201)
+        .send({ msg: result.nModified + " doc(s) updated successfully" });
     } else {
       console.error("Error updating docs ", result);
-      res.status(500).send("Error updating docs ", result);
+      res.status(500).send({ error: "Error inserting docs " + result });
     }
   } catch (error) {
     console.error(error);
-    res.status(500).send(error.toString());
+    res.status(500).send({ error: error.toString() });
   }
 });
 

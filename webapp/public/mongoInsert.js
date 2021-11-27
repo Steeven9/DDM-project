@@ -12,14 +12,12 @@ function submitQuery(event) {
   }
 
   fetch(
-    `${window.location.protocol}//${window.location.host}/api/mongo/insert/${collection}`,
+    `${window.location.protocol}//${window.location.host}/api/mongo/insert/${collection}?docs=${q}`,
     {
       headers: {
-        Accept: "application/json",
         Authorization: `Bearer ${password}`,
       },
       method: "POST",
-      body: q,
     }
   )
     .then((res) => res.json())
@@ -29,7 +27,7 @@ function submitQuery(event) {
         throw data.error;
       }
 
-      document.querySelector("#result").innerHTML = data;
+      document.querySelector("#result").innerHTML = data.msg;
       document.querySelector("#spinner").classList.add("hidden");
     })
     .catch((e) => {
