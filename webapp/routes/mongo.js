@@ -27,13 +27,13 @@ router.get("/:collection", async (req, res) => {
     let db = await ourMongo(req.params.collection);
     let cursor = db.find(query);
     if ((await cursor.count()) === 0) {
-      return res.status(404).send({});
+      return res.send({});
     }
     await cursor.forEach((el) => docs.push(el));
     res.send(docs);
   } catch (error) {
     console.error(error);
-    res.send(error);
+    res.status(500).send(error.toString());
   }
 });
 
@@ -56,7 +56,7 @@ router.post("/insert/:collection", async (req, res) => {
     }
   } catch (error) {
     console.error(error);
-    res.send(error);
+    res.status(500).send(error.toString());
   }
 });
 
@@ -78,7 +78,7 @@ router.post("/update/:collection", async (req, res) => {
     }
   } catch (error) {
     console.error(error);
-    res.send(error);
+    res.status(500).send(error.toString());
   }
 });
 

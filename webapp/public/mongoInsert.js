@@ -7,25 +7,29 @@ function submitQuery(event) {
   let collection = event.target.elements.collection.value;
   event.preventDefault();
   if (q.length === 0) {
-    q = "{}";
+    alert("Please insert a query");
+    return;
   }
 
   fetch(
-    `${window.location.protocol}//${window.location.host}/api/mongo/${collection}?query=${q}`,
+    `${window.location.protocol}//${window.location.host}/api/mongo/insert/${collection}`,
     {
       headers: {
         Accept: "application/json",
         Authorization: `Bearer ${password}`,
       },
+      method: "POST",
+      body: q,
     }
   )
     .then((res) => res.json())
     .then((data) => {
       if (data.error) {
+        document.querySelector("#result").innerHTML = data.error;
         throw data.error;
       }
 
-      document.querySelector("#result").innerHTML = JSON.stringify(data);
+      document.querySelector("#result").innerHTML = data;
       document.querySelector("#spinner").classList.add("hidden");
     })
     .catch((e) => {

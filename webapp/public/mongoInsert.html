@@ -21,6 +21,9 @@
         </div>
       </a>
 
+      Data insertion
+    </header>
+    <main>
       <form onsubmit="submitQuery(event)">
         <select name="collection">
           <option value="tests">Tests</option>
@@ -30,8 +33,7 @@
         <button type="submit">Submit</button>
         <img src="img/spinner.gif" id="spinner" class="hidden" />
       </form>
-      <a href="/mongoInsert">Insert data</a>
-    </header>
-    <main><div id="result"></main>
+      <div id="result"></div>
+    </main>
   </body>
 </html>

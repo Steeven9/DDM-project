@@ -25,17 +25,16 @@ try {
 //mongoDB connection
 const mongoURI = process.env.MONGODB_URI || "mongodb://127.0.0.1";
 const client = new MongoClient(mongoURI);
-let db;
+let database;
 async function ourMongo(collection) {
   // https://www.youtube.com/watch?v=xirKvZv9Hq8
-  if (db) {
-    return db;
+  if (database) {
+    return database.collection(collection);
   }
   try {
     await client.connect();
-    const database = client.db("ddm-project");
-    db = database.collection(collection);
-    return db;
+    database = client.db("ddm-project");
+    return database.collection(collection);
   } catch (err) {
     console.error(
       "Failed to connect to the mongoDB database! Check that you set the correct env variables (see README for details)"

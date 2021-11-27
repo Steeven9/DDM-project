@@ -28,5 +28,9 @@ app.get("/mongo", (req, res) => {
   res.sendFile(path.join(__dirname + "/public/mongo.html"));
 });
 
+app.get("/mongoInsert", (req, res) => {
+  res.sendFile(path.join(__dirname + "/public/mongoInsert.html"));
+});
+
 app.listen(process.env.PORT || 3000);
 console.info("DDM server running");
