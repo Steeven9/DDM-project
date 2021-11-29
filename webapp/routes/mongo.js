@@ -86,9 +86,13 @@ router.post("/update/:collection", async (req, res) => {
   }
 });
 
+/**
+ * (Unauthenticated, read-only)
+ * Takes a test/vaccine ID as param and verifies it.
+ * Returns 200 if valid, 400 on ID mismatch, 500 otherwise.
+ */
 router.get("/check/:collection/:id", async (req, res) => {
   try {
-    await assertPassword(req);
     const db = await ourMongo(req.params.collection);
     const cursor = db.find({ _id: new ObjectID(req.params.id) });
     switch (await cursor.count()) {
@@ -98,7 +102,7 @@ router.get("/check/:collection/:id", async (req, res) => {
           valid: false,
         });
       case 1:
-        return res.status(201).send({ valid: true });
+        return res.status(200).send({ valid: true });
       default:
         return res.error(400).send({
           error: "More than one certificate match the given id",
