@@ -35,8 +35,8 @@ const generateCertificate = (type, person, description, url) => {
     charSpace: 0.5,
   });
   doc.line(margin, 145, pageWidth - margin, 145, "F");
-  doc.text(type, margin, 152);
-  doc.text(`${description} information`, margin * 9, 152);
+  doc.text(`${type} information`, margin, 152);
+  doc.text(description, margin * 9, 152);
   doc.addImage(
     qrCodeGenerator(url),
     "JPEG",
