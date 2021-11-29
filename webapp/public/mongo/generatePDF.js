@@ -1,3 +1,5 @@
+/* eslint-disable no-undef */
+/* eslint-disable no-unused-vars */
 const qrCodeGenerator = (url) => {
   const cv = document.createElement("canvas");
   new QRious({
@@ -12,8 +14,8 @@ const qrCodeGenerator = (url) => {
 const generateCertificate = (type, person, description, url) => {
   const birthdate = new Date(person.birthdate);
   const personDescription =
-    `${person.firstName} ${person.lastName}` +
-    `${birthdate.getDay()}.${birthdate.getMonth()}.${birthdate.getYear()}\n` +
+    `${person.firstName} ${person.lastName} ` +
+    `${birthdate.toLocaleDateString()}\n` +
     `Address: ${person.address}\n` +
     `Email: ${person.emailAddress}\n` +
     `Phone n.: ${person.phoneNumber}\n`;
@@ -27,14 +29,14 @@ const generateCertificate = (type, person, description, url) => {
   doc.setFontSize(12);
   doc.addImage(logoImg, "JPEG", margin, margin, pageWidth, 50);
   doc.text("COVID-19 Certificate", pageWidth / 2, 80, { align: "center" });
-  doc.text("Person", margin, 120);
-  doc.text(personDescription, margin * 2, 120, {
+  doc.text("Personal information", margin, 120);
+  doc.text(personDescription, margin * 9, 120, {
     lineHeightFactor: 2,
     charSpace: 0.5,
   });
   doc.line(margin, 145, pageWidth - margin, 145, "F");
   doc.text(type, margin, 152);
-  doc.text(description, margin * 2, 152);
+  doc.text(`${description} information`, margin * 9, 152);
   doc.addImage(
     qrCodeGenerator(url),
     "JPEG",
@@ -51,10 +53,10 @@ function generateTestCertificate(data) {
 
   const testString =
     `Test type: ${data.type}\n` +
-    `Date: ${testDate.getDay()}.${testDate.getMonth()}.${testDate.getYear()}\n` +
+    `Date: ${testDate.toLocaleString()}\n` +
     `Responsible: ${data.responsible}\n` +
     `Attendees: ${data.attendees.join(",")}\n` +
-    `Entity ${data.entity}\n`;
+    `Entity: ${data.entity}\n`;
 
   const url = `${window.location.protocol}//${window.location.host}/api/mongo/check/tests/${data._id}`;
 
@@ -65,15 +67,15 @@ function generateVaccineCertificate(data) {
   const vaccineDate = new Date(data.date);
 
   const vaccineDescription =
-    `Vaccine type  ${data.type}\n` +
-    `Product ${data.productName}\n` +
-    `Manufacturer ${data.manufacturer}\n` +
-    `Date ${vaccineDate.getDay()}.${vaccineDate.getMonth()}.${vaccineDate.getYear()}\n` +
-    `Responsible ${data.responsible}\n` +
-    `Attendees ${data.attendees.join(",")}\n` +
-    `Entity ${data.entity}\n` +
-    `Dose ${data.doseNumber}\n` +
-    `Lot n. ${data.lotNumber}\n`;
+    `Vaccine type: ${data.type}\n` +
+    `Product: ${data.productName}\n` +
+    `Manufacturer: ${data.manufacturer}\n` +
+    `Date: ${vaccineDate.toLocaleString()}\n` +
+    `Responsible: ${data.responsible}\n` +
+    `Attendees: ${data.attendees.join(",")}\n` +
+    `Entity: ${data.entity}\n` +
+    `Dose: ${data.doseNumber}\n` +
+    `Lot n.: ${data.lotNumber}\n`;
 
   const url = `${window.location.protocol}//${window.location.host}/api/mongo/check/vaccines/${data._id}`;
 
