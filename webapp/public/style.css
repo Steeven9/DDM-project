@@ -98,14 +98,57 @@ table, th, td {
   border: 1px solid white;
 }
 
-#navMenu {
-  list-style: none;
+.fighters {
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-#navMenu li {
-  margin: 20px;
+.fighters a {
+  background-color: #424242;
+  border-radius: 16px;
+  margin: 8px;
+  padding: 8px;
+  width: 250px;
 }
 
-.center {
-  text-align: center;
+.fighters a:hover {
+  background-color: #656565;
+  margin: 8px;
+  padding: 8px;
+  width: 250px;
+  -webkit-box-shadow: 0px 0px 80px 0px #66b9ff;
+  -moz-box-shadow: 0px 0px 80px 0px #66b9ff;
+  box-shadow: 0px 0px 80px 0px #66b9ff;
+  color: white;
+}
+
+
+.fighters a img {
+  height: 200px;
+}
+
+.fighters a img:hover {
+  -webkit-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -webkit-animation: ready-to-fight 1s linear forwards infinite;
+  animation: ready-to-fight 1s linear forwards infinite;
+}
+
+.fighters a p {
+  font-size: 2em;
+}
+
+.fighters a p:hover {
+  font-size: 2em;
+}
+
+@keyframes ready-to-fight {
+  0%   { transform: translateY(0px);  }
+  25%  { transform: translateY(8px);  }
+  50%  { transform: translateY(0px);  }
+  75%  { transform: translateY(-8px); }
+  100% { transform: translateY(0px);  }
 }
