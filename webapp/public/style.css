@@ -48,6 +48,7 @@ form button {
 #spinner {
   vertical-align: middle;
   width: 20px;
+  margin: 0 !important;
 }
 
 form input {
@@ -97,3 +98,10 @@ table, th, td {
   border: 1px solid white;
 }
 
+#navMenu {
+  list-style: none;
+}
+
+#navMenu li {
+  margin: 20px;
+}

@@ -11,11 +11,12 @@ const qrCodeGenerator = (url) => {
 
 const generateCertificate = (type, person, description, url) => {
   const birthdate = new Date(person.birthdate);
-  const personDescription = `${person.firstName} ${person.lastName}`
-    + `${birthdate.getDay()}.${birthdate.getMonth()}.${birthdate.getYear()}\n`
-    + `Address: ${person.address}\n`
-    + `Email: ${person.emailAddress}\n`
-    + `Phone n.: ${person.phoneNumber}\n`;
+  const personDescription =
+    `${person.firstName} ${person.lastName}` +
+    `${birthdate.getDay()}.${birthdate.getMonth()}.${birthdate.getYear()}\n` +
+    `Address: ${person.address}\n` +
+    `Email: ${person.emailAddress}\n` +
+    `Phone n.: ${person.phoneNumber}\n`;
 
   const margin = 10;
   const doc = new jsPDF();
@@ -40,19 +41,20 @@ const generateCertificate = (type, person, description, url) => {
     margin,
     182,
     pageWidth / 3,
-    pageWidth / 3,
+    pageWidth / 3
   );
   doc.save(`${type}-certificate.pdf`);
-}
+};
 
 function generateTestCertificate(data) {
   const testDate = new Date(data.date);
 
-  const testString = `Test type: ${data.type}\n`
-    + `Date: ${testDate.getDay()}.${testDate.getMonth()}.${testDate.getYear()}\n`
-    + `Responsible: ${data.responsible}\n`
-    + `Attendees: ${data.attendees.join(",")}\n`
-    + `Entity ${data.entity}\n`;
+  const testString =
+    `Test type: ${data.type}\n` +
+    `Date: ${testDate.getDay()}.${testDate.getMonth()}.${testDate.getYear()}\n` +
+    `Responsible: ${data.responsible}\n` +
+    `Attendees: ${data.attendees.join(",")}\n` +
+    `Entity ${data.entity}\n`;
 
   const url = `${window.location.protocol}//${window.location.host}/api/mongo/check/tests/${data._id}`;
 
@@ -62,17 +64,23 @@ function generateTestCertificate(data) {
 function generateVaccineCertificate(data) {
   const vaccineDate = new Date(data.date);
 
-  const vaccineDescription = `Vaccine type  ${data.type}\n`
-    + `Product ${data.productName}\n`
-    + `Manufacturer ${data.manufacturer}\n`
-    + `Date ${vaccineDate.getDay()}.${vaccineDate.getMonth()}.${vaccineDate.getYear()}\n`
-    + `Responsible ${data.responsible}\n`
-    + `Attendees ${data.attendees.join(",")}\n`
-    + `Entity ${data.entity}\n`
-    + `Dose ${data.doseNumber}\n`
-    + `Lot n. ${data.lotNumber}\n`;
+  const vaccineDescription =
+    `Vaccine type  ${data.type}\n` +
+    `Product ${data.productName}\n` +
+    `Manufacturer ${data.manufacturer}\n` +
+    `Date ${vaccineDate.getDay()}.${vaccineDate.getMonth()}.${vaccineDate.getYear()}\n` +
+    `Responsible ${data.responsible}\n` +
+    `Attendees ${data.attendees.join(",")}\n` +
+    `Entity ${data.entity}\n` +
+    `Dose ${data.doseNumber}\n` +
+    `Lot n. ${data.lotNumber}\n`;
 
   const url = `${window.location.protocol}//${window.location.host}/api/mongo/check/vaccines/${data._id}`;
 
-  generateCertificate("Vaccine", data.vaccinatedPerson, vaccineDescription, url);
+  generateCertificate(
+    "Vaccine",
+    data.vaccinatedPerson,
+    vaccineDescription,
+    url
+  );
 }

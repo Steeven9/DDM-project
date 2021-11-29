@@ -23,24 +23,23 @@ HTTP_PASSWORD
 Returns all the nodes and paths between them 
 
 [GET] `/api/neo4j/`\
-Params: `query` (String)\
+Query: `query` (String)\
 Used for every valid cypher query 
 
 ### MongoDB
 
-[GET] `/api/mongo/all`\
-Gets all documents
+Everything is stringified in the query parameters since the body was fucky
 
-[GET] `/api/mongo/`\
-Body: `filter` (Object)\
-Gets all documents that match the given filter
+[GET] `/api/mongo/:collection`\
+Query: `q` (Object)\
+Gets all documents that match the given filter (default all)
 
-[POST] `/api/mongo/insert`\
-Body: `documents` (Object)\
+[POST] `/api/mongo/insert/:collection`\
+Query: `docs` ([Object])\
 Insert the given documents in the DB
 
-[POST] `/api/mongo/update`\
-Body: `filter` (Object), `newValues` (Object)\
+[POST] `/api/mongo/update/:collection`\
+Query: `filter` (Object), `newValues` (Object)\
 Updates the documents that match the given filter with
 the given new values
 

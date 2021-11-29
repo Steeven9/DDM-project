@@ -71,7 +71,7 @@ router.post("/update/:collection", async (req, res) => {
   try {
     await assertPassword(req);
     let db = await ourMongo(req.params.collection);
-    let result = await db.updateMany(req.body.filter, req.body.newValues);
+    let result = await db.updateMany(req.query.filter, req.query.newValues);
     if (Number(result.result.ok)) {
       res
         .status(201)
