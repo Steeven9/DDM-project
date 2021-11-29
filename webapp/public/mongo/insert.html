@@ -21,19 +21,18 @@
         </div>
       </a>
 
-      Data insertion<br><br>
-      <a href="/mongo">See data</a>
-    </header>
-    <main>
       <form onsubmit="submitQuery(event)">
         <select name="collection">
           <option value="tests">Tests</option>
           <option value="vaccines">Vaccines</option>
         </select>
-        <input type="text" name="query" placeholder="Query" />
+        <input type="text" name="query" placeholder="Data to insert" />
         <button type="submit">Submit</button>
         <img src="/img/spinner.gif" id="spinner" class="hidden" />
       </form>
+      <br><a href="/mongo">See data</a>
+    </header>
+    <main>
       <div id="result"></div>
     </main>
   </body>

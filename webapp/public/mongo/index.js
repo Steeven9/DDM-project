@@ -22,7 +22,7 @@ function buildTestsTable(data) {
     "<th>Type</th>" +
     "<th>Date</th>" +
     "<th>Disease</th>" +
-    "<th>Tested positive</th>" +
+    "<th>Result</th>" +
     "<th>Responsible</th>" +
     "<th>Attendees</th>" +
     "<th>Entity</th>" +
@@ -45,7 +45,7 @@ function buildTestsTable(data) {
       `<td><ul>${item.emergencyContacts.map(
         (p) => `<li>${formatPersonInfo(p)}</li>`
       )}</ul></td>` +
-      `<td><button id="pdf_${item._id}" class="certificateBtn">PDF</button></td>` +
+      `<td class="center"><button id="pdf_${item._id}" class="button certificateBtn">PDF</button></td>` +
       "</tr>";
   });
   builder += "</table>";
@@ -99,7 +99,7 @@ function buildVaccinesTable(data) {
       `<td><ul>${item.emergencyContacts.map(
         (p) => `<li>${formatPersonInfo(p)}</li>`
       )}</ul></td>` +
-      `<td><button id="pdf_${item._id}" class="certificateBtn">PDF</button></td>` +
+      `<td class="center"><button id="pdf_${item._id}" class="button certificateBtn">PDF</button></td>` +
       "</tr>";
   });
   builder += "</table>";

@@ -7,7 +7,8 @@ function submitQuery(event) {
   let collection = event.target.elements.collection.value;
   event.preventDefault();
   if (q.length === 0) {
-    alert("Please insert a query");
+    alert("Please insert valid data");
+    document.querySelector("#spinner").classList.add("hidden");
     return;
   }
 

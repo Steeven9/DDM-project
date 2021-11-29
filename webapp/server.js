@@ -29,7 +29,7 @@ app.get("/mongo", (req, res) => {
 });
 
 app.get("/mongoInsert", (req, res) => {
-  res.sendFile(path.join(__dirname + "/public/mongoInsert.html"));
+  res.sendFile(path.join(__dirname + "/public/mongo/insert.html"));
 });
 
 app.listen(process.env.PORT || 3000);
