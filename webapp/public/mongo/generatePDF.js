@@ -15,10 +15,10 @@ const generateCertificate = (type, person, description, url) => {
   const birthdate = new Date(person.birthdate);
   const personDescription =
     `${person.firstName} ${person.lastName} ` +
-    `${birthdate.toLocaleDateString()}\n` +
+    `(${birthdate.toLocaleDateString()})\n` +
     `Address: ${person.address}\n` +
     `Email: ${person.emailAddress}\n` +
-    `Phone n.: ${person.phoneNumber}\n`;
+    `Phone: ${person.phoneNumber}\n`;
 
   const margin = 10;
   const doc = new jsPDF();
@@ -27,7 +27,7 @@ const generateCertificate = (type, person, description, url) => {
 
   doc.setFont("Fira Sans");
   doc.setFontSize(12);
-  doc.addImage(logoImg, "JPEG", margin, margin, pageWidth, 50);
+  doc.addImage(logoImg, "JPEG", margin, margin, 221, 36);
   doc.text("COVID-19 Certificate", pageWidth / 2, 80, { align: "center" });
   doc.text("Personal information", margin, 120);
   doc.text(personDescription, margin * 9, 120, {
@@ -75,7 +75,7 @@ function generateVaccineCertificate(data) {
     `Attendees: ${data.attendees.join(",")}\n` +
     `Entity: ${data.entity}\n` +
     `Dose: ${data.doseNumber}\n` +
-    `Lot n.: ${data.lotNumber}\n`;
+    `Lot: ${data.lotNumber}\n`;
 
   const url = `${window.location.protocol}//${window.location.host}/api/mongo/check/vaccines/${data._id}`;
 
