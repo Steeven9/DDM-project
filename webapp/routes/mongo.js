@@ -1,6 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const { ourMongo } = require("../middleware/DBconnection");
+const ObjectID = require("mongodb").ObjectID;
 
 // see https://docs.mongodb.com/drivers/node/current/usage-examples/
 
@@ -78,6 +79,31 @@ router.post("/update/:collection", async (req, res) => {
     } else {
       console.error("Error updating docs ", result);
       res.status(500).send({ error: "Error inserting docs " + result });
+    }
+  } catch (error) {
+    console.error(error);
+    res.status(500).send({ error: error.toString() });
+  }
+});
+
+router.get("/check/:collection/:id", async (req, res) => {
+  try {
+    await assertPassword(req);
+    const db = await ourMongo(req.params.collection);
+    const cursor = db.find({ _id: new ObjectID(req.params.id) });
+    switch (await cursor.count()) {
+      case 0:
+        return res.error(404).send({
+          error: "Certificate not found",
+          valid: false,
+        });
+      case 1:
+        return res.status(201).send({ valid: true });
+      default:
+        return res.error(400).send({
+          error: "More than one certificate match the given id",
+          valid: false,
+        });
     }
   } catch (error) {
     console.error(error);
