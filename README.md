@@ -43,6 +43,9 @@ Query: `filter` (Object), `newValues` (Object)\
 Updates the documents that match the given filter with
 the given new values
 
+[GET] `/api/mongo/check/:collection/:id`\
+Checks the validity of the given certificate ID
+
 
 ## Docker? Docker!
 

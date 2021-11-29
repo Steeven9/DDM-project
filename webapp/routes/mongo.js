@@ -18,7 +18,7 @@ const assertPassword = (req) =>
 /**
  * Takes a `query` object and returns all documents that
  * match that filter.
- * Returns an array of documents or 404 if none.
+ * Returns an array of documents or {} if none.
  */
 router.get("/:collection", async (req, res) => {
   try {
@@ -39,7 +39,7 @@ router.get("/:collection", async (req, res) => {
 });
 
 /**
- * Takes a `documents` object and inserts them in the DB.
+ * Takes a `docs` array and inserts them in the DB.
  * Returns 201 on success or 500 on failure.
  */
 router.post("/insert/:collection", async (req, res) => {
