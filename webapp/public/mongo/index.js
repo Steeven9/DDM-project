@@ -17,9 +17,18 @@ function formatPersonInfo(person) {
 
 function buildTestsTable(data) {
   let builder = "<table><tr>"
-    + "<th>Person</th><th>Type</th><th>Date</th><th>Disease</th>"
-    + "<th>Tested positive</th><th>Responsible</th><th>Attendees</th>"
-    + "<th>Entity</th><th>Location</th><th>Emergency contacts</th></tr>\n";
+    + "<th>Person</th>"
+    + "<th>Type</th>"
+    + "<th>Date</th>"
+    + "<th>Disease</th>"
+    + "<th>Tested positive</th>"
+    + "<th>Responsible</th>"
+    + "<th>Attendees</th>"
+    + "<th>Entity</th>"
+    + "<th>Location</th>"
+    + "<th>Emergency contacts</th>"
+    + "<th>Download</th>"
+    + "</tr>\n";
   data.forEach(item => {
     builder += "<tr>"
       + `<td>${formatPersonInfo(item.testedPerson)}</td>`
@@ -32,10 +41,22 @@ function buildTestsTable(data) {
       + `<td>${item.entity}</td>`
       + `<td>${item.location}</td>`
       + `<td><ul>${item.emergencyContacts.map(p => `<li>${formatPersonInfo(p)}</li>`)}</ul></td>`
+      + `<td><button id="pdf_${item._id}" class="certificateBtn">PDF</button></td>`
       + "</tr>";
   });
   builder += "</table>";
-  return builder;
+
+  document.querySelector("#result").innerHTML = builder;
+  data.forEach(item => {
+    const button = document.getElementById(`pdf_${item._id}`);
+    if (!button) {
+      return;
+    }
+    button.addEventListener('click', (event) => {
+      event.preventDefault();
+      generateTestCertificate(item);
+    });
+  });
 }
 
 function buildVaccinesTable(data) {
@@ -53,6 +74,7 @@ function buildVaccinesTable(data) {
     + "<th>Entity</th>"
     + "<th>Location</th>"
     + "<th>Emergency contacts</th>"
+    + "<th>Download</th>"
     + "</tr>\n";
   data.forEach(item => {
     builder += "<tr>"
@@ -69,10 +91,22 @@ function buildVaccinesTable(data) {
       + `<td>${item.entity}</td>`
       + `<td>${item.location}</td>`
       + `<td><ul>${item.emergencyContacts.map(p => `<li>${formatPersonInfo(p)}</li>`)}</ul></td>`
+      + `<td><button id="pdf_${item._id}" class="certificateBtn">PDF</button></td>`
       + "</tr>";
   });
   builder += "</table>";
-  return builder;
+
+  document.querySelector("#result").innerHTML = builder;
+  data.forEach(item => {
+    const button = document.getElementById(`pdf_${item._id}`);
+    if (!button) {
+      return;
+    }
+    button.addEventListener('click', (event) => {
+      event.preventDefault();
+      generateVaccineCertificate(item);
+    });
+  });
 }
 
 // eslint-disable-next-line no-unused-vars
@@ -102,10 +136,10 @@ function submitQuery(event) {
 
       switch (collection) {
         case "tests":
-          document.querySelector("#result").innerHTML = buildTestsTable(data);
+          buildTestsTable(data);
           break;
         case "vaccines":
-          document.querySelector("#result").innerHTML = buildVaccinesTable(data);
+          buildVaccinesTable(data);
           break;
       }
       document.querySelector("#spinner").classList.add("hidden");
