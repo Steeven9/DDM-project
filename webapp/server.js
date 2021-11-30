@@ -1,5 +1,4 @@
 const express = require("express");
-const path = require("path");
 
 const neo4j = require("./routes/neo4j");
 const mongo = require("./routes/mongo");

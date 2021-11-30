@@ -20,6 +20,6 @@
     "start": "npm run lint && node server.js",
     "dev": "npm run lint && nodemon server.js",
     "serve": "forever server.js",
-    "lint": "eslint --fix middleware/*.js public/*.js routes/*.js"
+    "lint": "eslint --fix middleware/*.js public/*.js public/*/*.js routes/*.js"
   }
 }

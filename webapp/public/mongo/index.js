@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 const password = window.localStorage.getItem("neo4covid_password");
 
 function formatPersonInfo(person) {
@@ -16,7 +17,8 @@ function formatPersonInfo(person) {
 }
 
 function buildTestsTable(data) {
-  let builder = "<table><thead><tr>" +
+  let builder =
+    "<table><thead><tr>" +
     "<th>Person</th>" +
     "<th>Type</th>" +
     "<th>Date</th>" +
@@ -63,7 +65,8 @@ function buildTestsTable(data) {
 }
 
 function buildVaccinesTable(data) {
-  let builder = "<table><thead><tr>" +
+  let builder =
+    "<table><thead><tr>" +
     "<th>Person</th>" +
     "<th>Type</th>" +
     "<th>Product name</th>" +
