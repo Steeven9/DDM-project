@@ -12,9 +12,5 @@ app.use(express.static(__dirname + "/public"));
 app.use("/api/neo4j", neo4j);
 app.use("/api/mongo", mongo);
 
-app.get("/mongo/insert", (req, res) => {
-  res.sendFile(path.join(__dirname + "/public/mongo/insert.html"));
-});
-
 app.listen(process.env.PORT || 3000);
 console.info("DDM server running");
