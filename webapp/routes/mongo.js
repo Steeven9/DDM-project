@@ -97,14 +97,25 @@ router.get("/check/:collection/:id", async (req, res) => {
     const cursor = db.find({ _id: new ObjectID(req.params.id) });
     switch (await cursor.count()) {
       case 0:
-        return res.error(404).send({
+        return res.status(404).send({
           error: "Certificate not found",
           valid: false,
         });
       case 1:
-        return res.status(200).send({ valid: true });
+        // forEach for one element, I know, brain is off
+        await cursor.forEach((el) => {
+          const name = el.testedPerson
+            ? `${el.testedPerson.firstName} ${el.testedPerson.lastName}`
+            : `${el.vaccinatedPerson.firstName} ${el.vaccinatedPerson.lastName}`;
+          res.status(200).send({
+            holder: name,
+            type: el.testedPerson ? "Test" : "Vaccine",
+            valid: true,
+          });
+        });
+        break;
       default:
-        return res.error(400).send({
+        return res.status(400).send({
           error: "More than one certificate match the given id",
           valid: false,
         });
