@@ -80,15 +80,36 @@ button:hover {
   display: none;
 }
 
+/* Tables */
+#result {
+  overflow-x: auto;
+}
+
 table {
+  border-collapse: collapse;
+  margin: 25px 0;
   overflow-x: scroll;
-  border: 5;
   width: 100%;
 }
 
+table thead {
+  background-color: #333333;
+  color: #ffffff;
+  text-align: left;
+}
+
+table tr:nth-of-type(even) {
+  background-color: #212121;
+}
+
+table tr:last-of-type {
+  border-bottom: 2px solid #424242;
+}
+
+
 table tr td,
 table tr th {
-  padding: 4px;
+  padding: 4px 8px;
   text-align: left;
 }
 
@@ -96,11 +117,7 @@ table tr td ul li {
   list-style-type: none;
 }
 
-table,
-th,
-td {
-  border: 1px solid white;
-}
+/* Home page */
 
 .fighters {
   margin: 30px;

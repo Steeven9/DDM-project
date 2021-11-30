@@ -16,8 +16,7 @@ function formatPersonInfo(person) {
 }
 
 function buildTestsTable(data) {
-  let builder =
-    "<table><tr>" +
+  let builder = "<table><thead><tr>" +
     "<th>Person</th>" +
     "<th>Type</th>" +
     "<th>Date</th>" +
@@ -29,7 +28,7 @@ function buildTestsTable(data) {
     "<th>Location</th>" +
     "<th>Emergency contacts</th>" +
     "<th>Download</th>" +
-    "</tr>\n";
+    "</tr></thead>\n";
   data.forEach((item) => {
     builder +=
       "<tr>" +
@@ -64,8 +63,7 @@ function buildTestsTable(data) {
 }
 
 function buildVaccinesTable(data) {
-  let builder =
-    "<table><tr>" +
+  let builder = "<table><thead><tr>" +
     "<th>Person</th>" +
     "<th>Type</th>" +
     "<th>Product name</th>" +
@@ -80,7 +78,7 @@ function buildVaccinesTable(data) {
     "<th>Location</th>" +
     "<th>Emergency contacts</th>" +
     "<th>Download</th>" +
-    "</tr>\n";
+    "</tr></thead>\n";
   data.forEach((item) => {
     builder +=
       "<tr>" +
