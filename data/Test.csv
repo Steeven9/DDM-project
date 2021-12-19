@@ -1,0 +1,1001 @@
+id,positive,age,test_type,genre,country,state,date,certified_by
+1,false,20-29,PCR,Male,Philippines,,2020-10-18,59
+2,true,50-59,Rapid antigen,Male,Japan,,2021-07-02,20
+3,false,100+,Rapid antigen,Female,China,,2021-11-11,67
+4,false,100+,Rapid antigen,Female,Syria,,2021-03-26,70
+5,true,80-89,PCR,Male,Sweden,Stockholm,2021-01-08,58
+6,true,70-79,PCR,Male,China,,2021-06-20,2
+7,false,50-59,Rapid antigen,Female,Poland,,2020-05-22,8
+8,true,40-49,PCR,Female,Russia,,2020-11-12,33
+9,false,80-89,PCR,Male,Colombia,,2020-06-30,45
+10,false,80-89,PCR,Male,China,,2021-07-05,92
+11,false,60-69,Rapid antigen,Male,Norway,Oslo,2021-04-22,84
+12,false,50-59,Rapid antigen,Male,Colombia,,2020-01-27,15
+13,true,10-19,Rapid antigen,Male,Russia,,2021-01-01,58
+14,false,30-39,Antigen self-test,Male,Sweden,Dalarna,2020-04-25,87
+15,true,60-69,Rapid antigen,Male,Ukraine,,2021-06-05,68
+16,true,50-59,PCR,Female,Argentina,,2021-10-17,33
+17,true,0-9,Antigen self-test,Male,Mauritania,,2021-04-26,100
+18,false,10-19,PCR,Male,Poland,,2020-02-14,58
+19,true,20-29,Rapid antigen,Female,Ethiopia,,2020-11-06,37
+20,true,20-29,PCR,Male,Malaysia,Negeri Sembilan,2021-07-18,96
+21,false,60-69,PCR,Female,Kuwait,,2020-07-15,4
+22,false,60-69,Rapid antigen,Male,North Korea,,2020-04-19,83
+23,true,100+,PCR,Male,China,,2020-11-06,42
+24,true,100+,Antigen self-test,Male,China,,2021-02-03,88
+25,false,20-29,PCR,Female,United States,Pennsylvania,2020-08-23,83
+26,false,20-29,PCR,Female,Russia,,2021-06-21,55
+27,true,60-69,PCR,Male,Nicaragua,,2020-11-12,17
+28,false,50-59,PCR,Female,Poland,,2021-06-07,20
+29,true,90-99,PCR,Male,Latvia,,2021-07-18,48
+30,true,80-89,Antigen self-test,Male,San Marino,,2021-07-04,74
+31,false,0-9,PCR,Female,Nigeria,,2020-04-17,87
+32,false,100+,PCR,Female,Mongolia,,2020-12-22,39
+33,true,80-89,Antigen self-test,Female,China,,2021-08-04,58
+34,false,100+,PCR,Female,Philippines,,2021-06-08,98
+35,false,100+,PCR,Female,United States,Texas,2020-10-24,17
+36,false,80-89,Rapid antigen,Female,Azerbaijan,,2021-06-23,21
+37,true,70-79,Rapid antigen,Male,China,,2021-07-28,76
+38,false,30-39,Rapid antigen,Female,United States,California,2020-07-26,18
+39,true,40-49,PCR,Female,Indonesia,,2021-09-19,76
+40,true,20-29,PCR,Male,Brazil,,2020-04-08,47
+41,true,60-69,Rapid antigen,Female,Pakistan,,2021-04-18,82
+42,false,0-9,Rapid antigen,Female,Mongolia,,2020-03-22,52
+43,false,60-69,Antigen self-test,Male,Armenia,,2021-05-06,35
+44,true,50-59,Antigen self-test,Male,Pakistan,,2020-10-28,1
+45,false,30-39,Rapid antigen,Female,China,,2020-06-12,72
+46,true,10-19,Antigen self-test,Female,Thailand,,2020-01-07,11
+47,true,50-59,Rapid antigen,Female,Brazil,,2020-08-30,54
+48,true,10-19,PCR,Female,Argentina,,2021-02-22,93
+49,true,30-39,Antigen self-test,Male,Montenegro,,2021-04-13,20
+50,true,70-79,Antigen self-test,Male,Morocco,,2020-07-09,39
+51,true,80-89,PCR,Male,Zimbabwe,,2021-11-16,95
+52,false,20-29,PCR,Male,Indonesia,,2020-07-09,80
+53,false,30-39,Rapid antigen,Female,China,,2021-03-11,49
+54,false,20-29,Antigen self-test,Female,China,,2021-01-03,40
+55,false,100+,PCR,Female,Ethiopia,,2021-01-09,24
+56,false,60-69,Antigen self-test,Female,Vietnam,,2021-03-29,98
+57,false,70-79,PCR,Female,France,Rhône-Alpes,2021-02-15,40
+58,true,40-49,Antigen self-test,Male,Honduras,,2021-07-06,69
+59,true,100+,PCR,Male,Sweden,Stockholm,2021-03-11,93
+60,true,70-79,Rapid antigen,Male,United States,Florida,2021-10-22,14
+61,true,0-9,PCR,Female,Poland,,2021-08-27,8
+62,false,10-19,PCR,Male,Madagascar,,2021-08-03,34
+63,true,60-69,PCR,Male,Sweden,Norrbotten,2020-11-28,77
+64,false,0-9,Rapid antigen,Male,Canada,Québec,2021-09-01,37
+65,true,90-99,Rapid antigen,Male,Greece,,2021-08-24,18
+66,true,100+,Rapid antigen,Female,Indonesia,,2020-08-11,90
+67,false,90-99,Antigen self-test,Male,Indonesia,,2020-02-16,59
+68,false,50-59,Antigen self-test,Female,Portugal,Faro,2021-09-17,51
+69,false,80-89,Rapid antigen,Female,Russia,,2020-07-18,78
+70,false,90-99,Antigen self-test,Female,Sweden,Västra Götaland,2021-07-11,5
+71,false,0-9,Antigen self-test,Male,Kenya,,2020-04-27,32
+72,false,30-39,Antigen self-test,Male,China,,2021-12-18,38
+73,false,90-99,PCR,Male,Argentina,,2020-09-29,37
+74,true,70-79,Rapid antigen,Female,South Africa,,2020-04-25,91
+75,true,50-59,Rapid antigen,Female,Indonesia,,2021-12-05,71
+76,false,70-79,Rapid antigen,Male,Brazil,,2021-07-01,95
+77,false,100+,Rapid antigen,Male,Philippines,,2021-12-06,65
+78,true,80-89,Rapid antigen,Female,Czech Republic,,2021-06-05,91
+79,true,80-89,Antigen self-test,Male,Haiti,,2021-08-05,35
+80,false,100+,Rapid antigen,Male,Portugal,Évora,2020-11-17,59
+81,false,10-19,Rapid antigen,Male,Canada,Québec,2020-12-11,67
+82,true,60-69,PCR,Female,Tajikistan,,2021-12-24,85
+83,true,50-59,Antigen self-test,Male,Peru,,2021-10-07,76
+84,false,70-79,Antigen self-test,Male,Indonesia,,2021-02-02,99
+85,false,0-9,Rapid antigen,Male,France,Rhône-Alpes,2020-06-08,52
+86,false,40-49,PCR,Male,Russia,,2021-10-10,48
+87,false,70-79,Rapid antigen,Female,Portugal,Beja,2020-12-31,68
+88,false,50-59,Antigen self-test,Female,China,,2021-12-22,76
+89,false,0-9,Rapid antigen,Female,Russia,,2020-02-07,41
+90,true,70-79,Antigen self-test,Male,Andorra,,2020-03-22,72
+91,false,30-39,Antigen self-test,Male,Philippines,,2021-07-06,11
+92,true,0-9,Antigen self-test,Female,Ukraine,,2021-03-05,44
+93,true,10-19,PCR,Female,Russia,,2020-06-20,55
+94,true,20-29,Antigen self-test,Male,France,Bretagne,2020-07-15,78
+95,true,50-59,Antigen self-test,Female,United Kingdom,England,2020-10-13,77
+96,true,70-79,Rapid antigen,Male,Mexico,Guanajuato,2020-06-30,91
+97,false,30-39,Rapid antigen,Female,Russia,,2021-04-12,48
+98,false,50-59,Antigen self-test,Male,Iran,,2021-01-14,87
+99,false,90-99,Rapid antigen,Male,United States,Texas,2021-05-03,96
+100,true,70-79,PCR,Male,Nigeria,,2021-07-24,76
+101,true,100+,Rapid antigen,Male,Russia,,2020-01-10,51
+102,false,0-9,Rapid antigen,Female,China,,2021-12-12,69
+103,true,30-39,PCR,Male,Netherlands,Provincie Noord-Holland,2020-08-14,72
+104,true,10-19,Rapid antigen,Female,Thailand,,2020-10-18,98
+105,true,100+,PCR,Female,Vietnam,,2021-08-13,28
+106,true,100+,PCR,Female,China,,2021-03-21,74
+107,true,30-39,Antigen self-test,Female,Myanmar,,2020-10-06,56
+108,true,100+,Rapid antigen,Female,China,,2021-01-22,16
+109,true,90-99,Rapid antigen,Male,Philippines,,2020-06-26,16
+110,false,40-49,PCR,Female,Serbia,,2020-11-18,67
+111,false,70-79,Antigen self-test,Female,Brazil,,2021-10-05,85
+112,false,50-59,PCR,Female,Chile,,2020-01-28,71
+113,true,10-19,PCR,Male,Philippines,,2021-03-13,63
+114,true,80-89,PCR,Male,China,,2021-09-29,60
+115,false,100+,Rapid antigen,Male,Pakistan,,2020-04-22,43
+116,false,30-39,PCR,Female,Mongolia,,2020-09-11,65
+117,false,40-49,Antigen self-test,Male,Finland,,2021-08-20,49
+118,true,60-69,Antigen self-test,Female,Guatemala,,2020-06-23,66
+119,true,80-89,PCR,Male,China,,2021-08-03,48
+120,false,90-99,PCR,Female,Ukraine,,2020-11-02,88
+121,false,60-69,Antigen self-test,Female,Canada,Québec,2020-10-05,96
+122,false,0-9,Rapid antigen,Female,China,,2021-11-14,100
+123,true,30-39,PCR,Male,China,,2021-02-16,80
+124,false,90-99,Antigen self-test,Male,Senegal,,2021-03-09,55
+125,true,30-39,PCR,Female,China,,2020-11-19,25
+126,true,40-49,PCR,Female,China,,2020-02-14,46
+127,true,100+,PCR,Female,Vietnam,,2020-03-30,63
+128,false,100+,Antigen self-test,Male,Poland,,2021-12-23,61
+129,false,20-29,Rapid antigen,Male,Burkina Faso,,2021-12-03,39
+130,true,20-29,Antigen self-test,Male,Democratic Republic of the Congo,,2020-11-20,80
+131,false,0-9,Rapid antigen,Female,China,,2021-10-05,10
+132,false,50-59,Antigen self-test,Male,Myanmar,,2020-02-17,83
+133,false,90-99,Rapid antigen,Female,Chile,,2020-03-04,6
+134,false,50-59,Antigen self-test,Female,Tajikistan,,2020-03-07,75
+135,false,30-39,Antigen self-test,Male,Spain,Andalucia,2021-10-14,8
+136,true,20-29,PCR,Male,Guatemala,,2021-02-23,8
+137,true,40-49,Rapid antigen,Female,Cameroon,,2020-02-29,63
+138,true,30-39,PCR,Female,China,,2021-12-14,17
+139,true,50-59,Rapid antigen,Male,China,,2020-02-03,76
+140,true,60-69,PCR,Female,Egypt,,2021-08-19,55
+141,false,70-79,Antigen self-test,Male,Finland,,2020-07-04,34
+142,false,40-49,Antigen self-test,Male,Sweden,Norrbotten,2020-09-07,62
+143,true,0-9,Rapid antigen,Female,Serbia,,2020-11-01,7
+144,true,40-49,Rapid antigen,Female,China,,2020-04-17,49
+145,true,90-99,Antigen self-test,Male,China,,2020-10-25,35
+146,false,80-89,PCR,Female,Haiti,,2021-06-01,38
+147,true,80-89,Rapid antigen,Male,Belarus,,2021-08-31,37
+148,false,40-49,Rapid antigen,Male,Greece,,2020-06-28,13
+149,true,0-9,Antigen self-test,Male,Indonesia,,2021-06-10,54
+150,true,80-89,Antigen self-test,Male,Thailand,,2021-04-18,43
+151,true,70-79,PCR,Female,Japan,,2021-12-13,85
+152,false,80-89,PCR,Male,China,,2021-02-20,42
+153,true,0-9,PCR,Female,Poland,,2021-04-18,38
+154,false,90-99,PCR,Female,Dominican Republic,,2020-01-09,86
+155,true,90-99,Rapid antigen,Female,Indonesia,,2020-04-22,35
+156,false,40-49,Antigen self-test,Female,China,,2021-04-19,2
+157,true,50-59,Rapid antigen,Female,Kenya,,2020-09-10,14
+158,true,90-99,Antigen self-test,Male,Nigeria,,2020-06-14,27
+159,false,50-59,Antigen self-test,Male,Indonesia,,2021-07-15,42
+160,false,0-9,Rapid antigen,Female,South Korea,,2021-01-10,60
+161,false,50-59,Rapid antigen,Male,Czech Republic,,2021-12-24,16
+162,false,80-89,Rapid antigen,Male,China,,2020-02-22,58
+163,false,10-19,PCR,Male,China,,2020-08-07,60
+164,false,30-39,PCR,Female,Indonesia,,2020-01-09,33
+165,false,10-19,Rapid antigen,Male,Philippines,,2021-01-09,59
+166,false,50-59,Rapid antigen,Female,Mexico,Coahuila De Zaragoza,2021-04-14,20
+167,false,30-39,Rapid antigen,Male,United States,California,2020-12-03,93
+168,false,50-59,Rapid antigen,Male,Indonesia,,2020-12-02,83
+169,true,60-69,Rapid antigen,Female,Venezuela,,2021-12-27,32
+170,true,90-99,Antigen self-test,Male,Nigeria,,2021-08-24,75
+171,true,80-89,PCR,Male,Indonesia,,2020-01-26,45
+172,true,10-19,PCR,Male,Ireland,,2020-03-07,26
+173,false,40-49,Rapid antigen,Male,Russia,,2021-12-20,44
+174,false,90-99,Antigen self-test,Female,China,,2020-05-08,61
+175,false,20-29,Antigen self-test,Female,China,,2021-05-27,69
+176,true,80-89,Rapid antigen,Male,Nigeria,,2021-04-25,63
+177,false,10-19,Antigen self-test,Female,Macedonia,,2021-08-04,9
+178,false,40-49,Antigen self-test,Female,China,,2021-02-18,44
+179,false,20-29,Antigen self-test,Female,Japan,,2021-11-07,66
+180,false,100+,Rapid antigen,Male,Czech Republic,,2020-04-15,42
+181,true,10-19,PCR,Male,Ukraine,,2020-08-19,78
+182,false,100+,PCR,Male,Indonesia,,2020-07-25,1
+183,true,80-89,PCR,Male,Portugal,Porto,2020-09-20,63
+184,true,0-9,Rapid antigen,Male,South Africa,,2020-10-07,71
+185,true,90-99,Rapid antigen,Male,Sudan,,2021-12-28,69
+186,false,30-39,PCR,Male,Russia,,2021-10-27,65
+187,false,0-9,Antigen self-test,Female,France,Provence-Alpes-Côte d'Azur,2020-06-21,50
+188,false,70-79,PCR,Male,Russia,,2020-02-24,34
+189,true,100+,Antigen self-test,Male,China,,2021-12-22,79
+190,true,0-9,Antigen self-test,Male,China,,2020-02-07,1
+191,true,60-69,Rapid antigen,Female,Argentina,,2021-02-17,42
+192,false,20-29,Rapid antigen,Female,China,,2021-03-14,77
+193,true,40-49,Rapid antigen,Female,France,Provence-Alpes-Côte d'Azur,2021-10-07,56
+194,false,100+,Rapid antigen,Female,United States,Minnesota,2021-06-11,61
+195,false,50-59,Rapid antigen,Male,Iran,,2021-09-22,57
+196,false,70-79,Antigen self-test,Male,Nicaragua,,2021-07-22,1
+197,true,30-39,Rapid antigen,Male,China,,2020-11-11,33
+198,false,60-69,Rapid antigen,Male,France,Midi-Pyrénées,2021-02-06,81
+199,false,60-69,PCR,Male,Indonesia,,2021-12-21,63
+200,true,0-9,PCR,Female,China,,2020-11-10,64
+201,true,0-9,Antigen self-test,Female,Brazil,,2020-05-17,94
+202,true,90-99,Rapid antigen,Female,Philippines,,2021-11-09,11
+203,false,50-59,PCR,Male,Brazil,,2020-12-25,65
+204,false,30-39,PCR,Female,Indonesia,,2020-04-14,67
+205,true,40-49,Antigen self-test,Male,China,,2020-11-12,26
+206,true,70-79,Rapid antigen,Male,Czech Republic,,2020-11-30,26
+207,true,100+,Antigen self-test,Female,Philippines,,2020-12-31,62
+208,true,60-69,Antigen self-test,Male,Netherlands,Provincie Noord-Brabant,2021-12-30,3
+209,false,10-19,Rapid antigen,Male,Indonesia,,2020-09-22,82
+210,false,90-99,Rapid antigen,Male,China,,2020-08-22,80
+211,true,10-19,Rapid antigen,Male,Philippines,,2021-06-11,22
+212,false,100+,Rapid antigen,Female,Guatemala,,2021-11-12,69
+213,false,80-89,Antigen self-test,Female,Azerbaijan,,2021-06-14,86
+214,false,100+,PCR,Female,Poland,,2021-03-26,96
+215,true,100+,Rapid antigen,Male,Indonesia,,2021-03-19,63
+216,false,50-59,PCR,Female,Indonesia,,2020-08-02,91
+217,false,50-59,Rapid antigen,Female,Poland,,2021-08-03,79
+218,false,70-79,Antigen self-test,Male,Brazil,,2021-04-19,63
+219,true,70-79,Antigen self-test,Female,China,,2021-11-10,59
+220,false,40-49,Antigen self-test,Male,Indonesia,,2021-10-15,2
+221,true,40-49,PCR,Male,Finland,,2020-06-21,64
+222,true,10-19,PCR,Male,Brazil,,2021-02-05,88
+223,false,60-69,Antigen self-test,Male,Indonesia,,2021-08-08,79
+224,false,60-69,Antigen self-test,Male,Indonesia,,2021-05-27,4
+225,true,20-29,PCR,Female,Canada,Alberta,2021-02-09,50
+226,true,90-99,PCR,Male,Sweden,Skåne,2021-12-24,22
+227,false,20-29,Rapid antigen,Male,China,,2020-02-18,77
+228,false,100+,PCR,Female,Japan,,2020-05-09,48
+229,false,10-19,PCR,Female,Ukraine,,2021-02-20,41
+230,false,10-19,Rapid antigen,Female,Colombia,,2020-02-22,50
+231,false,70-79,Antigen self-test,Male,China,,2021-10-13,83
+232,true,50-59,Antigen self-test,Female,Japan,,2020-07-24,31
+233,false,20-29,PCR,Male,Sweden,Dalarna,2020-08-29,34
+234,false,0-9,Rapid antigen,Male,Bosnia and Herzegovina,,2021-03-17,62
+235,true,60-69,Rapid antigen,Female,Indonesia,,2020-01-20,37
+236,true,100+,PCR,Male,Greece,,2021-06-20,43
+237,true,10-19,Antigen self-test,Male,Czech Republic,,2020-10-13,5
+238,true,10-19,Antigen self-test,Female,Croatia,,2020-08-10,99
+239,true,40-49,PCR,Male,Russia,,2021-11-10,69
+240,false,70-79,Rapid antigen,Female,Brazil,,2021-11-22,61
+241,true,20-29,Antigen self-test,Female,Philippines,,2021-12-24,19
+242,true,70-79,Antigen self-test,Female,Brazil,,2021-10-10,49
+243,true,10-19,PCR,Female,Peru,,2021-11-04,59
+244,false,0-9,PCR,Male,France,Provence-Alpes-Côte d'Azur,2021-09-07,91
+245,true,20-29,Rapid antigen,Male,Portugal,Leiria,2020-08-27,38
+246,true,90-99,Rapid antigen,Female,China,,2021-01-06,33
+247,true,100+,Antigen self-test,Female,France,Aquitaine,2021-08-04,93
+248,false,0-9,Rapid antigen,Male,United Arab Emirates,,2020-03-07,39
+249,false,50-59,Antigen self-test,Female,China,,2021-02-14,22
+250,true,100+,Antigen self-test,Female,Kyrgyzstan,,2020-04-23,98
+251,true,50-59,PCR,Female,Sweden,Skåne,2020-10-28,99
+252,false,0-9,PCR,Female,Honduras,,2020-08-14,22
+253,true,50-59,Antigen self-test,Male,Indonesia,,2021-12-06,43
+254,false,30-39,Rapid antigen,Female,Poland,,2021-06-11,16
+255,true,50-59,Rapid antigen,Female,Colombia,,2020-10-18,18
+256,false,30-39,Antigen self-test,Female,Slovenia,,2020-07-29,48
+257,false,20-29,Rapid antigen,Female,Thailand,,2020-03-07,49
+258,false,60-69,Antigen self-test,Male,United States,California,2020-02-04,90
+259,true,40-49,Rapid antigen,Female,China,,2020-03-31,27
+260,false,70-79,PCR,Male,Philippines,,2020-08-23,80
+261,true,70-79,Antigen self-test,Female,Finland,,2021-05-20,97
+262,true,50-59,Rapid antigen,Female,Kuwait,,2021-06-07,49
+263,false,30-39,Rapid antigen,Female,Norway,Telemark,2021-08-26,9
+264,false,90-99,Antigen self-test,Male,Finland,,2020-01-23,73
+265,true,0-9,PCR,Female,Indonesia,,2020-01-17,15
+266,true,20-29,PCR,Male,China,,2020-03-13,58
+267,true,80-89,PCR,Male,Indonesia,,2021-04-30,31
+268,true,40-49,PCR,Female,Vietnam,,2021-10-09,54
+269,true,60-69,Rapid antigen,Male,Kazakhstan,,2021-11-20,55
+270,false,70-79,Antigen self-test,Male,China,,2021-06-12,57
+271,false,20-29,PCR,Female,Russia,,2020-02-18,28
+272,true,0-9,Antigen self-test,Female,Mexico,Veracruz Llave,2020-10-05,60
+273,true,50-59,Antigen self-test,Male,New Zealand,,2020-09-08,21
+274,true,0-9,PCR,Male,China,,2020-02-19,19
+275,true,60-69,PCR,Male,Argentina,,2020-12-24,36
+276,false,0-9,PCR,Male,Russia,,2021-02-19,50
+277,true,100+,PCR,Male,Portugal,Vila Real,2021-03-16,64
+278,false,70-79,PCR,Female,Peru,,2021-02-18,70
+279,true,40-49,Rapid antigen,Male,Philippines,,2020-10-12,46
+280,true,60-69,Antigen self-test,Female,Indonesia,,2021-04-28,64
+281,false,100+,PCR,Male,Indonesia,,2021-01-26,72
+282,false,70-79,Antigen self-test,Male,Portugal,Guarda,2020-07-17,56
+283,true,50-59,Rapid antigen,Female,Honduras,,2020-10-28,80
+284,false,90-99,Rapid antigen,Male,Philippines,,2021-08-15,80
+285,false,70-79,Antigen self-test,Male,Sweden,Västra Götaland,2021-10-05,46
+286,false,60-69,PCR,Male,Mexico,Coahuila De Zaragoza,2021-05-31,29
+287,true,100+,Rapid antigen,Female,Indonesia,,2021-05-10,13
+288,false,20-29,PCR,Female,Sweden,Östergötland,2021-04-21,61
+289,true,70-79,Antigen self-test,Female,Russia,,2021-02-14,55
+290,true,10-19,PCR,Female,Indonesia,,2020-06-20,2
+291,false,80-89,Rapid antigen,Male,Malta,,2021-08-18,90
+292,true,40-49,Antigen self-test,Male,Indonesia,,2020-02-06,10
+293,false,90-99,Rapid antigen,Male,China,,2021-02-22,5
+294,true,40-49,Rapid antigen,Female,France,Île-de-France,2020-08-21,20
+295,true,80-89,PCR,Male,Portugal,Porto,2021-02-04,64
+296,false,0-9,PCR,Male,Nigeria,,2020-02-10,54
+297,false,40-49,PCR,Male,Portugal,Aveiro,2020-05-07,87
+298,false,20-29,Antigen self-test,Female,Thailand,,2020-06-09,64
+299,false,80-89,Antigen self-test,Male,Ethiopia,,2020-03-28,1
+300,true,100+,PCR,Female,Philippines,,2021-09-23,90
+301,false,20-29,Antigen self-test,Female,Austria,Kaernten,2021-01-21,52
+302,false,60-69,PCR,Male,Colombia,,2021-03-08,67
+303,false,40-49,PCR,Male,China,,2021-03-18,59
+304,false,0-9,Rapid antigen,Female,Vietnam,,2021-04-20,37
+305,true,90-99,Antigen self-test,Male,Philippines,,2020-12-22,2
+306,false,90-99,Antigen self-test,Female,Netherlands,Provincie Groningen,2020-07-16,3
+307,true,30-39,PCR,Male,Nigeria,,2020-07-15,98
+308,false,30-39,Rapid antigen,Male,Ukraine,,2020-08-01,59
+309,false,60-69,PCR,Male,France,Île-de-France,2021-02-03,45
+310,false,100+,PCR,Female,Poland,,2020-06-17,79
+311,true,20-29,Rapid antigen,Male,Bulgaria,,2020-10-13,90
+312,true,70-79,Rapid antigen,Female,Russia,,2020-11-04,5
+313,false,60-69,PCR,Female,Canada,New Brunswick,2021-03-28,47
+314,true,50-59,Rapid antigen,Female,Egypt,,2021-03-31,53
+315,false,70-79,Rapid antigen,Female,Portugal,Viana do Castelo,2021-01-24,92
+316,true,70-79,Antigen self-test,Female,Greece,,2020-08-30,96
+317,false,90-99,PCR,Male,China,,2021-07-06,67
+318,false,20-29,Antigen self-test,Male,Japan,,2021-04-01,61
+319,false,80-89,Antigen self-test,Male,China,,2021-04-09,11
+320,false,30-39,Rapid antigen,Male,Philippines,,2021-09-19,83
+321,true,20-29,PCR,Male,China,,2021-06-11,60
+322,true,30-39,Rapid antigen,Male,Philippines,,2020-01-21,21
+323,false,70-79,Rapid antigen,Male,Somalia,,2021-04-02,4
+324,false,20-29,Antigen self-test,Male,Sweden,Östergötland,2020-03-01,2
+325,false,80-89,PCR,Female,Brunei,,2020-08-12,59
+326,false,40-49,Antigen self-test,Female,Poland,,2021-01-14,70
+327,true,10-19,Rapid antigen,Male,China,,2020-04-08,22
+328,false,90-99,PCR,Female,Brazil,,2020-06-20,91
+329,true,20-29,PCR,Male,Thailand,,2021-01-26,22
+330,true,100+,Rapid antigen,Female,China,,2020-01-06,5
+331,true,0-9,Rapid antigen,Male,China,,2021-12-08,64
+332,false,60-69,PCR,Female,Cyprus,,2020-09-12,28
+333,false,70-79,Rapid antigen,Male,Thailand,,2021-05-14,40
+334,false,20-29,Antigen self-test,Male,China,,2020-11-20,58
+335,true,10-19,Antigen self-test,Female,China,,2021-10-21,73
+336,true,30-39,Rapid antigen,Female,Colombia,,2020-08-08,81
+337,true,20-29,PCR,Female,Portugal,Porto,2021-11-01,30
+338,true,30-39,PCR,Female,China,,2020-01-31,8
+339,false,0-9,PCR,Female,Zimbabwe,,2020-02-12,71
+340,true,20-29,Rapid antigen,Female,Czech Republic,,2021-07-19,7
+341,false,50-59,Rapid antigen,Female,Poland,,2020-12-13,69
+342,false,40-49,Rapid antigen,Male,Pakistan,,2020-10-13,13
+343,false,50-59,PCR,Male,Zambia,,2020-06-24,39
+344,true,50-59,Rapid antigen,Male,El Salvador,,2021-12-19,50
+345,true,90-99,Antigen self-test,Female,Yemen,,2020-04-22,63
+346,false,30-39,PCR,Female,Poland,,2020-11-22,21
+347,true,10-19,PCR,Male,United States,California,2021-06-15,82
+348,true,0-9,Antigen self-test,Male,Colombia,,2020-01-03,24
+349,false,50-59,Rapid antigen,Male,Philippines,,2021-12-29,11
+350,false,0-9,Rapid antigen,Male,Argentina,,2020-01-20,31
+351,true,20-29,Rapid antigen,Female,Brazil,,2021-10-16,67
+352,false,60-69,PCR,Female,Costa Rica,,2020-01-26,25
+353,false,70-79,Rapid antigen,Female,United Arab Emirates,,2020-09-16,32
+354,true,100+,PCR,Male,China,,2021-01-07,51
+355,true,20-29,PCR,Male,China,,2021-05-05,28
+356,false,0-9,Antigen self-test,Female,Panama,,2020-02-23,97
+357,false,70-79,PCR,Female,Colombia,,2021-03-10,63
+358,true,40-49,Rapid antigen,Male,China,,2020-12-01,32
+359,true,0-9,Rapid antigen,Female,Indonesia,,2021-10-03,82
+360,false,70-79,Antigen self-test,Male,Russia,,2021-12-23,11
+361,true,100+,PCR,Male,Russia,,2020-10-16,35
+362,true,90-99,Rapid antigen,Male,Colombia,,2021-03-16,56
+363,false,80-89,PCR,Male,Ukraine,,2021-10-05,34
+364,true,40-49,Antigen self-test,Male,Kuwait,,2020-12-18,50
+365,true,40-49,Rapid antigen,Female,Philippines,,2020-04-30,75
+366,true,10-19,PCR,Female,China,,2021-09-29,70
+367,true,10-19,Rapid antigen,Female,Indonesia,,2021-07-30,39
+368,false,90-99,PCR,Female,China,,2021-07-02,40
+369,true,40-49,Antigen self-test,Female,Indonesia,,2021-01-14,15
+370,true,30-39,Antigen self-test,Male,China,,2020-05-09,47
+371,true,50-59,Antigen self-test,Male,Afghanistan,,2021-07-27,29
+372,false,70-79,Rapid antigen,Female,Lithuania,,2021-08-27,96
+373,false,70-79,PCR,Male,China,,2021-10-21,98
+374,true,90-99,Rapid antigen,Female,China,,2021-11-17,11
+375,false,0-9,PCR,Male,China,,2021-07-03,18
+376,true,70-79,Antigen self-test,Male,Philippines,,2020-05-15,17
+377,false,20-29,Rapid antigen,Male,Canada,Québec,2020-12-19,12
+378,false,60-69,Antigen self-test,Female,China,,2020-12-07,26
+379,true,50-59,Antigen self-test,Female,Poland,,2020-08-30,75
+380,true,90-99,Antigen self-test,Male,Macedonia,,2021-01-09,33
+381,true,50-59,Rapid antigen,Male,Angola,,2020-12-01,69
+382,true,20-29,Rapid antigen,Male,Brazil,,2021-08-09,12
+383,false,90-99,Rapid antigen,Female,Portugal,Portalegre,2020-04-04,47
+384,true,60-69,Antigen self-test,Female,Indonesia,,2020-06-11,28
+385,false,60-69,Rapid antigen,Female,Ethiopia,,2020-10-09,58
+386,true,20-29,Rapid antigen,Female,Indonesia,,2020-10-11,23
+387,false,70-79,Antigen self-test,Male,Ivory Coast,,2021-03-24,40
+388,true,0-9,Antigen self-test,Female,Sweden,Skåne,2020-01-03,83
+389,false,10-19,Rapid antigen,Male,Japan,,2020-12-11,40
+390,true,30-39,PCR,Female,Portugal,Coimbra,2021-06-29,66
+391,false,70-79,PCR,Male,Brazil,,2021-05-07,83
+392,true,10-19,Rapid antigen,Female,Brazil,,2020-03-29,60
+393,false,40-49,Antigen self-test,Female,China,,2021-02-20,12
+394,true,40-49,Antigen self-test,Female,Brazil,,2020-08-06,69
+395,true,80-89,Rapid antigen,Male,Brazil,,2021-06-20,77
+396,true,90-99,PCR,Female,China,,2020-01-23,76
+397,true,90-99,PCR,Female,Germany,Nordrhein-Westfalen,2021-08-04,8
+398,true,90-99,PCR,Female,Yemen,,2021-06-17,4
+399,true,40-49,PCR,Male,China,,2021-10-11,61
+400,false,40-49,PCR,Female,Russia,,2021-05-17,2
+401,true,50-59,Rapid antigen,Male,Hungary,Csongrád,2020-06-01,40
+402,true,10-19,Antigen self-test,Male,Yemen,,2020-05-19,89
+403,false,100+,Antigen self-test,Male,Brazil,,2021-04-01,66
+404,false,10-19,Antigen self-test,Female,Ethiopia,,2021-03-25,82
+405,false,10-19,PCR,Female,Hungary,Baranya,2020-10-22,100
+406,false,80-89,Rapid antigen,Female,France,Rhône-Alpes,2020-10-02,28
+407,true,90-99,Rapid antigen,Female,Russia,,2020-12-28,69
+408,false,30-39,PCR,Female,Argentina,,2021-06-12,87
+409,false,10-19,PCR,Male,France,Provence-Alpes-Côte d'Azur,2020-04-08,12
+410,true,0-9,Rapid antigen,Male,Slovenia,,2021-11-11,3
+411,true,70-79,Antigen self-test,Female,Guatemala,,2020-03-12,99
+412,false,70-79,PCR,Female,Mexico,Chihuahua,2020-09-01,42
+413,false,10-19,Antigen self-test,Male,Kenya,,2020-11-27,70
+414,false,90-99,PCR,Female,Portugal,Porto,2020-07-08,42
+415,false,70-79,Antigen self-test,Male,Indonesia,,2020-10-21,37
+416,false,70-79,Antigen self-test,Female,China,,2020-07-23,6
+417,false,40-49,Antigen self-test,Female,China,,2020-06-08,23
+418,false,100+,Antigen self-test,Female,Ukraine,,2021-12-27,99
+419,true,40-49,PCR,Male,Indonesia,,2020-07-06,16
+420,true,50-59,Rapid antigen,Male,France,Franche-Comté,2021-02-18,89
+421,true,10-19,Rapid antigen,Female,Brazil,,2021-07-07,56
+422,true,40-49,PCR,Male,Sweden,Östergötland,2021-06-03,69
+423,false,20-29,Rapid antigen,Male,Russia,,2020-09-11,90
+424,false,100+,Antigen self-test,Female,Argentina,,2021-08-28,15
+425,true,30-39,Antigen self-test,Male,Nigeria,,2021-02-17,64
+426,true,20-29,Rapid antigen,Male,Brazil,,2020-06-07,61
+427,true,20-29,Antigen self-test,Male,China,,2021-11-23,91
+428,true,80-89,PCR,Male,South Africa,,2021-12-22,74
+429,true,0-9,Antigen self-test,Male,Armenia,,2020-01-01,67
+430,false,70-79,Antigen self-test,Female,Philippines,,2021-12-07,27
+431,false,60-69,PCR,Male,Czech Republic,,2020-12-15,47
+432,false,60-69,Rapid antigen,Male,Ukraine,,2020-03-12,10
+433,true,60-69,PCR,Male,Indonesia,,2021-02-28,5
+434,true,100+,PCR,Female,Nigeria,,2021-07-11,99
+435,false,90-99,Rapid antigen,Male,United Kingdom,England,2021-01-17,32
+436,false,0-9,PCR,Male,China,,2021-10-21,2
+437,true,10-19,Antigen self-test,Male,Indonesia,,2020-05-28,80
+438,false,80-89,Antigen self-test,Male,China,,2020-11-01,41
+439,false,30-39,Antigen self-test,Male,Belarus,,2020-06-29,76
+440,true,30-39,Antigen self-test,Male,Israel,,2021-02-26,95
+441,false,40-49,PCR,Male,Brazil,,2021-06-09,42
+442,true,20-29,Antigen self-test,Female,Philippines,,2021-04-03,49
+443,false,40-49,PCR,Male,Brazil,,2020-05-10,77
+444,true,70-79,Antigen self-test,Male,China,,2020-12-17,23
+445,true,40-49,Rapid antigen,Male,Japan,,2021-06-07,18
+446,false,0-9,Antigen self-test,Male,Argentina,,2021-01-31,45
+447,false,40-49,PCR,Male,China,,2021-11-09,42
+448,true,50-59,Antigen self-test,Female,Russia,,2021-02-08,88
+449,false,50-59,Antigen self-test,Male,Russia,,2021-08-17,13
+450,true,0-9,PCR,Female,United States,Pennsylvania,2021-09-06,57
+451,false,30-39,PCR,Male,Colombia,,2020-12-24,57
+452,true,30-39,PCR,Male,United States,Texas,2021-08-04,30
+453,false,20-29,Antigen self-test,Female,Sweden,Östergötland,2021-12-08,71
+454,true,60-69,Antigen self-test,Male,Taiwan,,2020-01-12,96
+455,false,20-29,PCR,Male,Ecuador,,2021-11-21,73
+456,false,40-49,Rapid antigen,Female,Japan,,2020-05-20,61
+457,false,10-19,Antigen self-test,Female,Nigeria,,2020-05-29,47
+458,false,100+,PCR,Female,Czech Republic,,2020-02-18,64
+459,true,90-99,PCR,Female,Madagascar,,2021-02-03,100
+460,false,60-69,Antigen self-test,Male,Peru,,2020-05-24,17
+461,false,10-19,Antigen self-test,Female,Sierra Leone,,2020-02-05,73
+462,true,90-99,Rapid antigen,Male,Nicaragua,,2020-07-13,6
+463,false,30-39,Rapid antigen,Male,Sweden,Skåne,2020-05-18,17
+464,false,10-19,PCR,Female,Belarus,,2020-03-09,43
+465,false,100+,Rapid antigen,Female,Cameroon,,2021-01-27,28
+466,true,80-89,Rapid antigen,Female,Panama,,2021-10-10,28
+467,false,90-99,Antigen self-test,Male,Armenia,,2021-11-07,27
+468,false,80-89,PCR,Male,Bosnia and Herzegovina,,2021-12-19,72
+469,true,40-49,Antigen self-test,Female,Guatemala,,2020-02-13,61
+470,false,50-59,Antigen self-test,Male,China,,2020-12-21,60
+471,false,50-59,Antigen self-test,Male,China,,2021-03-13,82
+472,true,60-69,Antigen self-test,Male,France,Auvergne,2021-12-04,26
+473,false,90-99,Rapid antigen,Male,Hungary,Veszprém,2020-08-23,85
+474,true,60-69,Antigen self-test,Male,China,,2021-09-24,2
+475,true,10-19,Rapid antigen,Male,Kenya,,2021-03-08,14
+476,true,0-9,Antigen self-test,Female,Indonesia,,2020-01-04,18
+477,false,20-29,Rapid antigen,Male,Sweden,Östergötland,2021-07-31,96
+478,true,100+,PCR,Female,Colombia,,2021-05-27,18
+479,true,100+,Antigen self-test,Male,Cuba,,2021-09-24,81
+480,true,20-29,Rapid antigen,Female,Brazil,,2020-05-25,80
+481,true,100+,PCR,Female,Croatia,,2020-10-11,56
+482,false,0-9,PCR,Male,China,,2021-03-09,84
+483,true,70-79,Antigen self-test,Male,Poland,,2021-10-06,63
+484,true,100+,PCR,Female,South Africa,,2020-04-10,50
+485,false,30-39,PCR,Male,Philippines,,2021-12-17,59
+486,false,90-99,Rapid antigen,Male,Australia,New South Wales,2021-11-19,96
+487,true,0-9,PCR,Male,Greece,,2021-02-14,12
+488,true,10-19,PCR,Male,France,Languedoc-Roussillon,2020-07-04,30
+489,false,50-59,Antigen self-test,Male,United States,California,2021-12-16,10
+490,false,30-39,Antigen self-test,Male,China,,2020-03-11,90
+491,false,60-69,Antigen self-test,Male,Brazil,,2020-11-29,31
+492,false,0-9,PCR,Female,Pakistan,,2020-12-08,36
+493,true,100+,Rapid antigen,Female,North Korea,,2021-08-20,68
+494,true,20-29,Antigen self-test,Male,China,,2020-01-14,37
+495,true,100+,Rapid antigen,Female,Philippines,,2020-01-07,35
+496,false,100+,Rapid antigen,Female,South Korea,,2021-04-26,19
+497,false,60-69,Rapid antigen,Female,China,,2020-10-15,45
+498,false,40-49,Antigen self-test,Female,Russia,,2021-05-30,2
+499,true,100+,Antigen self-test,Male,Indonesia,,2020-12-16,31
+500,false,10-19,PCR,Female,Kazakhstan,,2020-04-11,48
+501,true,80-89,PCR,Male,Indonesia,,2020-09-28,68
+502,false,80-89,PCR,Male,Thailand,,2021-10-01,31
+503,false,40-49,PCR,Male,Philippines,,2020-03-06,52
+504,false,30-39,PCR,Female,Philippines,,2020-01-20,49
+505,false,40-49,PCR,Female,Argentina,,2021-03-14,15
+506,true,50-59,Antigen self-test,Male,China,,2020-01-07,83
+507,true,0-9,Rapid antigen,Male,Bangladesh,,2021-10-15,6
+508,true,30-39,PCR,Male,Indonesia,,2021-09-19,76
+509,false,0-9,PCR,Female,Russia,,2021-09-02,44
+510,true,80-89,PCR,Male,Spain,Madrid,2020-05-16,40
+511,true,0-9,PCR,Female,Luxembourg,,2020-03-22,59
+512,true,70-79,Rapid antigen,Male,Tunisia,,2021-06-04,57
+513,false,80-89,Antigen self-test,Female,Thailand,,2021-01-28,21
+514,true,20-29,Rapid antigen,Female,China,,2020-05-16,59
+515,true,80-89,Rapid antigen,Male,China,,2021-01-09,27
+516,true,0-9,Antigen self-test,Male,Brazil,,2021-04-29,30
+517,true,60-69,Rapid antigen,Male,Norway,Hordaland,2021-11-20,26
+518,true,0-9,Rapid antigen,Female,France,Provence-Alpes-Côte d'Azur,2020-06-05,2
+519,true,30-39,Rapid antigen,Male,Ukraine,,2020-05-05,83
+520,true,40-49,PCR,Male,Panama,,2021-10-16,20
+521,false,30-39,Rapid antigen,Female,Russia,,2020-08-08,8
+522,true,100+,Antigen self-test,Male,Nigeria,,2021-08-29,8
+523,true,90-99,Antigen self-test,Female,China,,2020-08-12,89
+524,false,50-59,Rapid antigen,Male,Nigeria,,2021-03-01,98
+525,false,0-9,Antigen self-test,Female,China,,2020-05-18,31
+526,true,40-49,Antigen self-test,Male,China,,2020-03-15,76
+527,false,30-39,PCR,Male,Colombia,,2021-07-24,86
+528,false,60-69,PCR,Female,Philippines,,2020-07-16,56
+529,true,40-49,PCR,Male,Indonesia,,2021-11-04,83
+530,false,80-89,Rapid antigen,Female,Russia,,2021-04-25,94
+531,false,0-9,Antigen self-test,Female,Trinidad and Tobago,,2020-12-16,52
+532,false,30-39,PCR,Female,Portugal,Porto,2020-12-01,55
+533,false,30-39,Rapid antigen,Female,Angola,,2021-03-06,87
+534,false,20-29,Rapid antigen,Male,United States,North Carolina,2021-10-21,63
+535,false,90-99,PCR,Female,Philippines,,2020-12-22,31
+536,true,80-89,Rapid antigen,Female,Ecuador,,2020-01-14,11
+537,false,70-79,Antigen self-test,Female,Philippines,,2020-01-06,24
+538,true,10-19,PCR,Female,Sri Lanka,,2021-05-06,62
+539,true,0-9,Antigen self-test,Female,Bolivia,,2021-02-02,99
+540,false,70-79,Rapid antigen,Male,Tuvalu,,2020-10-14,64
+541,false,30-39,PCR,Male,Indonesia,,2020-02-15,88
+542,false,0-9,PCR,Male,Indonesia,,2020-08-20,69
+543,false,100+,PCR,Female,Indonesia,,2020-07-18,5
+544,true,50-59,PCR,Male,Namibia,,2020-07-24,8
+545,true,30-39,Rapid antigen,Female,Portugal,Viana do Castelo,2021-02-27,60
+546,true,0-9,Antigen self-test,Male,Brazil,,2020-03-16,72
+547,false,90-99,Antigen self-test,Male,Colombia,,2021-04-28,83
+548,false,20-29,PCR,Male,Russia,,2020-03-23,27
+549,false,80-89,Rapid antigen,Male,Poland,,2021-09-10,41
+550,false,80-89,Rapid antigen,Male,Canada,Québec,2020-08-02,79
+551,false,100+,PCR,Female,China,,2021-03-02,57
+552,true,40-49,PCR,Female,Brazil,,2021-01-17,49
+553,true,90-99,Rapid antigen,Female,Guatemala,,2021-03-01,46
+554,false,30-39,PCR,Female,Russia,,2020-04-24,99
+555,true,40-49,Rapid antigen,Female,Philippines,,2020-10-24,53
+556,false,40-49,Rapid antigen,Female,South Africa,,2021-02-25,72
+557,false,0-9,PCR,Female,Greece,,2020-03-07,81
+558,false,90-99,Antigen self-test,Male,United States,Louisiana,2021-06-07,67
+559,false,70-79,Rapid antigen,Male,Afghanistan,,2021-09-14,100
+560,true,80-89,PCR,Male,Latvia,,2020-11-04,31
+561,true,70-79,Rapid antigen,Male,Ukraine,,2020-11-02,75
+562,true,100+,Rapid antigen,Male,Colombia,,2020-05-29,53
+563,true,80-89,PCR,Female,China,,2021-05-20,9
+564,true,70-79,Rapid antigen,Male,China,,2020-06-01,52
+565,false,30-39,Antigen self-test,Male,Indonesia,,2021-09-29,19
+566,true,70-79,Antigen self-test,Male,Bosnia and Herzegovina,,2021-07-12,50
+567,false,70-79,Antigen self-test,Female,Poland,,2020-12-30,43
+568,false,30-39,PCR,Female,Mongolia,,2020-04-03,42
+569,true,90-99,Antigen self-test,Female,Philippines,,2020-01-24,44
+570,false,0-9,PCR,Male,Russia,,2020-07-10,4
+571,true,20-29,Rapid antigen,Female,China,,2020-11-03,24
+572,false,70-79,Rapid antigen,Female,Nepal,,2021-03-21,2
+573,true,90-99,Rapid antigen,Female,China,,2020-05-25,66
+574,false,40-49,Antigen self-test,Male,South Korea,,2020-11-11,29
+575,false,80-89,Rapid antigen,Female,Sweden,Jämtland,2021-09-10,75
+576,false,50-59,Rapid antigen,Male,Russia,,2021-06-03,57
+577,true,100+,Rapid antigen,Female,China,,2020-03-15,12
+578,false,40-49,Antigen self-test,Female,Indonesia,,2021-01-24,75
+579,true,10-19,PCR,Female,Philippines,,2020-12-18,61
+580,true,80-89,Antigen self-test,Male,Russia,,2020-11-16,33
+581,false,10-19,Rapid antigen,Male,Indonesia,,2020-05-27,87
+582,true,50-59,Rapid antigen,Female,Poland,,2020-12-12,8
+583,false,100+,Antigen self-test,Female,China,,2020-05-18,65
+584,false,80-89,Antigen self-test,Male,Mongolia,,2020-02-17,68
+585,false,90-99,Rapid antigen,Male,Philippines,,2021-02-25,13
+586,false,80-89,Rapid antigen,Male,Poland,,2020-05-12,58
+587,true,60-69,PCR,Female,China,,2020-07-18,78
+588,true,0-9,PCR,Male,Sweden,Stockholm,2021-06-16,70
+589,false,60-69,PCR,Male,Indonesia,,2020-01-15,77
+590,true,50-59,PCR,Male,Vietnam,,2020-02-12,52
+591,true,10-19,Rapid antigen,Male,Iraq,,2020-01-16,49
+592,false,100+,PCR,Male,Sweden,Jämtland,2021-10-15,92
+593,false,90-99,Rapid antigen,Male,Portugal,Leiria,2020-07-19,35
+594,false,40-49,Antigen self-test,Male,Indonesia,,2021-06-22,88
+595,true,70-79,PCR,Male,Philippines,,2020-09-10,39
+596,true,30-39,PCR,Male,Argentina,,2020-04-10,37
+597,true,10-19,Rapid antigen,Male,Indonesia,,2021-07-17,2
+598,false,30-39,PCR,Male,Ukraine,,2020-07-11,50
+599,false,20-29,Antigen self-test,Female,Mexico,Guanajuato,2020-04-30,20
+600,true,10-19,Antigen self-test,Male,Nigeria,,2021-11-20,21
+601,true,100+,Rapid antigen,Male,Democratic Republic of the Congo,,2021-04-14,92
+602,false,60-69,Rapid antigen,Male,Bulgaria,,2021-11-01,95
+603,true,10-19,PCR,Female,Peru,,2020-05-08,85
+604,true,20-29,Antigen self-test,Male,Indonesia,,2021-10-10,18
+605,false,70-79,Rapid antigen,Female,Mali,,2020-06-20,74
+606,true,0-9,Antigen self-test,Male,China,,2020-09-05,40
+607,false,90-99,PCR,Male,Russia,,2020-06-12,50
+608,true,90-99,Rapid antigen,Male,Jordan,,2020-10-27,1
+609,true,50-59,Rapid antigen,Female,Uganda,,2020-04-17,78
+610,true,10-19,Antigen self-test,Female,Thailand,,2020-05-06,61
+611,false,30-39,Antigen self-test,Male,Nigeria,,2021-08-01,48
+612,true,80-89,PCR,Male,Russia,,2021-04-15,72
+613,true,80-89,Antigen self-test,Male,China,,2020-12-07,18
+614,false,90-99,PCR,Male,Sierra Leone,,2021-01-22,95
+615,true,40-49,PCR,Female,Palau,,2020-10-03,72
+616,false,0-9,Antigen self-test,Male,Iran,,2021-01-26,68
+617,false,90-99,Rapid antigen,Female,Liberia,,2020-07-01,14
+618,false,70-79,PCR,Female,Pakistan,,2020-06-19,85
+619,true,50-59,Antigen self-test,Male,Philippines,,2021-11-08,80
+620,false,90-99,Rapid antigen,Female,Cyprus,,2021-12-01,92
+621,false,70-79,PCR,Male,China,,2020-09-04,19
+622,false,0-9,Rapid antigen,Male,Indonesia,,2021-12-12,87
+623,false,100+,PCR,Female,Indonesia,,2020-01-21,72
+624,false,60-69,Antigen self-test,Female,Philippines,,2021-07-04,28
+625,false,60-69,PCR,Female,Colombia,,2021-12-30,52
+626,false,50-59,Rapid antigen,Male,Thailand,,2021-10-12,9
+627,false,0-9,Rapid antigen,Female,Poland,,2021-03-13,87
+628,true,80-89,Rapid antigen,Female,Sweden,Stockholm,2020-12-12,20
+629,false,60-69,Antigen self-test,Male,Indonesia,,2021-11-03,64
+630,false,60-69,Antigen self-test,Male,Russia,,2021-08-02,68
+631,true,40-49,Rapid antigen,Female,Kenya,,2021-09-25,74
+632,false,80-89,PCR,Female,Cuba,,2021-09-07,57
+633,true,40-49,Rapid antigen,Female,Slovenia,,2020-01-03,77
+634,true,0-9,PCR,Male,Philippines,,2020-04-08,57
+635,true,90-99,PCR,Female,Indonesia,,2021-11-04,25
+636,false,80-89,PCR,Female,Poland,,2020-05-13,16
+637,false,80-89,Rapid antigen,Male,Switzerland,Kanton Basel-Stadt,2020-09-04,6
+638,true,70-79,Rapid antigen,Female,China,,2021-09-16,99
+639,false,70-79,Rapid antigen,Female,Peru,,2021-12-03,56
+640,true,40-49,PCR,Male,Indonesia,,2021-02-12,42
+641,false,10-19,Antigen self-test,Male,Portugal,Ilha do Pico,2020-06-27,21
+642,true,40-49,Rapid antigen,Male,Finland,,2020-06-03,38
+643,false,10-19,PCR,Male,China,,2020-12-04,71
+644,false,30-39,Antigen self-test,Male,Indonesia,,2021-01-16,63
+645,false,0-9,Rapid antigen,Female,Central African Republic,,2020-11-11,6
+646,false,50-59,PCR,Male,Russia,,2021-09-04,66
+647,true,40-49,PCR,Male,Russia,,2020-02-06,45
+648,true,100+,Rapid antigen,Female,Russia,,2020-04-21,79
+649,false,10-19,Rapid antigen,Male,Russia,,2020-09-12,70
+650,true,100+,PCR,Female,Ivory Coast,,2020-07-14,9
+651,true,90-99,PCR,Female,Sri Lanka,,2020-01-01,41
+652,true,10-19,Rapid antigen,Female,Indonesia,,2020-09-12,70
+653,true,60-69,Antigen self-test,Male,South Africa,,2021-03-21,78
+654,true,10-19,Rapid antigen,Male,Cuba,,2021-10-28,57
+655,true,30-39,PCR,Female,China,,2021-02-27,18
+656,true,50-59,PCR,Male,Japan,,2021-01-09,8
+657,true,60-69,PCR,Male,Philippines,,2021-11-15,29
+658,false,30-39,PCR,Male,Indonesia,,2021-09-03,65
+659,true,80-89,Antigen self-test,Male,Indonesia,,2021-05-24,20
+660,false,70-79,Rapid antigen,Female,Philippines,,2021-10-12,77
+661,true,100+,PCR,Female,China,,2021-08-10,93
+662,false,80-89,Rapid antigen,Female,Oman,,2021-04-18,91
+663,false,80-89,Rapid antigen,Female,Uruguay,,2021-08-01,90
+664,false,70-79,PCR,Female,Brazil,,2020-02-22,61
+665,true,100+,Rapid antigen,Female,Czech Republic,,2021-07-12,100
+666,false,20-29,PCR,Female,Colombia,,2020-08-06,64
+667,false,80-89,PCR,Male,China,,2021-03-01,51
+668,false,50-59,Rapid antigen,Female,China,,2020-01-17,97
+669,false,80-89,PCR,Female,South Africa,,2021-09-11,82
+670,false,50-59,Rapid antigen,Male,China,,2021-01-14,8
+671,false,80-89,Rapid antigen,Male,Indonesia,,2021-08-18,12
+672,false,10-19,PCR,Male,Serbia,,2021-04-05,74
+673,false,20-29,Antigen self-test,Male,Czech Republic,,2021-12-22,16
+674,false,40-49,Rapid antigen,Male,Philippines,,2020-05-21,52
+675,false,40-49,PCR,Female,United States,Texas,2021-11-07,45
+676,true,10-19,PCR,Male,Indonesia,,2020-10-11,23
+677,true,30-39,PCR,Female,France,Île-de-France,2020-08-28,32
+678,true,80-89,Antigen self-test,Female,Slovenia,,2020-08-10,95
+679,false,50-59,PCR,Female,Philippines,,2020-12-04,46
+680,false,70-79,Rapid antigen,Male,Ukraine,,2021-08-27,1
+681,true,40-49,Rapid antigen,Male,Poland,,2021-02-15,69
+682,false,30-39,PCR,Male,China,,2020-03-14,26
+683,false,100+,PCR,Male,Japan,,2020-01-23,72
+684,true,100+,Rapid antigen,Male,Russia,,2020-09-28,48
+685,false,50-59,PCR,Female,Madagascar,,2020-03-10,30
+686,true,50-59,Rapid antigen,Female,Aruba,,2021-06-15,62
+687,true,50-59,PCR,Female,United States,Arkansas,2021-11-18,4
+688,true,70-79,Antigen self-test,Male,China,,2021-08-13,51
+689,false,100+,PCR,Male,Ukraine,,2021-10-14,13
+690,true,80-89,Rapid antigen,Female,Bulgaria,,2020-12-15,80
+691,true,30-39,Antigen self-test,Female,Portugal,Setúbal,2020-09-27,87
+692,false,30-39,PCR,Female,Cuba,,2021-09-27,34
+693,true,0-9,PCR,Female,China,,2021-05-18,14
+694,false,0-9,Antigen self-test,Male,Portugal,Porto,2021-11-19,62
+695,true,30-39,Antigen self-test,Female,Pakistan,,2020-03-13,20
+696,false,100+,Antigen self-test,Male,Philippines,,2020-10-01,18
+697,true,30-39,PCR,Male,Morocco,,2021-06-27,15
+698,true,20-29,Antigen self-test,Female,Iran,,2020-04-20,26
+699,true,0-9,Antigen self-test,Male,China,,2020-09-29,69
+700,true,50-59,Rapid antigen,Female,Colombia,,2021-12-11,52
+701,false,90-99,PCR,Female,Myanmar,,2020-12-10,94
+702,false,80-89,PCR,Female,Paraguay,,2021-01-25,56
+703,true,70-79,Antigen self-test,Female,China,,2020-02-11,94
+704,true,100+,PCR,Male,France,Île-de-France,2020-10-28,66
+705,true,0-9,Rapid antigen,Female,China,,2021-05-13,16
+706,false,20-29,Rapid antigen,Female,Colombia,,2021-07-30,10
+707,false,70-79,PCR,Female,Indonesia,,2020-10-05,21
+708,false,10-19,Rapid antigen,Male,Russia,,2021-03-02,67
+709,false,100+,Rapid antigen,Male,Indonesia,,2020-07-15,32
+710,true,100+,Rapid antigen,Male,Pakistan,,2021-08-09,43
+711,false,70-79,Antigen self-test,Female,Sweden,Stockholm,2021-04-25,31
+712,false,60-69,Rapid antigen,Male,Brazil,,2021-12-09,76
+713,true,0-9,Rapid antigen,Male,Gambia,,2020-04-21,62
+714,false,70-79,Rapid antigen,Male,Brazil,,2021-06-05,1
+715,true,100+,Rapid antigen,Male,Serbia,,2021-12-08,7
+716,true,90-99,Rapid antigen,Male,Portugal,Guarda,2021-05-30,25
+717,true,30-39,Antigen self-test,Male,China,,2020-04-11,25
+718,true,40-49,PCR,Female,Palestinian Territory,,2021-06-16,51
+719,false,20-29,Antigen self-test,Male,Brazil,,2020-08-16,98
+720,true,60-69,Rapid antigen,Female,Indonesia,,2021-12-19,8
+721,false,30-39,PCR,Male,Guatemala,,2020-03-29,91
+722,false,50-59,Rapid antigen,Male,Israel,,2020-12-08,17
+723,false,0-9,Rapid antigen,Male,Panama,,2020-05-30,17
+724,false,0-9,PCR,Female,Dominica,,2021-11-03,54
+725,false,30-39,Rapid antigen,Female,Indonesia,,2021-09-21,73
+726,false,10-19,Antigen self-test,Male,Greece,,2020-10-19,45
+727,true,60-69,Antigen self-test,Male,Japan,,2020-08-25,57
+728,false,20-29,Rapid antigen,Male,Portugal,Santarém,2020-03-01,35
+729,true,50-59,Antigen self-test,Female,Finland,,2020-02-23,4
+730,true,50-59,Antigen self-test,Female,Russia,,2021-07-27,97
+731,true,60-69,Antigen self-test,Male,Norway,Nordland,2020-07-06,8
+732,false,100+,Rapid antigen,Female,Canada,Québec,2020-08-01,82
+733,false,10-19,Rapid antigen,Female,China,,2020-03-01,55
+734,true,60-69,PCR,Female,China,,2020-01-26,6
+735,true,30-39,Rapid antigen,Male,United States,Colorado,2021-08-28,68
+736,false,50-59,Rapid antigen,Male,Chad,,2020-08-07,48
+737,true,100+,Antigen self-test,Female,Portugal,Braga,2020-11-20,72
+738,false,10-19,Rapid antigen,Female,China,,2020-05-24,50
+739,false,10-19,PCR,Male,Russia,,2020-03-27,98
+740,false,70-79,Antigen self-test,Male,Indonesia,,2020-08-16,72
+741,false,10-19,PCR,Female,Philippines,,2020-04-06,50
+742,true,90-99,Rapid antigen,Female,Dominican Republic,,2021-08-10,14
+743,false,60-69,Antigen self-test,Female,Russia,,2021-05-16,32
+744,false,30-39,Antigen self-test,Male,United States,Florida,2021-01-10,34
+745,true,40-49,PCR,Female,China,,2020-09-07,22
+746,false,50-59,PCR,Female,Indonesia,,2020-06-02,18
+747,true,10-19,PCR,Female,China,,2021-10-20,41
+748,true,90-99,PCR,Female,Bahamas,,2020-04-20,73
+749,false,20-29,PCR,Female,France,Bretagne,2020-02-12,31
+750,false,90-99,Rapid antigen,Male,China,,2020-01-29,86
+751,true,90-99,Antigen self-test,Female,United States,Texas,2020-06-29,62
+752,true,80-89,Rapid antigen,Female,Philippines,,2021-05-07,22
+753,true,80-89,Antigen self-test,Male,China,,2021-01-24,72
+754,true,0-9,Antigen self-test,Female,Indonesia,,2020-08-04,43
+755,true,20-29,Rapid antigen,Female,Albania,,2020-03-25,30
+756,false,50-59,PCR,Male,Philippines,,2021-07-05,77
+757,true,0-9,PCR,Female,Armenia,,2020-04-14,26
+758,false,40-49,PCR,Male,Greece,,2021-04-19,1
+759,true,60-69,Rapid antigen,Male,Brazil,,2020-09-14,42
+760,false,0-9,Antigen self-test,Female,Afghanistan,,2020-11-15,71
+761,false,30-39,PCR,Male,France,Rhône-Alpes,2021-09-15,9
+762,false,50-59,PCR,Female,Bulgaria,,2020-06-21,41
+763,false,50-59,Rapid antigen,Female,France,Île-de-France,2020-02-04,86
+764,false,80-89,Rapid antigen,Male,Ireland,,2021-05-12,76
+765,false,70-79,Antigen self-test,Male,China,,2021-01-16,76
+766,true,60-69,Rapid antigen,Female,Indonesia,,2021-10-02,55
+767,false,40-49,PCR,Male,Philippines,,2021-03-16,94
+768,true,50-59,Rapid antigen,Female,Indonesia,,2021-10-18,52
+769,true,80-89,Rapid antigen,Male,Indonesia,,2020-12-26,49
+770,false,60-69,PCR,Female,Portugal,Coimbra,2021-02-24,93
+771,true,50-59,PCR,Male,China,,2020-08-09,5
+772,false,100+,Antigen self-test,Female,Mexico,Veracruz Llave,2021-04-09,2
+773,false,50-59,Antigen self-test,Female,China,,2021-10-11,23
+774,true,0-9,PCR,Female,Portugal,Portalegre,2020-10-20,14
+775,false,70-79,PCR,Male,Thailand,,2021-04-09,45
+776,false,100+,PCR,Male,China,,2020-10-24,67
+777,true,40-49,PCR,Male,Greece,,2020-12-02,41
+778,true,0-9,PCR,Female,China,,2021-05-23,82
+779,true,70-79,PCR,Female,Serbia,,2021-02-06,76
+780,false,0-9,Rapid antigen,Female,Brazil,,2021-02-17,72
+781,false,10-19,Antigen self-test,Male,Tunisia,,2021-07-30,51
+782,false,40-49,Antigen self-test,Female,Sweden,Västra Götaland,2020-07-24,4
+783,false,0-9,Antigen self-test,Male,Serbia,,2021-10-12,73
+784,false,90-99,Rapid antigen,Male,Russia,,2020-07-13,70
+785,true,50-59,Antigen self-test,Male,Switzerland,Canton de Genève,2021-05-19,99
+786,true,0-9,PCR,Male,China,,2021-01-28,70
+787,false,40-49,Antigen self-test,Male,Malaysia,Pahang,2020-10-05,35
+788,true,70-79,Antigen self-test,Female,Brazil,,2020-06-16,69
+789,false,40-49,Rapid antigen,Male,United States,Oregon,2021-02-11,66
+790,false,80-89,PCR,Female,China,,2021-10-28,92
+791,false,90-99,PCR,Female,France,Centre,2021-12-22,17
+792,true,30-39,Rapid antigen,Female,Colombia,,2020-05-17,54
+793,true,10-19,PCR,Male,South Africa,,2021-10-29,64
+794,true,90-99,PCR,Female,Palestinian Territory,,2020-04-28,50
+795,false,70-79,Antigen self-test,Male,Serbia,,2021-01-31,17
+796,false,40-49,Antigen self-test,Male,Uzbekistan,,2020-12-29,93
+797,true,80-89,Antigen self-test,Male,Nigeria,,2020-10-06,96
+798,false,80-89,Rapid antigen,Male,Poland,,2021-07-26,76
+799,true,80-89,Antigen self-test,Female,Argentina,,2021-05-28,41
+800,false,10-19,PCR,Female,Bosnia and Herzegovina,,2020-10-10,16
+801,false,60-69,PCR,Male,Afghanistan,,2021-01-05,50
+802,false,80-89,PCR,Male,Philippines,,2020-11-01,13
+803,false,0-9,PCR,Female,China,,2021-11-19,62
+804,true,40-49,Antigen self-test,Female,China,,2021-05-12,47
+805,false,30-39,Rapid antigen,Female,Syria,,2021-12-07,74
+806,true,70-79,PCR,Male,Colombia,,2021-11-10,28
+807,true,40-49,PCR,Female,China,,2020-09-10,8
+808,true,40-49,Rapid antigen,Male,Indonesia,,2020-10-23,93
+809,false,90-99,Antigen self-test,Male,China,,2020-10-25,66
+810,false,0-9,Rapid antigen,Female,Brazil,,2021-10-11,89
+811,true,40-49,PCR,Male,Slovenia,,2020-07-25,1
+812,true,80-89,Antigen self-test,Female,Sweden,Västerbotten,2021-11-13,13
+813,true,70-79,PCR,Male,Ireland,,2021-05-19,63
+814,false,90-99,PCR,Male,China,,2020-04-25,85
+815,true,60-69,Rapid antigen,Female,Norway,Hordaland,2020-07-01,50
+816,false,100+,PCR,Female,Brazil,,2021-03-14,90
+817,true,60-69,PCR,Male,Pakistan,,2020-12-06,29
+818,true,40-49,PCR,Female,Indonesia,,2020-08-20,18
+819,true,100+,Rapid antigen,Female,Azerbaijan,,2020-09-03,88
+820,true,50-59,PCR,Male,Sweden,Skåne,2021-02-08,63
+821,false,30-39,Antigen self-test,Male,Brazil,,2021-09-16,83
+822,true,0-9,Antigen self-test,Female,Syria,,2020-10-28,32
+823,false,90-99,PCR,Male,Nicaragua,,2021-10-15,40
+824,true,100+,PCR,Male,Colombia,,2021-07-12,31
+825,true,20-29,Rapid antigen,Male,Afghanistan,,2020-06-08,4
+826,false,30-39,PCR,Female,Russia,,2021-11-09,44
+827,true,0-9,Antigen self-test,Female,Indonesia,,2020-01-03,15
+828,true,80-89,Antigen self-test,Male,Argentina,,2020-09-10,57
+829,true,70-79,PCR,Male,United States,Virginia,2020-10-15,29
+830,false,20-29,Rapid antigen,Female,Thailand,,2021-07-13,33
+831,true,20-29,Rapid antigen,Male,Ukraine,,2021-03-18,65
+832,true,90-99,Antigen self-test,Male,Portugal,Braga,2020-11-22,74
+833,true,0-9,PCR,Male,Indonesia,,2021-05-10,57
+834,true,40-49,Rapid antigen,Female,Bosnia and Herzegovina,,2021-01-17,43
+835,true,80-89,Antigen self-test,Male,China,,2021-11-29,33
+836,false,40-49,Rapid antigen,Male,Nigeria,,2021-11-19,77
+837,true,60-69,PCR,Female,Philippines,,2020-10-26,89
+838,true,10-19,Antigen self-test,Female,Philippines,,2020-03-15,12
+839,false,20-29,Rapid antigen,Male,China,,2021-10-29,33
+840,false,70-79,Antigen self-test,Male,France,Île-de-France,2020-11-29,89
+841,false,20-29,Rapid antigen,Female,Poland,,2020-12-28,83
+842,false,50-59,Antigen self-test,Male,Argentina,,2021-03-18,36
+843,true,10-19,Antigen self-test,Female,Philippines,,2021-11-30,56
+844,false,10-19,Rapid antigen,Male,Canada,Ontario,2020-05-30,58
+845,false,80-89,Antigen self-test,Female,Japan,,2021-08-20,15
+846,true,60-69,Antigen self-test,Female,China,,2020-07-05,5
+847,true,80-89,PCR,Female,Poland,,2020-11-05,64
+848,true,30-39,Rapid antigen,Male,Russia,,2021-02-28,16
+849,true,100+,PCR,Male,Nigeria,,2020-02-05,11
+850,true,90-99,Antigen self-test,Female,France,Île-de-France,2021-12-28,67
+851,true,20-29,Antigen self-test,Female,China,,2021-03-03,43
+852,true,90-99,PCR,Female,Jordan,,2020-08-21,51
+853,false,80-89,PCR,Male,China,,2020-12-06,88
+854,true,20-29,Antigen self-test,Female,China,,2020-01-22,16
+855,true,60-69,Antigen self-test,Male,Peru,,2020-03-31,26
+856,true,60-69,Antigen self-test,Male,Guatemala,,2020-01-02,40
+857,false,80-89,Antigen self-test,Female,China,,2020-05-21,27
+858,false,60-69,Antigen self-test,Male,China,,2020-06-12,66
+859,true,20-29,PCR,Male,China,,2020-08-06,24
+860,false,70-79,Antigen self-test,Female,Indonesia,,2021-03-12,38
+861,true,90-99,PCR,Male,Indonesia,,2021-11-02,38
+862,false,50-59,Antigen self-test,Male,Indonesia,,2020-10-03,37
+863,true,10-19,Antigen self-test,Female,Canada,British Columbia,2021-03-15,52
+864,true,30-39,Rapid antigen,Female,China,,2021-10-09,53
+865,false,100+,Rapid antigen,Female,China,,2020-06-08,34
+866,false,50-59,Antigen self-test,Female,Japan,,2020-04-06,45
+867,false,10-19,PCR,Female,Indonesia,,2020-02-13,71
+868,true,50-59,Antigen self-test,Female,Macedonia,,2020-05-31,70
+869,true,40-49,Rapid antigen,Male,Poland,,2020-04-15,95
+870,false,40-49,Rapid antigen,Male,Indonesia,,2021-09-09,72
+871,false,10-19,Antigen self-test,Male,Colombia,,2020-05-18,91
+872,false,70-79,PCR,Female,Ukraine,,2020-08-31,52
+873,false,80-89,Rapid antigen,Male,Indonesia,,2020-05-07,68
+874,true,30-39,PCR,Female,Philippines,,2021-04-27,12
+875,false,90-99,Rapid antigen,Male,Kazakhstan,,2021-12-19,77
+876,false,10-19,Rapid antigen,Female,Nigeria,,2020-10-09,76
+877,true,0-9,PCR,Male,Guatemala,,2021-04-18,46
+878,false,50-59,Antigen self-test,Male,Indonesia,,2021-08-23,95
+879,false,0-9,PCR,Male,Portugal,Guarda,2021-11-21,58
+880,false,30-39,Rapid antigen,Male,France,Rhône-Alpes,2020-02-04,99
+881,true,100+,Antigen self-test,Male,Indonesia,,2021-04-17,74
+882,true,70-79,PCR,Male,Greece,,2020-09-27,17
+883,false,80-89,Rapid antigen,Female,Japan,,2020-11-09,45
+884,false,60-69,PCR,Female,Vietnam,,2020-06-27,49
+885,false,70-79,Antigen self-test,Male,Mexico,Veracruz Llave,2020-03-13,56
+886,false,100+,Rapid antigen,Female,Croatia,,2021-11-18,20
+887,true,30-39,Rapid antigen,Female,Argentina,,2020-04-01,81
+888,false,30-39,Rapid antigen,Female,Indonesia,,2020-04-09,50
+889,true,70-79,Rapid antigen,Male,Venezuela,,2020-03-27,47
+890,false,20-29,Antigen self-test,Male,Azerbaijan,,2020-03-10,87
+891,true,20-29,Rapid antigen,Female,China,,2021-05-07,28
+892,false,30-39,Antigen self-test,Female,China,,2020-04-26,33
+893,true,70-79,Antigen self-test,Male,Libya,,2020-06-06,15
+894,true,90-99,Rapid antigen,Male,China,,2020-07-23,55
+895,false,0-9,Antigen self-test,Male,China,,2021-07-26,98
+896,true,30-39,Antigen self-test,Female,Russia,,2020-03-31,76
+897,false,10-19,PCR,Female,Philippines,,2021-09-07,30
+898,true,30-39,Rapid antigen,Male,Chile,,2020-10-31,12
+899,false,30-39,Antigen self-test,Female,Sweden,Stockholm,2020-12-28,14
+900,true,80-89,PCR,Male,France,Île-de-France,2021-10-22,9
+901,true,50-59,Antigen self-test,Male,Poland,,2020-10-06,64
+902,false,30-39,PCR,Male,Russia,,2021-01-29,2
+903,true,10-19,Antigen self-test,Male,Finland,,2021-02-08,32
+904,true,60-69,Rapid antigen,Male,China,,2020-07-05,51
+905,false,40-49,Antigen self-test,Female,China,,2021-11-28,66
+906,true,50-59,PCR,Female,Poland,,2021-08-03,60
+907,false,40-49,Rapid antigen,Male,China,,2021-07-18,24
+908,true,90-99,Rapid antigen,Female,Colombia,,2020-06-09,5
+909,false,90-99,PCR,Female,Poland,,2020-12-03,87
+910,false,10-19,Antigen self-test,Male,Indonesia,,2020-03-14,90
+911,true,80-89,Antigen self-test,Male,Portugal,Setúbal,2021-05-16,68
+912,false,40-49,Antigen self-test,Male,China,,2021-03-13,67
+913,true,50-59,Rapid antigen,Male,China,,2021-08-27,88
+914,true,90-99,PCR,Male,Argentina,,2020-12-14,31
+915,true,40-49,PCR,Male,France,Basse-Normandie,2021-09-21,95
+916,true,90-99,PCR,Male,Russia,,2021-05-20,21
+917,true,80-89,Antigen self-test,Male,Azerbaijan,,2020-02-04,19
+918,true,80-89,Rapid antigen,Male,Portugal,Porto,2021-04-03,90
+919,true,60-69,PCR,Male,Palau,,2020-07-17,36
+920,true,50-59,Rapid antigen,Female,Lithuania,,2021-04-27,71
+921,false,90-99,PCR,Female,Slovakia,,2021-07-19,22
+922,true,0-9,Rapid antigen,Female,Russia,,2020-03-11,78
+923,true,30-39,Rapid antigen,Male,Indonesia,,2020-01-22,22
+924,false,10-19,Antigen self-test,Female,Portugal,Viseu,2021-07-23,87
+925,false,70-79,Antigen self-test,Male,Russia,,2021-03-15,45
+926,false,90-99,Antigen self-test,Female,China,,2020-09-21,97
+927,false,30-39,Antigen self-test,Female,Indonesia,,2020-07-12,3
+928,true,80-89,PCR,Male,China,,2021-11-19,55
+929,false,10-19,PCR,Male,Azerbaijan,,2020-04-18,73
+930,false,50-59,Rapid antigen,Female,China,,2021-03-28,24
+931,false,20-29,PCR,Female,Poland,,2021-12-15,38
+932,false,20-29,Rapid antigen,Female,Uganda,,2021-11-13,26
+933,false,70-79,Rapid antigen,Female,China,,2021-09-28,4
+934,false,40-49,Rapid antigen,Female,China,,2021-11-07,21
+935,true,10-19,Rapid antigen,Male,China,,2020-08-24,16
+936,false,100+,Rapid antigen,Female,China,,2021-06-04,72
+937,true,90-99,PCR,Female,Croatia,,2021-01-24,68
+938,false,90-99,Rapid antigen,Female,Indonesia,,2021-03-19,37
+939,false,90-99,PCR,Female,China,,2021-05-17,48
+940,false,0-9,PCR,Male,Indonesia,,2020-06-09,59
+941,false,90-99,Antigen self-test,Male,Philippines,,2020-01-28,46
+942,true,100+,Rapid antigen,Female,Tanzania,,2020-04-23,71
+943,true,10-19,Rapid antigen,Female,Indonesia,,2021-07-19,11
+944,true,100+,Antigen self-test,Female,Mauritius,,2021-09-20,95
+945,false,60-69,Antigen self-test,Female,Brazil,,2021-04-30,51
+946,false,10-19,Rapid antigen,Male,Dominican Republic,,2021-01-01,53
+947,true,60-69,PCR,Male,Indonesia,,2020-10-28,46
+948,false,50-59,Antigen self-test,Male,Vietnam,,2020-09-15,52
+949,true,90-99,Rapid antigen,Male,Greece,,2020-08-13,57
+950,true,60-69,Antigen self-test,Female,Germany,Thüringen,2020-10-30,57
+951,false,30-39,Rapid antigen,Male,Sweden,Stockholm,2021-11-22,26
+952,false,50-59,Rapid antigen,Female,Sweden,Västra Götaland,2021-10-17,40
+953,false,0-9,PCR,Male,Poland,,2020-01-06,51
+954,false,10-19,Rapid antigen,Female,Kazakhstan,,2020-08-07,63
+955,true,90-99,Antigen self-test,Male,Philippines,,2020-05-09,69
+956,false,90-99,Rapid antigen,Female,Russia,,2021-09-25,7
+957,false,40-49,Rapid antigen,Female,China,,2021-02-28,62
+958,false,40-49,Rapid antigen,Female,Argentina,,2020-10-04,45
+959,false,50-59,PCR,Female,Finland,,2020-04-27,11
+960,false,10-19,Antigen self-test,Male,China,,2020-12-08,54
+961,false,30-39,Antigen self-test,Female,Portugal,Porto,2020-12-09,84
+962,true,50-59,Antigen self-test,Female,Macedonia,,2021-03-23,44
+963,false,0-9,Rapid antigen,Male,Thailand,,2021-02-07,59
+964,true,30-39,PCR,Male,Brazil,,2021-03-25,6
+965,true,50-59,Rapid antigen,Female,Russia,,2020-10-20,80
+966,false,20-29,Antigen self-test,Female,United States,New York,2021-09-26,39
+967,false,90-99,PCR,Female,Panama,,2021-11-05,65
+968,false,0-9,PCR,Female,Russia,,2021-11-05,68
+969,false,80-89,Rapid antigen,Male,Argentina,,2020-12-15,82
+970,false,60-69,Rapid antigen,Female,Mexico,Chiapas,2021-05-27,100
+971,true,80-89,Rapid antigen,Male,Mexico,Jalisco,2021-11-22,13
+972,false,50-59,PCR,Female,Nigeria,,2021-04-30,9
+973,false,40-49,Antigen self-test,Female,Indonesia,,2020-07-23,92
+974,false,50-59,Antigen self-test,Female,Greece,,2020-03-10,5
+975,false,30-39,Antigen self-test,Female,Czech Republic,,2021-04-10,55
+976,false,20-29,Rapid antigen,Female,China,,2020-06-02,34
+977,true,70-79,Rapid antigen,Female,Russia,,2021-12-26,66
+978,true,10-19,PCR,Male,China,,2020-08-18,92
+979,false,20-29,Rapid antigen,Male,China,,2021-02-26,81
+980,true,80-89,Rapid antigen,Female,Canada,Alberta,2020-10-27,30
+981,false,80-89,Rapid antigen,Female,Indonesia,,2021-09-23,50
+982,false,100+,Antigen self-test,Male,Peru,,2020-06-08,71
+983,false,10-19,Antigen self-test,Female,Mali,,2021-09-28,85
+984,false,50-59,Rapid antigen,Male,Brazil,,2021-07-06,100
+985,false,80-89,Rapid antigen,Female,Albania,,2021-07-30,54
+986,false,80-89,Antigen self-test,Female,Morocco,,2021-03-04,81
+987,true,10-19,Rapid antigen,Male,Sweden,Norrbotten,2020-06-03,13
+988,true,80-89,Antigen self-test,Male,Thailand,,2020-01-06,73
+989,false,70-79,Rapid antigen,Female,China,,2021-01-28,74
+990,true,70-79,PCR,Male,Brazil,,2021-09-07,66
+991,true,60-69,Antigen self-test,Male,Russia,,2021-01-25,48
+992,true,100+,PCR,Male,Thailand,,2021-11-15,20
+993,false,50-59,PCR,Female,China,,2021-09-24,25
+994,true,20-29,Rapid antigen,Male,Colombia,,2020-03-28,80
+995,true,30-39,PCR,Female,Poland,,2020-03-06,93
+996,true,10-19,PCR,Female,Germany,Hessen,2020-08-04,81
+997,true,50-59,Antigen self-test,Male,China,,2020-07-08,4
+998,false,60-69,Rapid antigen,Female,China,,2021-11-22,25
+999,true,70-79,Rapid antigen,Male,Indonesia,,2020-09-29,56
+1000,false,80-89,Rapid antigen,Female,Brazil,,2020-01-03,87

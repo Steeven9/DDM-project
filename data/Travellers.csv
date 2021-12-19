@@ -1,0 +1,1001 @@
+id,from_country,to_country,infected,date,certified_by
+1,Indonesia,Russia,0.25,2020-01-11,19
+2,China,United Kingdom,0.02,2021-07-09,9
+3,Thailand,Portugal,0.1,2020-06-15,59
+4,South Korea,Indonesia,0.87,2020-03-04,96
+5,Greece,Indonesia,0.44,2020-09-13,78
+6,Syria,France,0.58,2020-11-11,51
+7,France,Indonesia,0.44,2021-08-12,56
+8,United States,China,0.28,2020-07-07,21
+9,Russia,Poland,0.22,2021-10-22,65
+10,Russia,Sweden,0.92,2021-07-16,32
+11,Poland,Japan,0.84,2020-01-21,29
+12,Indonesia,China,0.21,2020-03-30,10
+13,Indonesia,Philippines,0.14,2020-10-25,86
+14,Peru,China,0.23,2020-01-26,70
+15,China,China,0.02,2021-09-05,84
+16,Albania,Libya,0.12,2020-06-26,40
+17,Nigeria,Tunisia,0.94,2021-09-28,36
+18,Russia,Poland,0.56,2020-06-01,4
+19,Czech Republic,Indonesia,0.07,2021-02-05,93
+20,Portugal,Indonesia,0.53,2021-06-08,94
+21,Indonesia,China,0.39,2021-03-25,47
+22,China,China,0.48,2021-01-01,47
+23,Indonesia,Colombia,0.76,2020-12-24,85
+24,Poland,Portugal,0.3,2021-04-03,34
+25,Philippines,China,0.25,2021-06-09,89
+26,Poland,Philippines,0.48,2020-08-10,57
+27,South Africa,Sweden,0.78,2021-04-13,15
+28,Georgia,Jamaica,0.23,2020-03-02,82
+29,Indonesia,Mexico,0.94,2020-09-18,54
+30,Peru,Poland,0.51,2021-11-03,59
+31,China,Indonesia,0.36,2021-01-30,10
+32,Guatemala,China,0.93,2020-01-13,89
+33,France,China,0.38,2021-10-18,52
+34,Poland,Indonesia,0.55,2021-12-05,81
+35,Peru,Indonesia,0.25,2021-01-19,22
+36,Haiti,Russia,0.95,2021-05-22,87
+37,France,Algeria,0.66,2020-05-13,69
+38,Indonesia,Ukraine,0.38,2021-12-25,13
+39,Philippines,China,0.29,2021-10-21,44
+40,China,Sweden,0.22,2020-04-14,43
+41,China,Kazakhstan,0.27,2021-12-09,73
+42,China,Indonesia,0.75,2021-09-15,1
+43,Slovenia,China,0.18,2021-10-23,21
+44,Vietnam,Poland,0.16,2020-07-25,49
+45,Gambia,Sudan,0.89,2021-02-14,11
+46,Brazil,Azerbaijan,0.54,2020-12-20,21
+47,Argentina,Thailand,0.79,2020-12-12,92
+48,Dominican Republic,Lebanon,0.66,2021-09-18,20
+49,Russia,China,0.83,2021-05-15,35
+50,Armenia,South Sudan,0.7,2021-11-13,91
+51,China,Bolivia,0.79,2021-01-08,4
+52,Portugal,Philippines,0.0,2020-06-17,54
+53,China,Ethiopia,0.68,2021-05-22,68
+54,Portugal,Philippines,0.59,2021-02-17,2
+55,China,Indonesia,0.01,2020-05-22,65
+56,Argentina,Argentina,0.67,2020-01-01,90
+57,United States,South Africa,0.6,2020-05-02,19
+58,Mexico,Colombia,0.9,2020-12-02,53
+59,Philippines,Russia,0.99,2020-12-24,64
+60,Russia,Iran,0.29,2021-05-22,45
+61,Indonesia,Canada,0.74,2021-07-20,11
+62,Sweden,Greece,0.28,2021-02-05,79
+63,China,Indonesia,0.37,2020-06-20,3
+64,China,Mexico,0.78,2021-04-04,89
+65,Indonesia,China,0.4,2021-05-26,18
+66,Russia,United States,0.54,2021-07-21,38
+67,Venezuela,Poland,0.21,2020-07-01,21
+68,Russia,Bulgaria,0.48,2021-08-09,36
+69,Indonesia,Indonesia,0.33,2021-06-08,34
+70,China,Thailand,0.21,2021-01-15,15
+71,Bosnia and Herzegovina,Palestinian Territory,0.02,2020-03-26,55
+72,Canada,Portugal,0.39,2021-09-09,69
+73,Indonesia,Japan,0.25,2021-06-27,72
+74,Peru,Armenia,0.47,2020-12-30,11
+75,Portugal,Colombia,0.57,2020-02-05,60
+76,Portugal,Russia,0.87,2020-12-11,19
+77,Philippines,Myanmar,0.9,2021-04-28,7
+78,China,China,0.79,2021-07-20,39
+79,China,Philippines,0.09,2020-10-02,90
+80,Indonesia,Lithuania,0.14,2021-10-14,60
+81,Poland,China,0.74,2021-11-23,50
+82,Japan,Macedonia,0.48,2021-07-27,51
+83,Colombia,Albania,0.38,2021-01-16,15
+84,Russia,Argentina,0.44,2020-01-15,59
+85,Indonesia,Poland,0.03,2021-01-11,5
+86,United States,Colombia,0.59,2020-04-14,81
+87,Iran,New Zealand,0.03,2021-12-11,61
+88,Philippines,China,0.33,2021-07-24,17
+89,Latvia,Russia,0.42,2021-03-21,6
+90,Honduras,Ireland,0.49,2021-11-11,89
+91,Poland,Philippines,0.64,2021-12-07,81
+92,Czech Republic,Malaysia,0.8,2021-07-22,80
+93,Russia,South Africa,0.7,2021-02-20,31
+94,China,Nigeria,0.03,2020-11-26,12
+95,Japan,Central African Republic,0.12,2021-08-20,6
+96,United States,China,0.46,2021-02-20,90
+97,China,Mexico,0.91,2021-05-25,56
+98,Belarus,China,0.4,2021-05-07,58
+99,China,Sweden,0.75,2020-09-10,8
+100,Belarus,China,0.43,2021-06-04,28
+101,China,Venezuela,0.49,2020-06-29,61
+102,China,Poland,0.82,2021-06-26,61
+103,Chad,Nigeria,0.47,2021-09-09,34
+104,Israel,Peru,0.33,2021-02-17,26
+105,Poland,Pakistan,0.0,2021-09-10,38
+106,Palestinian Territory,China,0.01,2021-12-05,92
+107,Canada,Philippines,0.08,2021-07-01,81
+108,Croatia,China,0.17,2020-09-10,54
+109,China,France,0.22,2020-02-14,5
+110,United States,China,0.46,2020-05-09,76
+111,Madagascar,Madagascar,0.95,2021-06-25,81
+112,Argentina,Sweden,0.87,2021-02-01,25
+113,China,Chile,0.18,2021-05-03,48
+114,Russia,Czech Republic,0.49,2021-12-30,38
+115,Israel,Portugal,0.33,2020-01-09,85
+116,Russia,Indonesia,0.11,2021-09-08,55
+117,Philippines,Philippines,0.89,2021-01-17,18
+118,Bangladesh,Indonesia,0.81,2020-03-17,39
+119,Sweden,Russia,0.92,2021-10-19,44
+120,Thailand,Bulgaria,0.17,2020-06-25,96
+121,Haiti,Gambia,0.28,2020-03-25,63
+122,Honduras,Western Sahara,0.5,2021-07-11,94
+123,Czech Republic,Thailand,0.3,2021-07-11,36
+124,Slovenia,Brazil,0.78,2021-07-30,33
+125,Pakistan,Philippines,0.16,2020-03-10,47
+126,Nigeria,Malta,0.08,2020-05-07,22
+127,United States,Honduras,0.14,2020-12-23,70
+128,Portugal,Pakistan,0.6,2020-07-08,13
+129,Brazil,France,0.66,2020-12-01,73
+130,Mexico,Indonesia,0.88,2021-09-29,16
+131,Russia,China,0.13,2021-10-07,75
+132,Indonesia,Japan,0.33,2021-09-29,80
+133,Indonesia,Panama,0.8,2021-10-16,61
+134,Czech Republic,China,0.14,2020-11-07,25
+135,Djibouti,Botswana,0.02,2021-11-13,13
+136,Grenada,United States,0.86,2021-06-09,85
+137,Venezuela,China,0.03,2021-06-13,54
+138,Poland,China,0.08,2020-03-19,43
+139,China,China,0.25,2020-02-29,94
+140,China,Canada,0.41,2020-08-31,71
+141,China,Japan,0.76,2020-11-24,7
+142,Bolivia,Indonesia,0.93,2020-06-04,100
+143,Russia,Canada,0.99,2020-07-19,29
+144,Cuba,Indonesia,0.49,2021-12-17,83
+145,New Zealand,Gabon,0.68,2021-05-04,46
+146,China,Sweden,0.02,2020-11-22,41
+147,Honduras,South Africa,0.3,2020-01-13,73
+148,Indonesia,Sweden,0.64,2021-11-20,27
+149,Indonesia,India,0.94,2021-09-08,53
+150,Indonesia,Greece,0.11,2020-12-24,30
+151,France,Kosovo,0.22,2021-12-23,4
+152,Cameroon,Russia,0.48,2021-03-19,85
+153,Portugal,China,0.71,2021-12-06,32
+154,United States,Russia,0.44,2020-10-13,35
+155,Thailand,Indonesia,0.91,2020-04-16,64
+156,Indonesia,Yemen,0.32,2021-03-09,52
+157,Russia,Luxembourg,0.06,2020-05-24,68
+158,Peru,China,0.83,2020-05-25,78
+159,France,Syria,0.53,2020-09-14,79
+160,Colombia,China,0.35,2021-03-06,88
+161,Nigeria,China,0.31,2021-01-29,16
+162,Russia,Ethiopia,0.34,2020-04-28,70
+163,Sierra Leone,China,0.46,2021-04-04,16
+164,China,Finland,0.0,2020-04-17,10
+165,China,China,0.07,2021-09-06,30
+166,Poland,Afghanistan,0.02,2020-05-11,32
+167,Philippines,Netherlands,0.72,2021-11-25,44
+168,China,France,0.26,2021-01-10,6
+169,China,Japan,0.37,2021-10-12,9
+170,Nigeria,China,0.99,2020-11-28,2
+171,Jordan,Indonesia,0.13,2020-11-01,32
+172,Czech Republic,Papua New Guinea,0.35,2020-02-06,33
+173,Russia,China,0.27,2021-02-21,40
+174,Greece,China,0.11,2020-12-23,23
+175,Russia,Portugal,0.68,2021-04-23,100
+176,Brazil,Indonesia,0.7,2020-10-22,52
+177,Thailand,Sweden,0.55,2020-12-05,41
+178,Philippines,China,0.66,2020-03-18,81
+179,Thailand,China,0.25,2021-08-14,6
+180,Botswana,France,0.32,2020-06-27,86
+181,Indonesia,Latvia,0.85,2021-05-29,53
+182,Portugal,China,0.1,2020-08-11,74
+183,China,Rwanda,0.12,2020-11-21,73
+184,China,Mexico,0.81,2021-02-02,1
+185,Albania,Sweden,0.16,2020-02-12,52
+186,Oman,Germany,0.63,2021-09-10,60
+187,China,France,0.86,2020-04-29,68
+188,China,Japan,0.12,2021-07-01,8
+189,New Zealand,China,0.3,2020-03-11,99
+190,Armenia,China,0.79,2020-08-12,75
+191,Turkmenistan,Kazakhstan,0.84,2021-10-29,23
+192,Mexico,Indonesia,0.26,2021-03-17,91
+193,Ethiopia,Vietnam,0.05,2021-05-28,90
+194,Philippines,Sweden,0.49,2021-10-07,60
+195,Greece,China,0.24,2020-12-19,81
+196,Egypt,Cuba,0.33,2021-03-03,58
+197,China,Armenia,0.46,2021-12-25,64
+198,Brazil,Brazil,0.73,2021-09-18,66
+199,Czech Republic,Czech Republic,0.99,2020-06-08,85
+200,China,Russia,0.69,2021-11-11,44
+201,China,Ethiopia,0.38,2020-02-23,19
+202,Russia,China,0.77,2020-10-18,85
+203,Philippines,Philippines,0.54,2021-10-13,5
+204,Russia,Netherlands,0.65,2020-07-01,48
+205,Norway,China,0.3,2020-04-16,27
+206,China,Japan,0.48,2021-11-28,87
+207,China,Philippines,0.12,2021-11-16,65
+208,Armenia,China,0.99,2020-11-05,88
+209,China,Dominican Republic,0.65,2020-06-16,79
+210,Syria,Botswana,0.08,2020-08-14,51
+211,Russia,Sweden,0.97,2021-06-05,43
+212,Canada,United States,0.45,2021-02-06,33
+213,Czech Republic,Indonesia,0.44,2021-11-20,91
+214,Iraq,Argentina,0.55,2020-07-02,16
+215,China,Russia,0.77,2020-04-13,19
+216,Portugal,Russia,0.06,2020-07-27,67
+217,Philippines,Madagascar,0.06,2020-03-06,13
+218,Indonesia,South Africa,0.31,2021-05-31,4
+219,Ukraine,Costa Rica,0.98,2020-01-31,67
+220,Malta,Serbia,0.91,2020-02-09,14
+221,Peru,Brazil,0.52,2020-11-18,74
+222,Russia,Finland,0.13,2021-12-27,72
+223,Azerbaijan,Tunisia,0.79,2020-04-03,92
+224,China,Cambodia,0.94,2021-09-02,76
+225,Russia,Honduras,0.5,2021-06-28,99
+226,Brazil,Russia,0.68,2020-06-01,44
+227,Sweden,Portugal,0.04,2020-06-30,29
+228,Moldova,China,0.9,2020-09-01,8
+229,Indonesia,China,0.66,2020-04-03,84
+230,China,China,0.24,2020-01-24,10
+231,United States,China,0.8,2021-04-12,97
+232,Indonesia,Indonesia,0.83,2020-10-02,37
+233,Philippines,Indonesia,0.92,2021-06-18,2
+234,Indonesia,Argentina,0.68,2021-10-12,84
+235,Spain,China,0.1,2021-04-10,34
+236,Nicaragua,Indonesia,0.34,2021-04-21,93
+237,Ireland,Russia,0.98,2021-11-14,40
+238,Indonesia,Thailand,0.37,2020-01-12,72
+239,China,Argentina,0.87,2020-02-09,13
+240,China,Czech Republic,0.65,2021-05-30,32
+241,Russia,France,0.39,2021-07-25,4
+242,China,Chad,0.24,2020-09-11,36
+243,China,Poland,0.33,2021-11-26,23
+244,Jordan,Indonesia,0.01,2020-10-24,46
+245,Brazil,Indonesia,0.32,2021-04-04,89
+246,Egypt,Poland,0.19,2020-10-11,3
+247,Russia,Indonesia,0.16,2021-07-04,84
+248,United States,Philippines,0.32,2020-09-23,51
+249,Indonesia,China,0.47,2020-03-21,53
+250,Sweden,Sweden,0.93,2021-11-26,91
+251,Kosovo,United States,0.29,2020-09-08,1
+252,France,Guatemala,0.54,2021-02-22,39
+253,Brazil,Brazil,0.21,2021-03-26,49
+254,Uganda,Azerbaijan,0.21,2020-02-22,72
+255,China,China,0.91,2021-07-08,26
+256,Serbia,China,0.53,2020-02-04,66
+257,Sweden,Hong Kong,0.35,2020-09-08,36
+258,Colombia,Australia,0.83,2020-01-23,72
+259,China,China,0.62,2021-09-17,9
+260,Kosovo,Indonesia,0.72,2021-09-26,82
+261,China,Greece,0.1,2020-02-16,35
+262,Pakistan,Gambia,0.19,2021-01-02,81
+263,China,Australia,0.32,2020-06-28,74
+264,China,Jamaica,0.42,2021-01-18,14
+265,China,Indonesia,0.42,2020-11-16,54
+266,Portugal,Bangladesh,0.93,2021-11-04,51
+267,China,Uzbekistan,0.41,2021-01-09,94
+268,Mongolia,Bangladesh,0.92,2021-08-10,91
+269,Peru,Indonesia,0.77,2021-01-25,75
+270,Swaziland,Thailand,0.18,2021-12-08,88
+271,Portugal,Cuba,0.42,2021-12-10,85
+272,Uganda,China,0.2,2021-08-03,68
+273,Argentina,China,0.13,2020-10-24,50
+274,Argentina,China,0.0,2021-11-21,41
+275,Indonesia,Mexico,0.92,2020-12-01,22
+276,Japan,Portugal,0.49,2021-02-07,74
+277,Portugal,Poland,0.6,2021-09-19,33
+278,China,Japan,0.95,2020-08-23,3
+279,South Africa,Philippines,0.47,2020-12-01,23
+280,Indonesia,Nepal,0.03,2020-10-29,20
+281,Tajikistan,United States,0.79,2021-11-02,10
+282,Norway,China,0.91,2021-09-22,65
+283,Portugal,Iran,0.94,2021-03-07,53
+284,China,Sweden,0.82,2020-05-04,49
+285,Sweden,Spain,0.28,2020-11-20,19
+286,Sweden,Argentina,0.43,2021-07-31,83
+287,Ukraine,Portugal,0.04,2021-02-08,45
+288,Ukraine,Japan,0.95,2021-05-25,56
+289,Peru,Russia,0.5,2021-07-12,98
+290,Indonesia,United States,0.2,2020-03-11,86
+291,Indonesia,China,0.41,2021-10-23,55
+292,Greece,United States,0.99,2020-11-25,56
+293,Nigeria,Philippines,0.08,2020-10-03,64
+294,Palestinian Territory,Palestinian Territory,0.59,2020-04-18,8
+295,Norway,Netherlands,0.71,2020-02-07,98
+296,Honduras,China,0.54,2021-10-05,94
+297,Greece,Philippines,0.75,2020-06-06,50
+298,China,United States,0.81,2020-01-13,47
+299,Myanmar,Cameroon,0.46,2020-05-26,73
+300,Sweden,France,0.83,2021-09-24,36
+301,China,Indonesia,0.29,2020-07-10,58
+302,Indonesia,United States,0.65,2020-06-09,85
+303,Japan,Colombia,0.28,2021-10-10,57
+304,China,Philippines,0.27,2020-02-01,31
+305,China,Canada,0.17,2021-03-06,31
+306,Syria,Brazil,0.85,2021-09-22,38
+307,Mexico,Sweden,0.24,2021-03-10,1
+308,Indonesia,Colombia,0.11,2021-10-14,40
+309,Ukraine,China,0.49,2020-04-07,42
+310,Haiti,China,0.78,2021-03-15,22
+311,Russia,Indonesia,0.77,2020-08-19,53
+312,Portugal,Philippines,0.88,2020-11-29,92
+313,Belarus,Norway,0.93,2020-01-17,94
+314,Luxembourg,Indonesia,0.4,2021-01-25,77
+315,Portugal,Russia,0.87,2020-03-04,38
+316,China,Lithuania,0.89,2020-10-28,69
+317,Indonesia,Philippines,0.31,2020-10-27,58
+318,Papua New Guinea,China,0.32,2020-03-15,9
+319,Czech Republic,Yemen,0.61,2021-09-03,85
+320,China,Yemen,0.65,2021-03-21,24
+321,Philippines,Indonesia,0.89,2021-12-05,78
+322,Burundi,Denmark,0.42,2020-12-17,66
+323,Vietnam,Russia,0.61,2021-04-27,29
+324,Philippines,Albania,0.38,2021-05-05,53
+325,United States,Sweden,0.62,2021-05-29,40
+326,Portugal,Portugal,0.78,2021-08-09,9
+327,China,Honduras,0.07,2021-06-23,16
+328,Argentina,Sweden,0.19,2020-11-09,45
+329,Canada,Brazil,0.74,2021-07-31,38
+330,Philippines,Dominican Republic,0.88,2021-01-08,62
+331,United States,Poland,0.49,2020-03-08,66
+332,Portugal,Serbia,0.89,2020-08-03,73
+333,Indonesia,Philippines,0.32,2020-11-02,27
+334,Russia,Indonesia,0.49,2021-01-16,79
+335,China,Malaysia,0.33,2021-02-08,80
+336,China,Indonesia,0.77,2021-09-09,21
+337,Brazil,Brazil,0.05,2021-12-10,94
+338,Greece,Sweden,0.02,2020-10-17,86
+339,China,Moldova,0.76,2020-12-26,79
+340,Colombia,Indonesia,0.81,2021-03-07,7
+341,Indonesia,China,0.84,2020-03-06,18
+342,Russia,Sweden,0.53,2020-09-07,59
+343,Philippines,Sweden,0.94,2020-03-28,39
+344,Thailand,Iran,0.37,2020-08-21,22
+345,China,United States,0.64,2020-03-21,98
+346,China,China,0.27,2020-06-04,49
+347,Philippines,Dominican Republic,0.42,2021-02-22,17
+348,North Korea,Indonesia,0.6,2021-02-14,12
+349,Indonesia,Indonesia,0.7,2020-11-08,78
+350,Portugal,Indonesia,0.03,2020-09-03,94
+351,Portugal,China,0.21,2021-04-10,1
+352,Bangladesh,Iran,1.0,2021-02-26,10
+353,Russia,Japan,0.88,2021-05-04,58
+354,Brazil,China,0.25,2021-03-24,18
+355,Russia,Poland,0.09,2021-02-04,72
+356,Indonesia,Mongolia,0.66,2021-07-04,63
+357,Japan,Indonesia,0.4,2021-07-17,71
+358,Indonesia,Ukraine,0.42,2020-02-07,74
+359,United States,China,0.44,2020-10-04,24
+360,Indonesia,Philippines,0.79,2020-01-13,32
+361,Uzbekistan,Russia,0.23,2020-02-11,9
+362,Mauritius,Russia,0.35,2021-08-06,13
+363,Nigeria,United States,0.85,2021-03-06,89
+364,China,Indonesia,0.16,2021-11-18,58
+365,Croatia,Mexico,0.55,2021-02-03,62
+366,China,Ukraine,0.93,2021-02-03,5
+367,Indonesia,China,0.12,2020-04-08,74
+368,China,Sweden,0.31,2021-01-21,32
+369,China,China,0.66,2021-11-14,21
+370,Japan,Democratic Republic of the Congo,0.64,2021-09-14,35
+371,Iran,Ukraine,0.82,2021-01-17,52
+372,China,China,0.03,2021-12-08,82
+373,Kosovo,Madagascar,0.07,2020-01-07,49
+374,Luxembourg,Ethiopia,0.92,2021-08-30,59
+375,Russia,Azerbaijan,0.13,2021-07-10,64
+376,China,Sweden,0.47,2021-09-24,24
+377,Indonesia,Portugal,0.81,2020-08-12,76
+378,China,Sweden,0.54,2021-12-30,21
+379,United States,Ukraine,0.53,2020-09-17,93
+380,China,China,0.53,2020-09-07,17
+381,Greece,Mexico,0.31,2020-08-31,90
+382,Armenia,France,0.25,2020-03-14,40
+383,China,Russia,0.3,2020-11-26,12
+384,South Korea,Serbia,0.64,2021-03-06,89
+385,Myanmar,Philippines,0.25,2021-03-07,68
+386,Guam,China,0.11,2021-08-03,7
+387,Sweden,Sweden,0.0,2020-05-03,70
+388,Brazil,Czech Republic,0.96,2020-10-13,74
+389,Philippines,Philippines,0.86,2021-08-20,40
+390,Poland,Indonesia,0.27,2021-09-27,11
+391,Peru,China,0.4,2021-01-06,91
+392,Indonesia,Japan,0.87,2021-03-31,29
+393,China,Poland,0.84,2020-08-31,57
+394,China,Ireland,0.17,2021-01-02,25
+395,China,China,0.1,2020-01-13,51
+396,Brazil,Sweden,0.94,2020-11-06,47
+397,United Kingdom,China,0.7,2020-05-19,17
+398,Ghana,Indonesia,0.05,2020-03-03,3
+399,Indonesia,Venezuela,0.46,2020-04-16,62
+400,Portugal,China,0.38,2021-03-19,33
+401,Canada,Mexico,0.94,2021-11-23,68
+402,China,Philippines,0.9,2020-10-20,28
+403,Iraq,Russia,0.25,2020-09-18,23
+404,China,Vietnam,0.71,2021-01-27,69
+405,France,Brazil,0.29,2021-12-02,25
+406,Poland,Philippines,0.17,2021-07-17,26
+407,France,China,0.02,2020-06-10,11
+408,Indonesia,China,0.93,2020-04-24,62
+409,Indonesia,Ukraine,0.67,2021-05-03,32
+410,Netherlands,Czech Republic,0.82,2020-01-02,15
+411,Indonesia,Philippines,0.45,2020-08-14,50
+412,Russia,Mexico,0.8,2020-03-06,16
+413,Uganda,Canada,0.35,2021-10-10,42
+414,China,Nigeria,0.61,2020-04-23,4
+415,Poland,Philippines,0.58,2020-05-11,23
+416,Philippines,China,0.91,2021-01-16,51
+417,China,Peru,0.68,2020-11-26,33
+418,China,Vietnam,0.01,2021-11-15,49
+419,Russia,Canada,0.58,2020-07-23,33
+420,China,Philippines,0.67,2021-04-14,15
+421,Norway,China,0.27,2021-08-15,51
+422,Brazil,China,0.03,2020-09-15,16
+423,Sweden,Thailand,0.67,2021-03-09,70
+424,Indonesia,Poland,0.85,2020-09-13,53
+425,China,Indonesia,0.04,2021-08-29,75
+426,Indonesia,Brazil,0.04,2020-09-06,45
+427,Greece,Indonesia,0.83,2021-01-25,3
+428,Russia,China,0.21,2020-04-13,77
+429,Honduras,Poland,0.63,2021-02-18,84
+430,Czech Republic,Tanzania,0.54,2020-01-29,65
+431,Sweden,Russia,0.18,2021-02-06,86
+432,China,Thailand,0.06,2021-06-02,12
+433,China,Australia,0.2,2021-01-04,76
+434,Reunion,Venezuela,0.55,2021-10-06,89
+435,Italy,China,0.53,2021-05-08,45
+436,Cyprus,Portugal,0.1,2020-06-18,2
+437,Russia,Indonesia,0.67,2020-08-31,96
+438,Azerbaijan,China,0.86,2020-09-10,48
+439,Peru,China,0.53,2020-11-13,20
+440,Jordan,China,0.73,2020-10-11,67
+441,Russia,Morocco,0.88,2020-11-26,83
+442,Japan,Portugal,0.64,2021-10-03,59
+443,Poland,Syria,0.69,2021-02-08,72
+444,China,Colombia,0.62,2020-03-21,98
+445,Madagascar,Malaysia,0.05,2021-03-29,28
+446,Malaysia,Botswana,0.62,2021-09-09,96
+447,Indonesia,Poland,0.85,2021-07-25,80
+448,Indonesia,France,0.68,2020-05-13,33
+449,Ukraine,Indonesia,0.66,2020-06-05,98
+450,Philippines,Sweden,0.87,2020-12-29,36
+451,Philippines,Sweden,0.42,2020-12-01,19
+452,Indonesia,China,0.18,2021-04-23,32
+453,Republic of the Congo,Philippines,0.12,2020-08-09,95
+454,Russia,China,0.18,2021-01-31,27
+455,China,China,0.66,2020-10-11,49
+456,South Africa,Gambia,0.89,2020-12-20,65
+457,Philippines,Indonesia,0.21,2020-01-14,100
+458,Canada,Czech Republic,0.06,2020-09-18,91
+459,China,Indonesia,0.73,2020-07-29,35
+460,Russia,Indonesia,0.42,2021-05-08,88
+461,Philippines,Ukraine,0.13,2020-05-09,87
+462,Peru,United States,0.75,2020-02-20,18
+463,Brazil,Sweden,0.99,2020-10-23,13
+464,Brazil,Peru,0.99,2020-11-25,2
+465,Mexico,Ukraine,0.87,2020-09-27,25
+466,Indonesia,Iraq,0.17,2021-10-13,89
+467,Netherlands,Indonesia,0.26,2021-10-11,16
+468,France,Spain,0.22,2021-02-14,85
+469,Russia,China,0.39,2021-02-12,44
+470,Mali,China,0.78,2021-08-09,2
+471,Laos,Argentina,0.01,2020-03-14,2
+472,Central African Republic,Poland,0.65,2020-01-27,26
+473,China,Lebanon,0.77,2020-10-25,59
+474,Japan,Portugal,0.23,2020-08-10,18
+475,Czech Republic,China,0.17,2021-03-25,28
+476,Philippines,China,0.45,2021-08-14,6
+477,Philippines,Pakistan,0.91,2021-07-27,27
+478,Brazil,Hungary,0.62,2021-09-04,58
+479,Haiti,Indonesia,0.82,2020-11-29,25
+480,France,Portugal,0.49,2020-12-28,79
+481,Poland,Portugal,0.29,2021-03-11,90
+482,China,Latvia,0.55,2020-06-22,83
+483,China,Peru,0.7,2020-11-28,46
+484,China,Portugal,0.89,2021-09-17,27
+485,Egypt,Laos,0.53,2020-04-26,89
+486,Brazil,Denmark,0.29,2020-11-01,38
+487,China,Mexico,0.99,2020-11-28,42
+488,Cuba,China,0.67,2020-03-08,75
+489,Czech Republic,Costa Rica,0.47,2021-04-17,11
+490,Norway,China,0.56,2020-07-15,79
+491,China,Philippines,0.94,2020-06-30,36
+492,China,Croatia,0.57,2021-03-31,87
+493,China,Indonesia,0.79,2020-12-23,49
+494,Guam,Colombia,0.93,2021-12-03,45
+495,France,Brazil,0.24,2021-09-29,66
+496,Comoros,Canada,0.48,2021-04-14,80
+497,Croatia,Malaysia,0.94,2020-10-21,29
+498,China,Mexico,0.16,2020-07-23,52
+499,Poland,France,0.77,2021-10-10,22
+500,Indonesia,China,0.81,2020-08-26,90
+501,China,Russia,0.09,2021-07-15,75
+502,Mauritius,United States,0.79,2021-07-25,18
+503,China,Russia,0.85,2020-10-28,83
+504,China,Sweden,0.22,2020-07-10,10
+505,China,Cuba,0.53,2020-09-26,53
+506,Madagascar,Luxembourg,0.56,2020-11-01,61
+507,Italy,Ukraine,0.83,2020-08-03,12
+508,Indonesia,Thailand,0.5,2020-06-10,70
+509,China,Indonesia,0.4,2021-08-13,45
+510,China,France,0.91,2020-04-24,44
+511,Ukraine,China,0.67,2020-02-01,19
+512,Indonesia,New Zealand,0.0,2021-07-31,24
+513,Portugal,Argentina,0.28,2021-02-25,41
+514,China,Argentina,0.32,2021-08-01,98
+515,China,Indonesia,0.59,2021-11-17,52
+516,Bulgaria,China,0.72,2020-04-18,54
+517,United States,Afghanistan,0.86,2020-08-29,18
+518,Seychelles,United States,0.5,2021-08-18,38
+519,United Kingdom,Cambodia,0.14,2021-11-04,40
+520,Spain,United Kingdom,0.07,2021-10-16,61
+521,France,Russia,0.39,2020-04-27,89
+522,Thailand,Portugal,0.15,2021-01-29,95
+523,Yemen,Iran,0.13,2020-09-23,12
+524,Indonesia,China,0.88,2021-02-03,30
+525,Portugal,China,0.68,2020-10-21,55
+526,United States,Sweden,0.54,2020-01-07,20
+527,Indonesia,Portugal,0.03,2020-01-25,72
+528,China,Sweden,0.38,2020-08-18,52
+529,Kazakhstan,Tunisia,0.24,2020-05-22,55
+530,Guatemala,Honduras,0.72,2021-09-22,37
+531,Philippines,Sweden,0.23,2020-09-26,15
+532,South Africa,Serbia,0.37,2021-10-21,16
+533,United States,China,0.31,2021-07-05,49
+534,Sweden,Czech Republic,0.12,2021-05-29,95
+535,Indonesia,Portugal,0.19,2021-12-18,2
+536,China,Brazil,0.92,2021-01-27,54
+537,France,Czech Republic,0.76,2021-07-02,99
+538,Indonesia,Bulgaria,0.4,2021-08-15,46
+539,China,Brazil,0.59,2021-05-08,63
+540,China,China,0.92,2020-11-29,61
+541,Indonesia,China,0.21,2020-11-04,18
+542,China,China,0.79,2021-02-17,64
+543,Nepal,China,0.42,2020-10-01,57
+544,Myanmar,Philippines,0.15,2020-08-28,30
+545,China,Russia,1.0,2021-12-03,73
+546,Ukraine,Brazil,0.41,2021-11-18,16
+547,Poland,Malaysia,0.77,2021-03-09,35
+548,Canada,Thailand,0.46,2021-07-17,12
+549,Philippines,Ukraine,0.08,2020-01-16,33
+550,Canada,France,0.95,2020-03-09,69
+551,Philippines,France,0.51,2020-04-06,83
+552,Russia,Croatia,0.77,2020-06-12,27
+553,Iran,Sweden,0.82,2020-01-01,65
+554,China,China,0.19,2020-12-20,73
+555,Poland,Thailand,0.34,2021-05-27,48
+556,Russia,Mexico,0.9,2021-04-07,59
+557,Indonesia,China,0.52,2020-11-28,37
+558,Albania,Sweden,0.86,2021-08-18,27
+559,Philippines,Hungary,0.74,2020-04-23,56
+560,El Salvador,Argentina,0.97,2021-04-01,13
+561,Colombia,Bulgaria,0.24,2020-07-20,6
+562,Thailand,United States,0.23,2020-09-12,43
+563,Belarus,China,0.51,2020-07-30,5
+564,China,China,0.51,2020-08-05,21
+565,Malaysia,China,0.13,2021-04-26,21
+566,China,Sweden,0.21,2021-12-22,21
+567,Panama,Germany,0.77,2020-06-02,92
+568,China,South Sudan,0.55,2020-12-24,28
+569,Philippines,France,0.3,2020-11-22,16
+570,China,China,0.58,2020-07-30,22
+571,United States,Mongolia,0.16,2020-12-30,30
+572,China,Indonesia,0.03,2021-05-15,96
+573,Japan,Indonesia,0.95,2021-02-26,9
+574,Sweden,China,0.84,2020-11-14,43
+575,France,Ukraine,0.27,2021-09-05,98
+576,Nigeria,Indonesia,0.24,2020-06-09,33
+577,Russia,Portugal,0.64,2021-01-15,79
+578,China,Poland,0.94,2020-01-10,90
+579,Bulgaria,Benin,0.21,2020-11-19,95
+580,Greece,China,0.02,2021-05-25,41
+581,Indonesia,Canada,0.02,2021-12-19,55
+582,Palestinian Territory,Argentina,0.79,2020-03-04,45
+583,Peru,Russia,0.99,2021-10-11,8
+584,Indonesia,Austria,0.17,2020-08-12,89
+585,Russia,United States,0.19,2021-09-15,47
+586,Armenia,Mauritius,0.72,2021-11-23,90
+587,Central African Republic,China,0.11,2020-05-19,74
+588,Russia,China,0.94,2020-01-27,68
+589,China,Indonesia,0.58,2021-04-08,59
+590,Colombia,China,0.73,2020-07-15,12
+591,Syria,Dominica,0.16,2020-06-27,14
+592,Philippines,Indonesia,0.58,2020-03-17,59
+593,Finland,Poland,0.66,2020-09-07,97
+594,China,China,0.92,2020-02-19,19
+595,France,Burkina Faso,0.14,2021-10-04,19
+596,Mozambique,United States,0.65,2020-12-11,97
+597,Lithuania,Botswana,0.48,2021-05-23,66
+598,China,Thailand,0.48,2020-02-17,91
+599,China,Indonesia,0.64,2020-02-06,64
+600,Czech Republic,Poland,0.79,2020-04-27,59
+601,Indonesia,Nicaragua,0.42,2021-12-06,63
+602,Portugal,Haiti,0.21,2020-06-10,88
+603,Mexico,China,0.33,2020-10-03,81
+604,Sweden,Indonesia,0.0,2020-01-02,28
+605,Indonesia,Peru,0.31,2021-10-11,51
+606,Ukraine,Brazil,0.36,2021-08-09,96
+607,Indonesia,Angola,0.19,2020-08-13,74
+608,Indonesia,China,0.14,2021-01-17,100
+609,Croatia,Philippines,0.1,2021-10-09,26
+610,France,Chile,0.9,2021-12-30,10
+611,Thailand,Brazil,0.39,2021-06-18,50
+612,Brazil,Cameroon,0.03,2021-04-29,2
+613,Indonesia,France,0.52,2020-01-27,14
+614,Indonesia,Ukraine,0.47,2020-11-03,38
+615,Palestinian Territory,Indonesia,0.07,2021-03-24,15
+616,China,Portugal,0.15,2020-11-20,85
+617,Portugal,Finland,0.63,2020-01-22,34
+618,Philippines,Ireland,0.34,2021-07-04,35
+619,Indonesia,Thailand,0.55,2020-01-23,100
+620,Mexico,Colombia,0.57,2021-12-19,40
+621,China,Sweden,0.28,2021-06-15,47
+622,France,China,0.32,2020-02-05,29
+623,Russia,China,0.01,2021-08-10,12
+624,Russia,Greece,0.51,2020-12-02,40
+625,Netherlands,Philippines,0.11,2021-11-27,23
+626,Costa Rica,Ukraine,0.88,2020-11-19,89
+627,Kenya,Brazil,0.62,2020-03-07,73
+628,Colombia,Indonesia,0.25,2020-05-28,5
+629,Greece,Syria,0.61,2020-07-08,39
+630,Indonesia,United States,0.97,2021-09-17,71
+631,China,China,0.74,2020-10-18,40
+632,Indonesia,Brazil,0.93,2020-09-21,88
+633,Czech Republic,Czech Republic,0.85,2020-11-04,30
+634,France,Philippines,0.88,2021-03-03,97
+635,Swaziland,China,0.97,2021-04-30,31
+636,China,Indonesia,0.91,2021-01-03,93
+637,French Polynesia,Sweden,0.31,2020-04-17,20
+638,China,Russia,0.6,2020-02-28,13
+639,Russia,Argentina,0.72,2021-11-27,87
+640,China,Iran,0.59,2020-05-04,34
+641,China,Czech Republic,0.09,2020-07-03,78
+642,Kazakhstan,Brazil,0.04,2021-10-10,41
+643,Tunisia,Russia,0.31,2021-03-12,3
+644,Egypt,China,0.99,2021-05-02,25
+645,United States,China,0.59,2021-01-22,20
+646,Russia,Indonesia,0.59,2020-10-24,38
+647,Philippines,Russia,0.06,2020-11-08,60
+648,Indonesia,Thailand,0.89,2021-02-22,88
+649,Belarus,Colombia,0.2,2021-09-02,8
+650,Thailand,China,0.72,2020-06-12,92
+651,France,Denmark,0.98,2021-11-07,1
+652,Dominican Republic,Russia,0.18,2021-05-20,91
+653,Honduras,Moldova,1.0,2021-05-15,42
+654,Comoros,China,0.82,2020-09-14,8
+655,El Salvador,China,0.92,2020-09-23,98
+656,United States,Indonesia,0.29,2021-01-28,82
+657,Palestinian Territory,Ethiopia,0.09,2020-05-01,54
+658,Poland,Philippines,0.85,2021-06-23,81
+659,Brazil,Haiti,0.93,2020-10-30,66
+660,China,Brazil,0.85,2021-11-02,37
+661,Sweden,Russia,0.95,2020-04-29,76
+662,Afghanistan,Morocco,0.68,2021-07-06,55
+663,United States,Samoa,0.62,2021-12-06,77
+664,Ethiopia,Madagascar,0.58,2021-07-14,35
+665,Jamaica,Portugal,0.99,2020-11-22,7
+666,Brazil,China,0.16,2021-10-30,81
+667,Indonesia,China,0.54,2020-06-17,93
+668,China,Luxembourg,0.73,2020-07-08,37
+669,Malta,France,0.95,2020-02-08,65
+670,China,Indonesia,0.2,2021-01-04,78
+671,China,China,0.86,2021-09-16,70
+672,Indonesia,Indonesia,0.92,2020-08-11,43
+673,Philippines,China,0.8,2021-11-11,30
+674,Sweden,China,0.41,2021-07-28,59
+675,Venezuela,France,0.89,2021-10-21,66
+676,Ireland,Mexico,0.76,2020-03-11,75
+677,Thailand,Russia,0.33,2021-02-07,16
+678,Indonesia,Myanmar,0.82,2021-08-16,52
+679,Mexico,Russia,0.52,2020-06-25,80
+680,France,Philippines,0.97,2020-07-09,51
+681,Haiti,Nigeria,0.3,2021-09-12,5
+682,Greece,Bolivia,0.41,2020-05-08,79
+683,Democratic Republic of the Congo,China,0.01,2020-02-05,93
+684,United Kingdom,Sweden,0.91,2021-03-02,18
+685,Argentina,China,0.06,2020-07-04,67
+686,China,Palestinian Territory,0.32,2020-08-30,20
+687,Indonesia,Dominican Republic,0.4,2021-08-07,65
+688,Poland,Sweden,0.84,2020-10-11,26
+689,Philippines,Lithuania,0.2,2020-06-20,77
+690,Moldova,Philippines,0.58,2021-12-13,31
+691,China,Philippines,0.44,2021-02-26,20
+692,Kenya,Czech Republic,0.1,2020-09-25,74
+693,Canada,United States,0.49,2020-12-11,58
+694,China,Philippines,0.98,2021-06-20,82
+695,Pakistan,France,0.57,2021-05-07,97
+696,Portugal,Sri Lanka,0.73,2021-07-28,27
+697,China,Cape Verde,0.86,2021-05-09,90
+698,Czech Republic,Portugal,0.13,2021-06-03,67
+699,Portugal,Philippines,0.39,2021-08-11,90
+700,France,Indonesia,0.31,2020-10-19,62
+701,Indonesia,Brazil,0.31,2021-03-05,1
+702,Malaysia,Brazil,0.5,2020-10-14,63
+703,France,Indonesia,0.42,2021-08-06,13
+704,France,France,0.0,2020-01-21,13
+705,Indonesia,Spain,0.44,2020-04-25,64
+706,Japan,Honduras,0.4,2021-01-15,33
+707,Mexico,Mexico,0.25,2021-05-20,49
+708,Georgia,China,0.89,2021-06-18,32
+709,Russia,Indonesia,0.81,2020-01-23,27
+710,Samoa,Armenia,0.96,2020-09-26,19
+711,Indonesia,Mexico,0.19,2020-01-15,73
+712,France,Ukraine,0.13,2021-01-24,94
+713,Tunisia,Cambodia,0.36,2021-10-03,59
+714,Syria,China,0.12,2020-05-31,100
+715,China,Ukraine,0.75,2020-05-30,12
+716,China,France,0.48,2020-11-12,16
+717,Mexico,Central African Republic,0.94,2021-02-27,76
+718,Sweden,Poland,0.54,2021-01-19,21
+719,Indonesia,Greece,0.95,2021-11-25,54
+720,Russia,Argentina,0.21,2021-11-29,99
+721,Chile,Montenegro,0.52,2020-10-02,60
+722,United States,Portugal,0.83,2021-10-02,60
+723,Dominican Republic,Japan,0.09,2021-11-17,13
+724,Cuba,South Africa,0.89,2021-03-30,73
+725,Azerbaijan,Dominican Republic,0.14,2021-04-22,100
+726,Russia,Uzbekistan,0.23,2021-12-12,84
+727,Indonesia,Brazil,0.71,2020-07-18,89
+728,Portugal,Indonesia,0.72,2021-04-14,13
+729,Indonesia,Ukraine,0.61,2020-02-26,13
+730,Nigeria,Madagascar,0.84,2020-04-20,82
+731,Montenegro,China,0.73,2020-01-10,88
+732,Canada,Philippines,0.85,2020-07-15,16
+733,Lithuania,Austria,0.63,2020-05-13,20
+734,Italy,Brazil,0.9,2020-07-13,93
+735,Venezuela,China,0.44,2021-12-30,24
+736,Slovenia,Panama,0.66,2020-05-23,42
+737,Puerto Rico,China,0.98,2021-01-03,70
+738,Indonesia,Ethiopia,0.4,2021-01-14,25
+739,Palestinian Territory,Poland,0.31,2020-06-14,99
+740,Malaysia,France,0.42,2021-11-18,43
+741,Palestinian Territory,United States,0.92,2020-05-28,85
+742,China,Sweden,0.37,2021-04-20,84
+743,Brazil,China,0.1,2021-07-11,31
+744,China,China,0.53,2020-10-25,14
+745,Russia,Portugal,0.09,2021-01-03,57
+746,Indonesia,Kenya,0.15,2020-04-16,92
+747,Bulgaria,China,0.76,2020-02-21,47
+748,France,China,0.48,2020-09-07,23
+749,France,France,0.8,2021-04-19,40
+750,Portugal,Cameroon,0.35,2021-11-17,4
+751,Indonesia,China,0.6,2020-03-07,2
+752,Costa Rica,Venezuela,0.16,2021-09-07,37
+753,China,Ukraine,0.01,2020-07-05,2
+754,China,Colombia,0.76,2020-12-05,69
+755,Poland,Poland,0.49,2020-04-02,38
+756,China,Morocco,0.53,2021-02-28,94
+757,China,Uruguay,0.65,2020-05-22,34
+758,China,New Zealand,0.56,2021-11-12,15
+759,Peru,Vietnam,0.19,2021-12-23,76
+760,Japan,China,0.04,2021-12-10,26
+761,Myanmar,Russia,0.38,2021-01-03,81
+762,China,Indonesia,0.22,2021-10-18,32
+763,South Korea,United Kingdom,0.5,2020-01-03,100
+764,Nicaragua,China,0.67,2020-02-10,99
+765,Slovenia,China,0.67,2021-08-15,6
+766,Nigeria,Saudi Arabia,0.27,2020-02-27,30
+767,Philippines,Norway,0.84,2020-07-26,14
+768,China,Russia,0.58,2021-02-13,22
+769,Nigeria,Norway,0.15,2021-07-09,31
+770,Kazakhstan,Portugal,0.11,2021-08-08,95
+771,Germany,Indonesia,0.36,2020-02-21,28
+772,Zambia,Argentina,0.73,2021-11-29,10
+773,China,France,0.38,2020-08-11,61
+774,China,France,0.43,2021-07-27,8
+775,China,China,0.01,2020-07-01,22
+776,Peru,Indonesia,0.62,2021-02-11,62
+777,China,Russia,0.74,2021-01-11,33
+778,Indonesia,France,0.63,2020-04-08,21
+779,China,Philippines,0.98,2021-12-06,49
+780,South Africa,Venezuela,0.71,2020-04-11,90
+781,Thailand,China,0.48,2020-06-17,87
+782,Iran,Morocco,0.85,2021-10-05,28
+783,China,Ukraine,0.88,2021-06-20,19
+784,Portugal,Iran,0.22,2020-09-30,56
+785,Russia,Portugal,0.46,2020-09-06,63
+786,Indonesia,Poland,0.42,2020-10-21,4
+787,United States,Sweden,0.15,2021-09-04,22
+788,Syria,Argentina,0.63,2021-08-01,8
+789,Brazil,United States,0.51,2020-12-15,77
+790,Brazil,Venezuela,0.97,2021-02-04,56
+791,China,Peru,0.58,2020-06-30,8
+792,Czech Republic,New Zealand,0.48,2021-11-05,83
+793,Lithuania,Philippines,0.44,2021-03-05,52
+794,Togo,China,0.79,2021-08-24,39
+795,Canada,France,0.25,2020-06-20,10
+796,Russia,Portugal,0.56,2020-10-03,32
+797,Indonesia,Philippines,0.31,2021-10-27,75
+798,Japan,Mexico,0.97,2020-06-29,67
+799,South Korea,China,0.37,2021-07-31,23
+800,United States,Indonesia,0.6,2020-04-22,48
+801,Albania,China,0.28,2021-03-02,19
+802,Philippines,Thailand,0.88,2020-07-25,41
+803,Bulgaria,China,0.49,2021-10-21,1
+804,Brazil,Armenia,0.82,2021-12-20,37
+805,Sweden,China,0.87,2021-09-16,79
+806,Djibouti,Portugal,0.92,2020-03-08,64
+807,Japan,Venezuela,0.5,2021-11-10,12
+808,Sweden,South Africa,0.46,2020-06-04,35
+809,Zambia,Slovenia,0.91,2020-08-14,7
+810,Philippines,United States,0.61,2021-07-03,29
+811,Poland,Brazil,0.21,2021-10-29,49
+812,Venezuela,China,0.73,2021-08-31,44
+813,Argentina,China,0.55,2021-06-25,98
+814,Indonesia,China,0.48,2020-06-13,41
+815,Indonesia,Philippines,0.91,2020-09-20,7
+816,France,Uzbekistan,0.85,2020-04-18,68
+817,China,Argentina,0.71,2021-09-13,71
+818,Indonesia,South Africa,0.94,2020-05-09,23
+819,Cuba,Peru,0.33,2021-01-07,5
+820,Philippines,Ukraine,0.37,2020-10-20,30
+821,China,China,0.57,2021-02-19,9
+822,Brazil,Thailand,0.94,2020-05-14,93
+823,Nigeria,Brazil,0.62,2020-06-08,11
+824,Poland,Japan,0.93,2021-05-04,36
+825,Australia,China,0.44,2021-09-06,49
+826,Philippines,Belarus,0.03,2021-03-30,20
+827,China,Indonesia,0.66,2021-01-24,96
+828,Russia,Brazil,0.79,2021-07-02,91
+829,Indonesia,Yemen,0.46,2021-12-25,100
+830,Indonesia,China,0.83,2020-08-12,72
+831,Ukraine,Palau,0.38,2020-04-07,1
+832,Philippines,Comoros,0.81,2020-03-12,76
+833,Brazil,Chile,0.7,2021-04-21,12
+834,Argentina,Greece,0.97,2021-11-11,24
+835,Brazil,Czech Republic,0.51,2020-02-28,85
+836,Croatia,Bulgaria,0.57,2020-08-15,71
+837,United States,Indonesia,0.82,2021-01-17,97
+838,China,Indonesia,0.2,2020-02-21,49
+839,China,North Korea,0.4,2020-02-02,14
+840,Philippines,France,0.03,2021-05-23,42
+841,Brazil,Philippines,0.41,2021-12-27,38
+842,Indonesia,Armenia,0.41,2020-08-14,10
+843,China,United States,0.34,2020-10-28,53
+844,Malawi,Brazil,0.47,2021-06-22,22
+845,Japan,El Salvador,0.93,2020-02-23,43
+846,Brazil,Panama,0.12,2020-08-20,18
+847,Albania,Russia,0.63,2020-11-18,84
+848,Indonesia,China,0.0,2020-06-27,37
+849,Cuba,Japan,0.95,2020-05-13,27
+850,Israel,Indonesia,0.13,2021-04-29,100
+851,Japan,Indonesia,0.52,2020-07-08,26
+852,China,Guinea,0.31,2020-11-11,81
+853,Yemen,China,0.97,2021-06-04,90
+854,China,Russia,0.07,2020-02-16,82
+855,Philippines,United States,0.92,2021-09-15,36
+856,Micronesia,Brazil,0.77,2020-11-07,63
+857,Thailand,Pakistan,0.35,2021-05-26,47
+858,Bangladesh,China,0.25,2020-05-02,76
+859,China,Japan,0.22,2021-04-29,54
+860,Philippines,Indonesia,0.02,2020-08-06,54
+861,Ukraine,Vietnam,0.55,2020-10-01,60
+862,China,United States,0.38,2021-06-22,53
+863,Philippines,China,0.6,2021-10-28,55
+864,Philippines,Indonesia,0.09,2020-04-18,55
+865,Russia,Egypt,0.11,2021-10-12,70
+866,Russia,United States,0.27,2021-08-31,60
+867,Brazil,Tanzania,0.22,2020-09-13,71
+868,Nigeria,Portugal,0.41,2020-10-10,7
+869,Philippines,Canada,0.91,2021-03-20,66
+870,Armenia,China,0.66,2020-09-20,86
+871,Russia,United States,0.74,2021-06-07,83
+872,United States,Portugal,0.05,2021-08-09,61
+873,Russia,Portugal,0.66,2021-09-28,42
+874,Russia,China,0.33,2021-06-19,94
+875,Peru,Philippines,0.47,2020-12-31,49
+876,China,Brazil,0.48,2020-04-29,86
+877,Indonesia,Spain,0.3,2021-09-03,88
+878,Canada,Morocco,0.94,2020-03-20,73
+879,Greece,Portugal,0.46,2021-07-05,14
+880,China,Greece,0.13,2021-06-05,42
+881,Brazil,Norway,0.29,2021-02-10,84
+882,China,Argentina,0.43,2020-04-21,44
+883,Russia,Brazil,0.86,2021-03-24,95
+884,Mexico,Senegal,0.62,2021-05-15,52
+885,Indonesia,Russia,0.47,2021-12-17,17
+886,Venezuela,Niger,0.78,2020-07-17,8
+887,China,Ethiopia,0.72,2021-02-23,87
+888,Serbia,Argentina,0.63,2020-10-22,6
+889,Brazil,Indonesia,0.63,2020-11-11,37
+890,Indonesia,Poland,0.64,2021-10-26,44
+891,China,Peru,0.27,2020-12-15,38
+892,Brazil,China,0.91,2020-04-12,40
+893,China,Indonesia,0.06,2020-11-13,43
+894,France,Mozambique,0.26,2020-11-29,19
+895,China,Tunisia,0.95,2020-07-16,4
+896,Brazil,Costa Rica,0.72,2020-04-21,90
+897,China,Peru,0.58,2020-10-10,73
+898,Burkina Faso,Greece,0.71,2020-03-14,57
+899,Poland,Indonesia,0.67,2020-07-12,74
+900,China,France,0.87,2020-03-17,73
+901,China,Philippines,0.03,2020-12-25,14
+902,Nigeria,China,0.3,2020-12-28,20
+903,Belarus,Russia,0.6,2020-02-07,33
+904,Nigeria,Argentina,0.11,2020-09-13,73
+905,Indonesia,Philippines,0.03,2020-03-04,49
+906,Greece,Burkina Faso,0.8,2020-09-26,39
+907,China,Mongolia,0.34,2021-06-25,67
+908,Argentina,Indonesia,0.71,2021-10-28,81
+909,Indonesia,Armenia,0.67,2020-03-28,97
+910,Poland,United States,0.87,2020-12-14,78
+911,Indonesia,Indonesia,0.78,2020-02-03,32
+912,Indonesia,Vietnam,0.91,2021-01-01,36
+913,China,China,0.02,2021-09-12,77
+914,Iraq,China,0.52,2020-03-03,33
+915,Haiti,Japan,0.92,2020-12-20,56
+916,Haiti,United States,0.83,2020-01-07,43
+917,Indonesia,Palestinian Territory,0.39,2020-01-09,32
+918,China,Mexico,0.51,2021-02-28,38
+919,Philippines,Slovenia,0.51,2020-05-23,50
+920,Ukraine,United States,0.46,2020-12-18,89
+921,Vietnam,New Zealand,0.74,2020-07-27,1
+922,South Korea,Indonesia,0.84,2021-04-07,95
+923,Yemen,Brazil,0.09,2020-08-22,23
+924,Philippines,Democratic Republic of the Congo,0.4,2020-12-09,98
+925,Sweden,Czech Republic,0.69,2021-07-14,83
+926,Indonesia,Canada,0.28,2020-06-12,73
+927,Philippines,Poland,0.97,2020-10-30,89
+928,Philippines,Albania,0.73,2021-01-13,95
+929,Belarus,Philippines,0.41,2020-01-08,55
+930,Honduras,South Africa,0.07,2020-09-15,58
+931,Pakistan,South Africa,0.58,2020-05-31,8
+932,Hong Kong,China,0.17,2021-08-30,75
+933,China,Poland,0.52,2020-10-11,8
+934,France,Yemen,0.79,2020-10-06,80
+935,Azerbaijan,France,0.59,2021-11-03,26
+936,Indonesia,Sweden,0.11,2021-04-14,97
+937,Japan,Brazil,0.04,2020-12-13,77
+938,Israel,Indonesia,0.03,2020-11-03,35
+939,Portugal,Philippines,0.73,2021-01-16,76
+940,Czech Republic,Angola,0.85,2021-11-23,37
+941,Indonesia,Argentina,0.69,2021-12-14,79
+942,Sweden,Philippines,0.27,2020-07-23,43
+943,Nigeria,Philippines,0.68,2020-09-30,84
+944,Nepal,Canada,0.24,2020-02-24,26
+945,Colombia,China,0.47,2020-03-30,20
+946,Guatemala,China,0.82,2020-01-31,53
+947,Sweden,Madagascar,0.94,2021-09-06,1
+948,Indonesia,United States,0.85,2021-04-30,73
+949,China,France,0.5,2021-03-02,96
+950,Finland,Philippines,0.16,2020-12-12,22
+951,China,China,0.93,2020-01-27,92
+952,Philippines,China,0.92,2021-05-23,24
+953,Argentina,China,0.78,2020-04-08,97
+954,China,Marshall Islands,0.71,2021-03-13,38
+955,Indonesia,China,0.12,2020-01-11,54
+956,China,Russia,0.15,2020-01-10,21
+957,Ukraine,Albania,0.2,2020-07-07,75
+958,Russia,Russia,0.29,2021-11-19,62
+959,Norway,Peru,0.41,2021-09-28,15
+960,China,New Zealand,0.96,2021-07-15,91
+961,Brazil,United States,0.63,2020-06-03,41
+962,Russia,China,0.17,2021-07-16,17
+963,Czech Republic,China,0.31,2020-01-24,40
+964,China,Sweden,0.26,2021-06-10,4
+965,South Korea,China,0.65,2021-09-19,84
+966,United States,Philippines,0.72,2021-02-12,56
+967,Russia,Japan,0.03,2021-11-18,63
+968,China,Mongolia,0.02,2021-02-06,51
+969,Philippines,Sweden,0.22,2021-05-13,82
+970,Indonesia,Argentina,0.41,2020-05-04,72
+971,China,China,0.94,2020-08-08,84
+972,Madagascar,Mexico,0.56,2021-09-20,51
+973,Argentina,Indonesia,0.09,2020-01-07,47
+974,Bosnia and Herzegovina,Finland,0.66,2021-10-24,12
+975,Canada,Colombia,0.12,2020-11-13,44
+976,Armenia,Azerbaijan,0.17,2020-03-21,48
+977,Montenegro,Indonesia,0.09,2021-05-10,93
+978,Yemen,Portugal,0.37,2020-03-16,3
+979,China,Netherlands,0.59,2020-07-07,34
+980,Vietnam,Slovenia,0.3,2021-09-28,70
+981,Sweden,Russia,0.94,2020-06-20,22
+982,Uzbekistan,Indonesia,0.89,2021-12-07,48
+983,Russia,China,0.92,2020-11-09,75
+984,China,Czech Republic,0.11,2021-08-09,34
+985,China,China,0.49,2021-08-24,82
+986,Indonesia,Comoros,0.26,2021-02-28,17
+987,Zambia,United States,0.25,2021-02-22,100
+988,China,Russia,0.26,2020-11-09,17
+989,Indonesia,Latvia,0.58,2020-02-25,47
+990,Peru,Russia,0.33,2021-05-18,14
+991,Argentina,Madagascar,0.96,2020-02-24,69
+992,Japan,Ireland,0.89,2021-07-21,11
+993,Poland,Indonesia,0.55,2021-05-19,3
+994,Czech Republic,North Korea,0.27,2021-10-31,22
+995,Portugal,China,0.93,2020-11-21,74
+996,China,Venezuela,0.54,2021-09-09,18
+997,Sweden,Russia,0.06,2021-03-22,75
+998,Philippines,Finland,0.08,2020-11-10,52
+999,China,China,0.54,2020-08-28,97
+1000,China,China,0.75,2021-10-05,92
